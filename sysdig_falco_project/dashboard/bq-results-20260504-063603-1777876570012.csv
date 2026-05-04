@@ -1,0 +1,1221 @@
+priority,rule_name,image_name,pod_name,total_alerts
+ERROR,Read ssh information,busybox:latest,privileged-deployment-574878fc9d-sg2mj,1
+ERROR,Read ssh information,busybox:latest,privileged-deployment-574878fc9d-qm2cb,1
+ERROR,Read ssh information,busybox:latest,privileged-deployment-574878fc9d-7n24p,1
+ERROR,Read ssh information,busybox:latest,privileged-deployment-574878fc9d-bgfsm,1
+ERROR,Read ssh information,busybox:latest,privileged-deployment-574878fc9d-s8vk9,1
+ERROR,Read ssh information,busybox:latest,sensitive-mount-deployment-7fd6f8467-vq7x6,1
+ERROR,Read ssh information,busybox:latest,privileged-deployment-574878fc9d-pglrf,1
+ERROR,Read ssh information,busybox:latest,privileged-deployment-574878fc9d-mvcsn,1
+ERROR,Read ssh information,busybox:latest,privileged-deployment-574878fc9d-4wc9h,1
+ERROR,Read ssh information,busybox:latest,sensitive-mount-deployment-7fd6f8467-qc82h,1
+ERROR,Read ssh information,busybox:latest,sensitive-mount-deployment-7fd6f8467-2rb88,1
+ERROR,Read ssh information,busybox:latest,privileged-deployment-574878fc9d-dv654,1
+ERROR,Read ssh information,busybox:latest,sensitive-mount-deployment-7fd6f8467-9pb8r,1
+ERROR,Read ssh information,busybox:latest,privileged-deployment-574878fc9d-54qbr,1
+ERROR,Read ssh information,busybox:latest,sensitive-mount-deployment-7fd6f8467-jtvfg,1
+ERROR,Read ssh information,busybox:latest,sensitive-mount-deployment-7fd6f8467-t2tps,1
+ERROR,Read ssh information,busybox:latest,sensitive-mount-deployment-7fd6f8467-xczvt,1
+ERROR,Read ssh information,busybox:latest,sensitive-mount-deployment-7fd6f8467-znl2p,1
+ERROR,Read ssh information,busybox:latest,sensitive-mount-deployment-7fd6f8467-jwvrf,1
+ERROR,Read ssh information,busybox:latest,sensitive-mount-deployment-7fd6f8467-w9r2h,1
+ERROR,Read ssh information,busybox:latest,sensitive-mount-deployment-7fd6f8467-2z4mq,1
+ERROR,Read ssh information,busybox:latest,sensitive-mount-deployment-7fd6f8467-qml2c,1
+ERROR,Read ssh information,busybox:latest,privileged-deployment-574878fc9d-n8pwg,1
+ERROR,Read ssh information,busybox:latest,sensitive-mount-deployment-7fd6f8467-s2n8t,1
+ERROR,Read ssh information,busybox:latest,privileged-deployment-574878fc9d-dpztj,1
+ERROR,Read ssh information,busybox:latest,sensitive-mount-deployment-7fd6f8467-dfvkx,1
+ERROR,Read ssh information,busybox:latest,privileged-deployment-574878fc9d-bn8sv,1
+ERROR,Read ssh information,busybox:latest,privileged-deployment-574878fc9d-jvhnx,1
+ERROR,Read ssh information,busybox:latest,sensitive-mount-deployment-7fd6f8467-bgll4,1
+ERROR,Read ssh information,busybox:latest,sensitive-mount-deployment-7fd6f8467-7trlx,1
+ERROR,Read ssh information,busybox:latest,sensitive-mount-deployment-7fd6f8467-pg4vr,1
+ERROR,Read ssh information,busybox:latest,privileged-deployment-574878fc9d-g2xbt,1
+ERROR,Read ssh information,busybox:latest,privileged-deployment-574878fc9d-zvc9h,1
+ERROR,Read ssh information,busybox:latest,privileged-deployment-574878fc9d-ctdtf,1
+ERROR,Read ssh information,busybox:latest,privileged-deployment-574878fc9d-v5sd4,1
+ERROR,Read ssh information,busybox:latest,sensitive-mount-deployment-7fd6f8467-wkbws,1
+WARNING,The docker client is executed in a container,busybox:latest,privileged-deployment-574878fc9d-qxktt,1
+WARNING,The docker client is executed in a container,busybox:latest,privileged-deployment-574878fc9d-xtjmp,1
+WARNING,The docker client is executed in a container,busybox:latest,privileged-deployment-574878fc9d-k9c8x,1
+WARNING,The docker client is executed in a container,busybox:latest,sensitive-mount-deployment-7fd6f8467-64bzd,1
+WARNING,The docker client is executed in a container,busybox:latest,privileged-deployment-8849cf79f-92468,1
+WARNING,The docker client is executed in a container,busybox:latest,privileged-deployment-574878fc9d-bvwrr,1
+WARNING,The docker client is executed in a container,busybox:latest,privileged-deployment-574878fc9d-rttzw,1
+WARNING,The docker client is executed in a container,busybox:latest,sensitive-mount-deployment-7fd6f8467-9bfjw,1
+WARNING,The docker client is executed in a container,busybox:latest,privileged-deployment-574878fc9d-vfrcf,1
+WARNING,The docker client is executed in a container,busybox:latest,sensitive-mount-deployment-7fd6f8467-mczrd,1
+WARNING,The docker client is executed in a container,busybox:latest,privileged-deployment-574878fc9d-6b8bj,1
+WARNING,The docker client is executed in a container,busybox:latest,sensitive-mount-deployment-7fd6f8467-5htr9,1
+WARNING,The docker client is executed in a container,busybox:latest,privileged-deployment-574878fc9d-9bhm5,1
+WARNING,The docker client is executed in a container,busybox:latest,privileged-deployment-574878fc9d-58htj,1
+WARNING,The docker client is executed in a container,busybox:latest,sensitive-mount-deployment-7fd6f8467-rv5gl,1
+WARNING,The docker client is executed in a container,busybox:latest,sensitive-mount-deployment-7fd6f8467-lfqqt,1
+WARNING,The docker client is executed in a container,busybox:latest,privileged-deployment-574878fc9d-gdbck,1
+WARNING,The docker client is executed in a container,busybox:latest,sensitive-mount-deployment-7fd6f8467-qtgj8,1
+WARNING,The docker client is executed in a container,busybox:latest,sensitive-mount-deployment-7fd6f8467-rqv5s,1
+WARNING,The docker client is executed in a container,busybox:latest,sensitive-mount-deployment-7fd6f8467-hp5zs,1
+WARNING,The docker client is executed in a container,busybox:latest,privileged-deployment-574878fc9d-26pvh,1
+WARNING,The docker client is executed in a container,busybox:latest,privileged-deployment-574878fc9d-6xnkf,1
+WARNING,The docker client is executed in a container,busybox:latest,sensitive-mount-deployment-7fd6f8467-r6htr,1
+WARNING,The docker client is executed in a container,busybox:latest,privileged-deployment-574878fc9d-7dm29,1
+WARNING,The docker client is executed in a container,busybox:latest,sensitive-mount-deployment-7fd6f8467-7n98t,1
+WARNING,The docker client is executed in a container,busybox:latest,privileged-deployment-574878fc9d-mjxp2,1
+WARNING,The docker client is executed in a container,busybox:latest,sensitive-mount-deployment-7fd6f8467-qmtzn,1
+WARNING,The docker client is executed in a container,busybox:latest,sensitive-mount-deployment-7fd6f8467-v4kmh,1
+WARNING,The docker client is executed in a container,busybox:latest,sensitive-mount-deployment-7fd6f8467-8ch99,1
+WARNING,The docker client is executed in a container,busybox:latest,privileged-deployment-574878fc9d-7wjqc,1
+WARNING,The docker client is executed in a container,busybox:latest,sensitive-mount-deployment-7fd6f8467-7km98,1
+WARNING,The docker client is executed in a container,busybox:latest,privileged-deployment-574878fc9d-62hmj,1
+WARNING,The docker client is executed in a container,busybox:latest,privileged-deployment-574878fc9d-wn2c2,1
+WARNING,The docker client is executed in a container,busybox:latest,sensitive-mount-deployment-7fd6f8467-b8n5q,1
+WARNING,The docker client is executed in a container,busybox:latest,sensitive-mount-deployment-7fd6f8467-tmt7v,1
+WARNING,The docker client is executed in a container,busybox:latest,sensitive-mount-deployment-7fd6f8467-xkhxz,1
+WARNING,The docker client is executed in a container,busybox:latest,privileged-deployment-574878fc9d-x4jjz,1
+WARNING,The docker client is executed in a container,busybox:latest,privileged-deployment-574878fc9d-qp2j6,1
+CRITICAL,Unprivileged Delegation of Page Faults Handling to a Userspace Process,busybox:latest,sensitive-mount-deployment-7fd6f8467-89dmj,1
+CRITICAL,Unprivileged Delegation of Page Faults Handling to a Userspace Process,busybox:latest,privileged-deployment-574878fc9d-zzqmc,1
+CRITICAL,Unprivileged Delegation of Page Faults Handling to a Userspace Process,busybox:latest,privileged-deployment-574878fc9d-tc5zb,1
+CRITICAL,Unprivileged Delegation of Page Faults Handling to a Userspace Process,busybox:latest,privileged-deployment-574878fc9d-2zll5,1
+CRITICAL,Unprivileged Delegation of Page Faults Handling to a Userspace Process,busybox:latest,privileged-deployment-574878fc9d-5xmdr,1
+CRITICAL,Unprivileged Delegation of Page Faults Handling to a Userspace Process,busybox:latest,sensitive-mount-deployment-7fd6f8467-6hzn7,1
+CRITICAL,Unprivileged Delegation of Page Faults Handling to a Userspace Process,busybox:latest,sensitive-mount-deployment-67b4f8d866-mzczf,1
+CRITICAL,Unprivileged Delegation of Page Faults Handling to a Userspace Process,busybox:latest,privileged-deployment-574878fc9d-jv2pk,1
+CRITICAL,Unprivileged Delegation of Page Faults Handling to a Userspace Process,busybox:latest,sensitive-mount-deployment-7fd6f8467-62qpk,1
+CRITICAL,Unprivileged Delegation of Page Faults Handling to a Userspace Process,busybox:latest,sensitive-mount-deployment-7fd6f8467-46mkw,1
+CRITICAL,Unprivileged Delegation of Page Faults Handling to a Userspace Process,busybox:latest,privileged-deployment-574878fc9d-s68f2,1
+CRITICAL,Unprivileged Delegation of Page Faults Handling to a Userspace Process,busybox:latest,sensitive-mount-deployment-7fd6f8467-wnzfh,1
+CRITICAL,Unprivileged Delegation of Page Faults Handling to a Userspace Process,busybox:latest,privileged-deployment-574878fc9d-k266t,1
+CRITICAL,Unprivileged Delegation of Page Faults Handling to a Userspace Process,busybox:latest,sensitive-mount-deployment-7fd6f8467-4g9zz,1
+CRITICAL,Unprivileged Delegation of Page Faults Handling to a Userspace Process,busybox:latest,sensitive-mount-deployment-7fd6f8467-zvrxf,1
+CRITICAL,Unprivileged Delegation of Page Faults Handling to a Userspace Process,busybox:latest,sensitive-mount-deployment-7fd6f8467-5xvpt,1
+CRITICAL,Unprivileged Delegation of Page Faults Handling to a Userspace Process,busybox:latest,privileged-deployment-574878fc9d-srqrv,1
+CRITICAL,Unprivileged Delegation of Page Faults Handling to a Userspace Process,busybox:latest,sensitive-mount-deployment-7fd6f8467-6xmqw,1
+CRITICAL,Unprivileged Delegation of Page Faults Handling to a Userspace Process,busybox:latest,privileged-deployment-574878fc9d-6rnf2,1
+CRITICAL,Unprivileged Delegation of Page Faults Handling to a Userspace Process,busybox:latest,privileged-deployment-574878fc9d-h6ftz,1
+CRITICAL,Unprivileged Delegation of Page Faults Handling to a Userspace Process,busybox:latest,sensitive-mount-deployment-7fd6f8467-lm2rc,1
+CRITICAL,Unprivileged Delegation of Page Faults Handling to a Userspace Process,busybox:latest,sensitive-mount-deployment-7fd6f8467-6qh2l,1
+CRITICAL,Unprivileged Delegation of Page Faults Handling to a Userspace Process,busybox:latest,sensitive-mount-deployment-7fd6f8467-j6rmw,1
+CRITICAL,Unprivileged Delegation of Page Faults Handling to a Userspace Process,busybox:latest,sensitive-mount-deployment-7fd6f8467-7hj2k,1
+CRITICAL,Unprivileged Delegation of Page Faults Handling to a Userspace Process,busybox:latest,sensitive-mount-deployment-7fd6f8467-c558n,1
+CRITICAL,Unprivileged Delegation of Page Faults Handling to a Userspace Process,busybox:latest,sensitive-mount-deployment-7fd6f8467-c4kgx,1
+CRITICAL,Unprivileged Delegation of Page Faults Handling to a Userspace Process,busybox:latest,sensitive-mount-deployment-7fd6f8467-5j28w,1
+CRITICAL,Unprivileged Delegation of Page Faults Handling to a Userspace Process,busybox:latest,sensitive-mount-deployment-7fd6f8467-xzqzt,1
+CRITICAL,Unprivileged Delegation of Page Faults Handling to a Userspace Process,busybox:latest,privileged-deployment-574878fc9d-tqnt5,1
+CRITICAL,Unprivileged Delegation of Page Faults Handling to a Userspace Process,busybox:latest,sensitive-mount-deployment-7fd6f8467-w6t6l,1
+CRITICAL,Unprivileged Delegation of Page Faults Handling to a Userspace Process,busybox:latest,privileged-deployment-574878fc9d-k4qsd,1
+CRITICAL,Unprivileged Delegation of Page Faults Handling to a Userspace Process,busybox:latest,privileged-deployment-574878fc9d-6ht8h,1
+CRITICAL,Unprivileged Delegation of Page Faults Handling to a Userspace Process,busybox:latest,privileged-deployment-574878fc9d-bkdph,1
+CRITICAL,Unprivileged Delegation of Page Faults Handling to a Userspace Process,busybox:latest,sensitive-mount-deployment-67b4f8d866-pfnp6,1
+WARNING,Read Shell Configuration File,busybox:latest,sensitive-mount-deployment-7fd6f8467-rkl8h,1
+WARNING,Read Shell Configuration File,busybox:latest,privileged-deployment-8849cf79f-9mxhf,1
+WARNING,Read Shell Configuration File,busybox:latest,sensitive-mount-deployment-7fd6f8467-tnf96,1
+WARNING,Read Shell Configuration File,busybox:latest,privileged-deployment-574878fc9d-btmgh,1
+WARNING,Read Shell Configuration File,busybox:latest,sensitive-mount-deployment-7fd6f8467-wv8qb,1
+WARNING,Read Shell Configuration File,busybox:latest,privileged-deployment-574878fc9d-52g8q,1
+WARNING,Read Shell Configuration File,busybox:latest,sensitive-mount-deployment-67b4f8d866-h9stt,1
+WARNING,Read Shell Configuration File,busybox:latest,privileged-deployment-574878fc9d-8vdtv,1
+WARNING,Read Shell Configuration File,busybox:latest,privileged-deployment-574878fc9d-s4psq,1
+WARNING,Read Shell Configuration File,busybox:latest,privileged-deployment-574878fc9d-hvw6h,1
+WARNING,Read Shell Configuration File,busybox:latest,privileged-deployment-574878fc9d-t6blp,1
+WARNING,Read Shell Configuration File,busybox:latest,privileged-deployment-574878fc9d-fgppd,1
+WARNING,Read Shell Configuration File,busybox:latest,privileged-deployment-574878fc9d-tn9vt,1
+WARNING,Read Shell Configuration File,busybox:latest,privileged-deployment-574878fc9d-jqrbz,1
+WARNING,Read Shell Configuration File,busybox:latest,sensitive-mount-deployment-7fd6f8467-jd4qs,1
+WARNING,Read Shell Configuration File,busybox:latest,sensitive-mount-deployment-7fd6f8467-v2gxg,1
+WARNING,Read Shell Configuration File,busybox:latest,privileged-deployment-574878fc9d-7zjzr,1
+WARNING,Read Shell Configuration File,busybox:latest,privileged-deployment-574878fc9d-6f4bv,1
+WARNING,Read Shell Configuration File,busybox:latest,privileged-deployment-574878fc9d-hmjrr,1
+WARNING,Read Shell Configuration File,busybox:latest,sensitive-mount-deployment-7fd6f8467-m94gb,1
+WARNING,Read Shell Configuration File,busybox:latest,privileged-deployment-574878fc9d-m7wf2,1
+WARNING,Read Shell Configuration File,busybox:latest,privileged-deployment-574878fc9d-wc4bm,1
+WARNING,Read Shell Configuration File,busybox:latest,privileged-deployment-574878fc9d-ksq6l,1
+WARNING,Read Shell Configuration File,busybox:latest,sensitive-mount-deployment-67b4f8d866-x85d2,1
+WARNING,Read Shell Configuration File,busybox:latest,sensitive-mount-deployment-7fd6f8467-wzs78,1
+WARNING,Read Shell Configuration File,busybox:latest,privileged-deployment-574878fc9d-x9dvl,1
+WARNING,Read Shell Configuration File,busybox:latest,privileged-deployment-574878fc9d-7r6gh,1
+WARNING,Read Shell Configuration File,busybox:latest,privileged-deployment-574878fc9d-7xpt4,1
+WARNING,Read Shell Configuration File,busybox:latest,sensitive-mount-deployment-7fd6f8467-dpg2x,1
+WARNING,Read Shell Configuration File,busybox:latest,privileged-deployment-574878fc9d-7bfld,1
+WARNING,Delete Bash History,busybox:latest,privileged-deployment-574878fc9d-l7rbh,1
+WARNING,Delete Bash History,busybox:latest,privileged-deployment-574878fc9d-hks5g,1
+WARNING,Delete Bash History,busybox:latest,privileged-deployment-574878fc9d-gfj6s,1
+WARNING,Delete Bash History,busybox:latest,privileged-deployment-574878fc9d-8df6l,1
+WARNING,Delete Bash History,busybox:latest,privileged-deployment-574878fc9d-q6twq,1
+WARNING,Delete Bash History,busybox:latest,sensitive-mount-deployment-67b4f8d866-vwcz8,1
+WARNING,Delete Bash History,busybox:latest,sensitive-mount-deployment-7fd6f8467-7zxtd,1
+WARNING,Delete Bash History,busybox:latest,privileged-deployment-574878fc9d-wxj2n,1
+WARNING,Delete Bash History,busybox:latest,sensitive-mount-deployment-7fd6f8467-qp28h,1
+WARNING,Delete Bash History,busybox:latest,sensitive-mount-deployment-7fd6f8467-nhp5r,1
+WARNING,Delete Bash History,busybox:latest,sensitive-mount-deployment-7fd6f8467-f2sc9,1
+WARNING,Delete Bash History,busybox:latest,privileged-deployment-574878fc9d-crwbh,1
+WARNING,Delete Bash History,busybox:latest,sensitive-mount-deployment-7fd6f8467-nnqdz,1
+WARNING,Delete Bash History,busybox:latest,sensitive-mount-deployment-7fd6f8467-js9r4,1
+WARNING,Delete Bash History,busybox:latest,privileged-deployment-574878fc9d-nqf7t,1
+WARNING,Delete Bash History,busybox:latest,sensitive-mount-deployment-7fd6f8467-dpclw,1
+WARNING,Delete Bash History,busybox:latest,sensitive-mount-deployment-7fd6f8467-s2w4f,1
+WARNING,Delete Bash History,busybox:latest,privileged-deployment-574878fc9d-hw8sg,1
+WARNING,Delete Bash History,busybox:latest,sensitive-mount-deployment-7fd6f8467-47qmn,1
+WARNING,Delete Bash History,busybox:latest,sensitive-mount-deployment-7fd6f8467-wdncz,1
+WARNING,Delete Bash History,busybox:latest,privileged-deployment-574878fc9d-sbppt,1
+WARNING,Delete Bash History,busybox:latest,privileged-deployment-574878fc9d-mssmb,1
+WARNING,Delete Bash History,busybox:latest,privileged-deployment-574878fc9d-gjhnb,1
+WARNING,Delete Bash History,busybox:latest,privileged-deployment-574878fc9d-kp7rk,1
+WARNING,Delete Bash History,busybox:latest,privileged-deployment-574878fc9d-2l9rz,1
+WARNING,Delete Bash History,busybox:latest,sensitive-mount-deployment-7fd6f8467-xd9rj,1
+WARNING,Delete Bash History,busybox:latest,privileged-deployment-574878fc9d-28225,1
+WARNING,Delete Bash History,busybox:latest,privileged-deployment-574878fc9d-f22kt,1
+WARNING,Delete Bash History,busybox:latest,sensitive-mount-deployment-7fd6f8467-48hrz,1
+WARNING,Delete Bash History,busybox:latest,privileged-deployment-8849cf79f-4dtv7,1
+WARNING,Delete Bash History,busybox:latest,sensitive-mount-deployment-7fd6f8467-rcwcz,1
+WARNING,Delete Bash History,busybox:latest,privileged-deployment-574878fc9d-vnt82,1
+WARNING,Delete Bash History,busybox:latest,sensitive-mount-deployment-7fd6f8467-9p7lq,1
+WARNING,Delete Bash History,busybox:latest,privileged-deployment-574878fc9d-5r542,1
+WARNING,Delete Bash History,busybox:latest,privileged-deployment-574878fc9d-gm9qj,1
+WARNING,Delete Bash History,busybox:latest,privileged-deployment-574878fc9d-4qq9b,1
+WARNING,Delete Bash History,busybox:latest,privileged-deployment-574878fc9d-6w48v,1
+WARNING,Delete Bash History,busybox:latest,privileged-deployment-574878fc9d-64nst,1
+WARNING,Delete Bash History,busybox:latest,sensitive-mount-deployment-7fd6f8467-dlh8v,1
+WARNING,Delete Bash History,busybox:latest,privileged-deployment-574878fc9d-f9jvg,1
+WARNING,Delete Bash History,busybox:latest,privileged-deployment-574878fc9d-847xt,1
+WARNING,Delete Bash History,busybox:latest,sensitive-mount-deployment-7fd6f8467-g97l8,1
+WARNING,Delete Bash History,busybox:latest,privileged-deployment-574878fc9d-55flk,1
+WARNING,Delete Bash History,busybox:latest,sensitive-mount-deployment-7fd6f8467-xxkxz,1
+WARNING,Clear Log Activities,busybox:latest,privileged-deployment-8849cf79f-5k6kd,1
+WARNING,Clear Log Activities,busybox:latest,sensitive-mount-deployment-7fd6f8467-5smr6,1
+WARNING,Clear Log Activities,busybox:latest,sensitive-mount-deployment-7fd6f8467-x6b7k,1
+WARNING,Clear Log Activities,busybox:latest,privileged-deployment-574878fc9d-g2qnc,1
+WARNING,Clear Log Activities,busybox:latest,sensitive-mount-deployment-7fd6f8467-g2l5n,1
+WARNING,Clear Log Activities,busybox:latest,privileged-deployment-574878fc9d-z5x4p,1
+WARNING,Clear Log Activities,busybox:latest,privileged-deployment-574878fc9d-7vtc9,1
+WARNING,Clear Log Activities,busybox:latest,privileged-deployment-574878fc9d-b2t8q,1
+WARNING,Clear Log Activities,busybox:latest,sensitive-mount-deployment-7fd6f8467-4lr94,1
+WARNING,Clear Log Activities,busybox:latest,sensitive-mount-deployment-7fd6f8467-jbd6s,1
+WARNING,Clear Log Activities,busybox:latest,sensitive-mount-deployment-7fd6f8467-rhjz5,1
+WARNING,Clear Log Activities,busybox:latest,sensitive-mount-deployment-7fd6f8467-b5b52,1
+WARNING,Clear Log Activities,busybox:latest,privileged-deployment-574878fc9d-gkw2t,1
+WARNING,Clear Log Activities,busybox:latest,privileged-deployment-574878fc9d-rdsbg,1
+WARNING,Clear Log Activities,busybox:latest,sensitive-mount-deployment-7fd6f8467-xdb8k,1
+WARNING,Clear Log Activities,busybox:latest,privileged-deployment-574878fc9d-b28nq,1
+WARNING,Clear Log Activities,busybox:latest,privileged-deployment-574878fc9d-xx84c,1
+WARNING,Clear Log Activities,busybox:latest,sensitive-mount-deployment-7fd6f8467-qw7xc,1
+WARNING,Clear Log Activities,busybox:latest,privileged-deployment-574878fc9d-clnfk,1
+WARNING,Clear Log Activities,busybox:latest,sensitive-mount-deployment-67b4f8d866-wpk6b,1
+WARNING,Clear Log Activities,busybox:latest,privileged-deployment-574878fc9d-lh2s6,1
+WARNING,Clear Log Activities,busybox:latest,privileged-deployment-574878fc9d-jp4d6,1
+WARNING,Clear Log Activities,busybox:latest,sensitive-mount-deployment-7fd6f8467-srr48,1
+WARNING,Clear Log Activities,busybox:latest,sensitive-mount-deployment-7fd6f8467-6rkgp,1
+WARNING,Clear Log Activities,busybox:latest,sensitive-mount-deployment-7fd6f8467-t4f4b,1
+WARNING,Clear Log Activities,busybox:latest,sensitive-mount-deployment-7fd6f8467-7hm7r,1
+WARNING,Clear Log Activities,busybox:latest,sensitive-mount-deployment-7fd6f8467-7tppm,1
+WARNING,Clear Log Activities,busybox:latest,sensitive-mount-deployment-7fd6f8467-qslpf,1
+WARNING,Clear Log Activities,busybox:latest,privileged-deployment-574878fc9d-n47nt,1
+WARNING,Clear Log Activities,busybox:latest,sensitive-mount-deployment-67b4f8d866-zww9s,1
+WARNING,Debugfs Launched in Privileged Container,busybox:latest,sensitive-mount-deployment-7fd6f8467-s9vpq,1
+WARNING,Debugfs Launched in Privileged Container,busybox:latest,privileged-deployment-574878fc9d-jjhwr,1
+WARNING,Debugfs Launched in Privileged Container,busybox:latest,privileged-deployment-574878fc9d-vjxqg,1
+WARNING,Debugfs Launched in Privileged Container,busybox:latest,privileged-deployment-574878fc9d-xbt55,1
+WARNING,Debugfs Launched in Privileged Container,busybox:latest,sensitive-mount-deployment-7fd6f8467-mqrsm,1
+WARNING,Debugfs Launched in Privileged Container,busybox:latest,privileged-deployment-574878fc9d-tfmtl,1
+WARNING,Debugfs Launched in Privileged Container,busybox:latest,privileged-deployment-574878fc9d-gwnsd,1
+WARNING,Debugfs Launched in Privileged Container,busybox:latest,sensitive-mount-deployment-7fd6f8467-mc4wz,1
+WARNING,Debugfs Launched in Privileged Container,busybox:latest,sensitive-mount-deployment-67b4f8d866-phqbp,1
+WARNING,Debugfs Launched in Privileged Container,busybox:latest,privileged-deployment-8849cf79f-v4lgf,1
+WARNING,Debugfs Launched in Privileged Container,busybox:latest,sensitive-mount-deployment-7fd6f8467-wmf7f,1
+WARNING,Debugfs Launched in Privileged Container,busybox:latest,privileged-deployment-574878fc9d-nhd9h,1
+WARNING,Debugfs Launched in Privileged Container,busybox:latest,sensitive-mount-deployment-7fd6f8467-2ktlr,1
+WARNING,Debugfs Launched in Privileged Container,busybox:latest,sensitive-mount-deployment-7fd6f8467-8hqlb,1
+WARNING,Debugfs Launched in Privileged Container,busybox:latest,privileged-deployment-574878fc9d-dqt9w,1
+WARNING,Debugfs Launched in Privileged Container,busybox:latest,sensitive-mount-deployment-7fd6f8467-fpbnj,1
+WARNING,Debugfs Launched in Privileged Container,busybox:latest,privileged-deployment-574878fc9d-8vbv2,1
+WARNING,Debugfs Launched in Privileged Container,busybox:latest,sensitive-mount-deployment-7fd6f8467-lm2rc,1
+WARNING,Debugfs Launched in Privileged Container,busybox:latest,sensitive-mount-deployment-7fd6f8467-qkl8s,1
+WARNING,Debugfs Launched in Privileged Container,busybox:latest,sensitive-mount-deployment-67b4f8d866-948sl,1
+WARNING,Debugfs Launched in Privileged Container,busybox:latest,privileged-deployment-574878fc9d-td2nj,1
+WARNING,Debugfs Launched in Privileged Container,busybox:latest,sensitive-mount-deployment-7fd6f8467-jz78j,1
+WARNING,Debugfs Launched in Privileged Container,busybox:latest,sensitive-mount-deployment-7fd6f8467-2d227,1
+WARNING,Debugfs Launched in Privileged Container,busybox:latest,privileged-deployment-574878fc9d-4z6mm,1
+WARNING,Debugfs Launched in Privileged Container,busybox:latest,privileged-deployment-574878fc9d-8p85f,1
+WARNING,Debugfs Launched in Privileged Container,busybox:latest,sensitive-mount-deployment-7fd6f8467-f6lh9,1
+WARNING,Debugfs Launched in Privileged Container,busybox:latest,privileged-deployment-574878fc9d-zrpxw,1
+WARNING,Debugfs Launched in Privileged Container,busybox:latest,privileged-deployment-574878fc9d-kgxcv,1
+WARNING,Mount Launched in Privileged Container,busybox:latest,sensitive-mount-deployment-7fd6f8467-pzvw9,1
+WARNING,Mount Launched in Privileged Container,busybox:latest,sensitive-mount-deployment-7fd6f8467-zbdmv,1
+WARNING,Mount Launched in Privileged Container,busybox:latest,privileged-deployment-574878fc9d-mhvsj,1
+WARNING,Mount Launched in Privileged Container,busybox:latest,privileged-deployment-574878fc9d-cgkbw,1
+WARNING,Mount Launched in Privileged Container,busybox:latest,privileged-deployment-574878fc9d-vp62z,1
+WARNING,Mount Launched in Privileged Container,busybox:latest,privileged-deployment-574878fc9d-9lpp5,1
+WARNING,Mount Launched in Privileged Container,busybox:latest,privileged-deployment-574878fc9d-bvdbl,1
+WARNING,Mount Launched in Privileged Container,busybox:latest,privileged-deployment-574878fc9d-rrwdp,1
+WARNING,Mount Launched in Privileged Container,busybox:latest,sensitive-mount-deployment-67b4f8d866-xt5lr,1
+WARNING,Mount Launched in Privileged Container,busybox:latest,sensitive-mount-deployment-7fd6f8467-jtxjn,1
+WARNING,Mount Launched in Privileged Container,busybox:latest,sensitive-mount-deployment-7fd6f8467-vxw77,1
+WARNING,Mount Launched in Privileged Container,busybox:latest,sensitive-mount-deployment-7fd6f8467-hx44d,1
+WARNING,Mount Launched in Privileged Container,busybox:latest,privileged-deployment-574878fc9d-9g8dk,1
+WARNING,Mount Launched in Privileged Container,busybox:latest,sensitive-mount-deployment-7fd6f8467-pvwmg,1
+WARNING,Mount Launched in Privileged Container,busybox:latest,privileged-deployment-574878fc9d-pd2jd,1
+WARNING,Mount Launched in Privileged Container,busybox:latest,sensitive-mount-deployment-7fd6f8467-cqjqz,1
+WARNING,Mount Launched in Privileged Container,busybox:latest,privileged-deployment-574878fc9d-wqznh,1
+WARNING,Mount Launched in Privileged Container,busybox:latest,sensitive-mount-deployment-7fd6f8467-nfzsw,1
+WARNING,Mount Launched in Privileged Container,busybox:latest,sensitive-mount-deployment-7fd6f8467-hrpl8,1
+WARNING,Mount Launched in Privileged Container,busybox:latest,privileged-deployment-574878fc9d-55lxd,1
+WARNING,Mount Launched in Privileged Container,busybox:latest,sensitive-mount-deployment-7fd6f8467-4xspj,1
+WARNING,Mount Launched in Privileged Container,busybox:latest,sensitive-mount-deployment-7fd6f8467-zd2bb,1
+WARNING,Mount Launched in Privileged Container,busybox:latest,sensitive-mount-deployment-7fd6f8467-vx9w9,1
+WARNING,Mount Launched in Privileged Container,busybox:latest,privileged-deployment-574878fc9d-vwqdk,1
+WARNING,Mount Launched in Privileged Container,busybox:latest,sensitive-mount-deployment-7fd6f8467-qlrhb,1
+WARNING,Mount Launched in Privileged Container,busybox:latest,sensitive-mount-deployment-7fd6f8467-dmmsb,1
+WARNING,Mount Launched in Privileged Container,busybox:latest,privileged-deployment-574878fc9d-27q58,1
+WARNING,Mount Launched in Privileged Container,busybox:latest,sensitive-mount-deployment-7fd6f8467-bcjhx,1
+WARNING,Mount Launched in Privileged Container,busybox:latest,sensitive-mount-deployment-7fd6f8467-p7vn8,1
+WARNING,Mount Launched in Privileged Container,busybox:latest,privileged-deployment-574878fc9d-l2r4r,1
+WARNING,Search Private Keys or Passwords,busybox:latest,sensitive-mount-deployment-7fd6f8467-4qnsp,1
+WARNING,Search Private Keys or Passwords,busybox:latest,privileged-deployment-574878fc9d-sr2qt,1
+WARNING,Search Private Keys or Passwords,busybox:latest,sensitive-mount-deployment-7fd6f8467-gpgkp,1
+WARNING,Search Private Keys or Passwords,busybox:latest,sensitive-mount-deployment-7fd6f8467-2hrc7,1
+WARNING,Search Private Keys or Passwords,busybox:latest,privileged-deployment-574878fc9d-t2pvv,1
+WARNING,Search Private Keys or Passwords,busybox:latest,sensitive-mount-deployment-7fd6f8467-l5szb,1
+WARNING,Search Private Keys or Passwords,busybox:latest,sensitive-mount-deployment-7fd6f8467-hb5ld,1
+WARNING,Search Private Keys or Passwords,busybox:latest,sensitive-mount-deployment-7fd6f8467-8tfgh,1
+WARNING,Search Private Keys or Passwords,busybox:latest,privileged-deployment-574878fc9d-rbkm2,1
+WARNING,Search Private Keys or Passwords,busybox:latest,sensitive-mount-deployment-67b4f8d866-9mjxs,1
+WARNING,Search Private Keys or Passwords,busybox:latest,privileged-deployment-8849cf79f-4w7v2,1
+WARNING,Search Private Keys or Passwords,busybox:latest,sensitive-mount-deployment-7fd6f8467-gjq4x,1
+WARNING,Search Private Keys or Passwords,busybox:latest,privileged-deployment-574878fc9d-b2g5h,1
+WARNING,Search Private Keys or Passwords,busybox:latest,privileged-deployment-8849cf79f-x7rv5,1
+WARNING,Search Private Keys or Passwords,busybox:latest,sensitive-mount-deployment-7fd6f8467-6wfwd,1
+WARNING,Search Private Keys or Passwords,busybox:latest,sensitive-mount-deployment-7fd6f8467-swbc2,1
+WARNING,Search Private Keys or Passwords,busybox:latest,privileged-deployment-574878fc9d-pjqgz,1
+WARNING,Search Private Keys or Passwords,busybox:latest,privileged-deployment-574878fc9d-hz89h,1
+WARNING,Search Private Keys or Passwords,busybox:latest,privileged-deployment-574878fc9d-rdmbm,1
+WARNING,Search Private Keys or Passwords,busybox:latest,privileged-deployment-574878fc9d-lf6wh,1
+WARNING,Search Private Keys or Passwords,busybox:latest,sensitive-mount-deployment-7fd6f8467-mg894,1
+WARNING,Search Private Keys or Passwords,busybox:latest,privileged-deployment-574878fc9d-j4nr2,1
+WARNING,Search Private Keys or Passwords,busybox:latest,sensitive-mount-deployment-7fd6f8467-gcb7x,1
+WARNING,Search Private Keys or Passwords,busybox:latest,sensitive-mount-deployment-7fd6f8467-bssdf,1
+WARNING,Search Private Keys or Passwords,busybox:latest,privileged-deployment-574878fc9d-vxwsr,1
+WARNING,Search Private Keys or Passwords,busybox:latest,privileged-deployment-574878fc9d-6d9rm,1
+WARNING,Search Private Keys or Passwords,busybox:latest,privileged-deployment-574878fc9d-q7r7c,1
+WARNING,Search Private Keys or Passwords,busybox:latest,privileged-deployment-574878fc9d-c2bc2,1
+WARNING,Search Private Keys or Passwords,busybox:latest,privileged-deployment-574878fc9d-2hcch,1
+WARNING,Search Private Keys or Passwords,busybox:latest,privileged-deployment-574878fc9d-l92qp,1
+WARNING,Search Private Keys or Passwords,busybox:latest,sensitive-mount-deployment-7fd6f8467-q595j,1
+WARNING,Search Private Keys or Passwords,busybox:latest,privileged-deployment-574878fc9d-qnczf,1
+WARNING,Linux Kernel Module Injection Detected,busybox:latest,privileged-deployment-574878fc9d-547xj,1
+WARNING,Linux Kernel Module Injection Detected,busybox:latest,privileged-deployment-574878fc9d-nzrpc,1
+WARNING,Linux Kernel Module Injection Detected,busybox:latest,privileged-deployment-574878fc9d-9jt9w,1
+WARNING,Linux Kernel Module Injection Detected,busybox:latest,privileged-deployment-574878fc9d-6g4xz,1
+WARNING,Linux Kernel Module Injection Detected,busybox:latest,privileged-deployment-574878fc9d-2zzvd,1
+WARNING,Linux Kernel Module Injection Detected,busybox:latest,privileged-deployment-574878fc9d-pfzwk,1
+WARNING,Linux Kernel Module Injection Detected,busybox:latest,privileged-deployment-574878fc9d-88fg8,1
+WARNING,Linux Kernel Module Injection Detected,busybox:latest,privileged-deployment-574878fc9d-hnvpc,1
+WARNING,Linux Kernel Module Injection Detected,busybox:latest,sensitive-mount-deployment-7fd6f8467-9rphd,1
+WARNING,Linux Kernel Module Injection Detected,busybox:latest,sensitive-mount-deployment-7fd6f8467-6cjkg,1
+WARNING,Linux Kernel Module Injection Detected,busybox:latest,privileged-deployment-574878fc9d-qzgvc,1
+WARNING,Linux Kernel Module Injection Detected,busybox:latest,sensitive-mount-deployment-7fd6f8467-2vr2h,1
+WARNING,Linux Kernel Module Injection Detected,busybox:latest,privileged-deployment-574878fc9d-cv7jw,1
+WARNING,Linux Kernel Module Injection Detected,busybox:latest,privileged-deployment-574878fc9d-7zgjv,1
+WARNING,Linux Kernel Module Injection Detected,busybox:latest,privileged-deployment-574878fc9d-44vlm,1
+WARNING,Linux Kernel Module Injection Detected,busybox:latest,sensitive-mount-deployment-7fd6f8467-k9fxt,1
+WARNING,Linux Kernel Module Injection Detected,busybox:latest,sensitive-mount-deployment-67b4f8d866-sjp24,1
+WARNING,Linux Kernel Module Injection Detected,busybox:latest,sensitive-mount-deployment-7fd6f8467-brfj4,1
+WARNING,Linux Kernel Module Injection Detected,busybox:latest,privileged-deployment-574878fc9d-vp6nq,1
+WARNING,Linux Kernel Module Injection Detected,busybox:latest,privileged-deployment-574878fc9d-2xcrr,1
+WARNING,Linux Kernel Module Injection Detected,busybox:latest,privileged-deployment-574878fc9d-q4dzm,1
+WARNING,Linux Kernel Module Injection Detected,busybox:latest,privileged-deployment-574878fc9d-f4fvv,1
+WARNING,Linux Kernel Module Injection Detected,busybox:latest,privileged-deployment-574878fc9d-f72rk,1
+WARNING,Linux Kernel Module Injection Detected,busybox:latest,sensitive-mount-deployment-7fd6f8467-7l7rw,1
+WARNING,Linux Kernel Module Injection Detected,busybox:latest,sensitive-mount-deployment-7fd6f8467-p4bx5,1
+WARNING,Linux Kernel Module Injection Detected,busybox:latest,privileged-deployment-574878fc9d-4h6w6,1
+WARNING,Linux Kernel Module Injection Detected,busybox:latest,privileged-deployment-574878fc9d-tfmtl,1
+WARNING,Linux Kernel Module Injection Detected,busybox:latest,sensitive-mount-deployment-7fd6f8467-sxm8x,1
+WARNING,Linux Kernel Module Injection Detected,busybox:latest,sensitive-mount-deployment-7fd6f8467-dcjkv,1
+WARNING,Linux Kernel Module Injection Detected,busybox:latest,sensitive-mount-deployment-7fd6f8467-w7znb,1
+WARNING,Linux Kernel Module Injection Detected,busybox:latest,sensitive-mount-deployment-7fd6f8467-fc7kb,1
+WARNING,Linux Kernel Module Injection Detected,busybox:latest,sensitive-mount-deployment-7fd6f8467-kkgv7,1
+WARNING,Linux Kernel Module Injection Detected,busybox:latest,privileged-deployment-574878fc9d-4l86g,1
+WARNING,Linux Kernel Module Injection Detected,busybox:latest,privileged-deployment-574878fc9d-hkvh4,1
+WARNING,Linux Kernel Module Injection Detected,busybox:latest,sensitive-mount-deployment-7fd6f8467-wwnx5,1
+WARNING,Linux Kernel Module Injection Detected,busybox:latest,privileged-deployment-574878fc9d-7t8fk,1
+WARNING,Outbound Connection to C2 Servers,busybox:latest,sensitive-mount-deployment-7fd6f8467-bzhqb,1
+WARNING,Outbound Connection to C2 Servers,busybox:latest,sensitive-mount-deployment-7fd6f8467-vwkcl,1
+WARNING,Outbound Connection to C2 Servers,busybox:latest,sensitive-mount-deployment-7fd6f8467-plhdp,1
+WARNING,Outbound Connection to C2 Servers,busybox:latest,sensitive-mount-deployment-7fd6f8467-wvkpl,1
+WARNING,Outbound Connection to C2 Servers,busybox:latest,sensitive-mount-deployment-7fd6f8467-rzd6r,1
+WARNING,Outbound Connection to C2 Servers,busybox:latest,sensitive-mount-deployment-7fd6f8467-7qglz,1
+WARNING,Outbound Connection to C2 Servers,falcosecurity/event-generator,falco-event-generator-f7rlt,1
+WARNING,Outbound Connection to C2 Servers,busybox:latest,sensitive-mount-deployment-7fd6f8467-c96pt,1
+WARNING,Outbound Connection to C2 Servers,busybox:latest,sensitive-mount-deployment-7fd6f8467-twklp,1
+WARNING,Outbound Connection to C2 Servers,busybox:latest,sensitive-mount-deployment-7fd6f8467-2cjqx,1
+WARNING,Outbound Connection to C2 Servers,busybox:latest,sensitive-mount-deployment-7fd6f8467-tmcfp,1
+WARNING,Outbound Connection to C2 Servers,busybox:latest,privileged-deployment-574878fc9d-7gfwm,1
+WARNING,Outbound Connection to C2 Servers,busybox:latest,privileged-deployment-574878fc9d-sdt6m,1
+WARNING,Outbound Connection to C2 Servers,busybox:latest,privileged-deployment-574878fc9d-74rsz,1
+WARNING,Outbound Connection to C2 Servers,busybox:latest,privileged-deployment-574878fc9d-q5qjp,1
+WARNING,Outbound Connection to C2 Servers,busybox:latest,sensitive-mount-deployment-7fd6f8467-99rgz,1
+WARNING,Outbound Connection to C2 Servers,busybox:latest,sensitive-mount-deployment-7fd6f8467-klvdm,1
+WARNING,Outbound Connection to C2 Servers,busybox:latest,sensitive-mount-deployment-7fd6f8467-5mvh6,1
+WARNING,Outbound Connection to C2 Servers,busybox:latest,privileged-deployment-574878fc9d-gqthg,1
+WARNING,Outbound Connection to C2 Servers,busybox:latest,sensitive-mount-deployment-7fd6f8467-6ptsh,1
+WARNING,Outbound Connection to C2 Servers,busybox:latest,privileged-deployment-574878fc9d-phrmh,1
+WARNING,Outbound Connection to C2 Servers,busybox:latest,sensitive-mount-deployment-7fd6f8467-v6rfq,1
+WARNING,Outbound Connection to C2 Servers,busybox:latest,sensitive-mount-deployment-7fd6f8467-zhmv7,1
+WARNING,Outbound Connection to C2 Servers,busybox:latest,sensitive-mount-deployment-7fd6f8467-94rnv,1
+WARNING,Outbound Connection to C2 Servers,busybox:latest,sensitive-mount-deployment-7fd6f8467-8tgwp,1
+WARNING,Outbound Connection to C2 Servers,busybox:latest,privileged-deployment-574878fc9d-ng9kj,1
+WARNING,Outbound Connection to C2 Servers,busybox:latest,sensitive-mount-deployment-7fd6f8467-cv2g6,1
+WARNING,Outbound Connection to C2 Servers,busybox:latest,privileged-deployment-574878fc9d-m6q7x,1
+WARNING,Outbound Connection to C2 Servers,busybox:latest,sensitive-mount-deployment-7fd6f8467-tfg9k,1
+WARNING,Outbound Connection to C2 Servers,busybox:latest,sensitive-mount-deployment-7fd6f8467-p8rfh,1
+WARNING,Outbound Connection to C2 Servers,busybox:latest,privileged-deployment-574878fc9d-q26cn,1
+WARNING,Outbound Connection to C2 Servers,busybox:latest,privileged-deployment-574878fc9d-xvpc8,1
+WARNING,Outbound Connection to C2 Servers,busybox:latest,privileged-deployment-574878fc9d-4s2q6,1
+WARNING,Outbound Connection to C2 Servers,busybox:latest,sensitive-mount-deployment-7fd6f8467-r25kk,1
+WARNING,Outbound Connection to C2 Servers,busybox:latest,privileged-deployment-574878fc9d-zrpxw,1
+WARNING,Outbound Connection to C2 Servers,busybox:latest,sensitive-mount-deployment-7fd6f8467-hnj6p,1
+WARNING,Remove Bulk Data from Disk,busybox:latest,sensitive-mount-deployment-7fd6f8467-tk97x,1
+WARNING,Remove Bulk Data from Disk,busybox:latest,privileged-deployment-574878fc9d-5d2t4,1
+WARNING,Remove Bulk Data from Disk,busybox:latest,privileged-deployment-574878fc9d-zjswq,1
+WARNING,Remove Bulk Data from Disk,busybox:latest,privileged-deployment-574878fc9d-wb9xg,1
+WARNING,Remove Bulk Data from Disk,busybox:latest,privileged-deployment-574878fc9d-2ljq7,1
+WARNING,Remove Bulk Data from Disk,busybox:latest,privileged-deployment-574878fc9d-bm2cw,1
+WARNING,Remove Bulk Data from Disk,busybox:latest,sensitive-mount-deployment-7fd6f8467-c5bsv,1
+WARNING,Remove Bulk Data from Disk,busybox:latest,privileged-deployment-574878fc9d-47ml2,1
+WARNING,Remove Bulk Data from Disk,busybox:latest,privileged-deployment-574878fc9d-msz6r,1
+WARNING,Remove Bulk Data from Disk,busybox:latest,sensitive-mount-deployment-7fd6f8467-gpln9,1
+WARNING,Remove Bulk Data from Disk,busybox:latest,sensitive-mount-deployment-7fd6f8467-gbxvn,1
+WARNING,Remove Bulk Data from Disk,busybox:latest,sensitive-mount-deployment-7fd6f8467-wvtqj,1
+WARNING,Remove Bulk Data from Disk,busybox:latest,sensitive-mount-deployment-7fd6f8467-llp9m,1
+WARNING,Remove Bulk Data from Disk,busybox:latest,privileged-deployment-574878fc9d-2fhmm,1
+WARNING,Remove Bulk Data from Disk,busybox:latest,privileged-deployment-574878fc9d-sjmkr,1
+WARNING,Remove Bulk Data from Disk,busybox:latest,sensitive-mount-deployment-67b4f8d866-mzczf,1
+WARNING,Remove Bulk Data from Disk,busybox:latest,sensitive-mount-deployment-7fd6f8467-xl8cj,1
+WARNING,Remove Bulk Data from Disk,busybox:latest,privileged-deployment-574878fc9d-th8qz,1
+WARNING,Remove Bulk Data from Disk,busybox:latest,sensitive-mount-deployment-7fd6f8467-tb8zs,1
+WARNING,Remove Bulk Data from Disk,busybox:latest,privileged-deployment-574878fc9d-5gx9c,1
+WARNING,Remove Bulk Data from Disk,busybox:latest,privileged-deployment-574878fc9d-jvzh8,1
+WARNING,Remove Bulk Data from Disk,busybox:latest,privileged-deployment-574878fc9d-9rxl9,1
+WARNING,Remove Bulk Data from Disk,busybox:latest,privileged-deployment-574878fc9d-jxj77,1
+WARNING,Remove Bulk Data from Disk,busybox:latest,privileged-deployment-574878fc9d-spsg8,1
+WARNING,Remove Bulk Data from Disk,busybox:latest,sensitive-mount-deployment-7fd6f8467-pg2gs,1
+WARNING,Remove Bulk Data from Disk,busybox:latest,privileged-deployment-574878fc9d-5rksd,1
+WARNING,Remove Bulk Data from Disk,busybox:latest,privileged-deployment-574878fc9d-hqqjn,1
+WARNING,Remove Bulk Data from Disk,busybox:latest,privileged-deployment-574878fc9d-tdmh4,1
+WARNING,Remove Bulk Data from Disk,busybox:latest,privileged-deployment-574878fc9d-kxlm2,1
+WARNING,Remove Bulk Data from Disk,busybox:latest,privileged-deployment-574878fc9d-hldsl,1
+WARNING,Remove Bulk Data from Disk,busybox:latest,privileged-deployment-574878fc9d-49dqm,1
+WARNING,Remove Bulk Data from Disk,busybox:latest,sensitive-mount-deployment-7fd6f8467-787h4,1
+WARNING,Remove Bulk Data from Disk,busybox:latest,privileged-deployment-574878fc9d-6ldmx,1
+WARNING,Redirect STDOUT/STDIN to Network Connection in Container,busybox:latest,privileged-deployment-574878fc9d-g5hnz,1
+WARNING,Redirect STDOUT/STDIN to Network Connection in Container,busybox:latest,privileged-deployment-574878fc9d-7xfl2,1
+WARNING,Redirect STDOUT/STDIN to Network Connection in Container,busybox:latest,privileged-deployment-574878fc9d-k6f4z,1
+WARNING,Redirect STDOUT/STDIN to Network Connection in Container,busybox:latest,privileged-deployment-574878fc9d-xmfld,1
+WARNING,Redirect STDOUT/STDIN to Network Connection in Container,busybox:latest,sensitive-mount-deployment-7fd6f8467-l4n5k,1
+WARNING,Redirect STDOUT/STDIN to Network Connection in Container,busybox:latest,privileged-deployment-574878fc9d-brk8c,1
+WARNING,Redirect STDOUT/STDIN to Network Connection in Container,busybox:latest,sensitive-mount-deployment-7fd6f8467-xtsqx,1
+WARNING,Redirect STDOUT/STDIN to Network Connection in Container,busybox:latest,sensitive-mount-deployment-67b4f8d866-mq5hd,1
+WARNING,Redirect STDOUT/STDIN to Network Connection in Container,busybox:latest,privileged-deployment-574878fc9d-gmnzb,1
+WARNING,Redirect STDOUT/STDIN to Network Connection in Container,busybox:latest,sensitive-mount-deployment-7fd6f8467-55r2h,1
+WARNING,Redirect STDOUT/STDIN to Network Connection in Container,busybox:latest,sensitive-mount-deployment-7fd6f8467-z9sw9,1
+WARNING,Redirect STDOUT/STDIN to Network Connection in Container,busybox:latest,privileged-deployment-574878fc9d-qkp26,1
+WARNING,Redirect STDOUT/STDIN to Network Connection in Container,busybox:latest,sensitive-mount-deployment-7fd6f8467-jdvr2,1
+WARNING,Redirect STDOUT/STDIN to Network Connection in Container,busybox:latest,sensitive-mount-deployment-7fd6f8467-h497k,1
+WARNING,Redirect STDOUT/STDIN to Network Connection in Container,busybox:latest,sensitive-mount-deployment-7fd6f8467-fzx2k,1
+WARNING,Redirect STDOUT/STDIN to Network Connection in Container,busybox:latest,privileged-deployment-574878fc9d-nzh74,1
+WARNING,Redirect STDOUT/STDIN to Network Connection in Container,busybox:latest,privileged-deployment-574878fc9d-vzwkn,1
+WARNING,Redirect STDOUT/STDIN to Network Connection in Container,busybox:latest,privileged-deployment-574878fc9d-hf88z,1
+WARNING,Redirect STDOUT/STDIN to Network Connection in Container,busybox:latest,sensitive-mount-deployment-7fd6f8467-4d27r,1
+WARNING,Redirect STDOUT/STDIN to Network Connection in Container,busybox:latest,sensitive-mount-deployment-7fd6f8467-pxz2n,1
+WARNING,Redirect STDOUT/STDIN to Network Connection in Container,busybox:latest,sensitive-mount-deployment-7fd6f8467-z4zr2,1
+WARNING,Redirect STDOUT/STDIN to Network Connection in Container,busybox:latest,sensitive-mount-deployment-7fd6f8467-6l2ff,1
+WARNING,Redirect STDOUT/STDIN to Network Connection in Container,busybox:latest,privileged-deployment-574878fc9d-7xcjm,1
+WARNING,Redirect STDOUT/STDIN to Network Connection in Container,busybox:latest,sensitive-mount-deployment-7fd6f8467-xhgxm,1
+WARNING,Redirect STDOUT/STDIN to Network Connection in Container,busybox:latest,sensitive-mount-deployment-7fd6f8467-vdb5p,1
+WARNING,Redirect STDOUT/STDIN to Network Connection in Container,busybox:latest,privileged-deployment-574878fc9d-rcr2d,1
+WARNING,Redirect STDOUT/STDIN to Network Connection in Container,busybox:latest,privileged-deployment-574878fc9d-mhrn2,1
+WARNING,Redirect STDOUT/STDIN to Network Connection in Container,busybox:latest,privileged-deployment-574878fc9d-8zfjf,1
+WARNING,Redirect STDOUT/STDIN to Network Connection in Container,busybox:latest,privileged-deployment-574878fc9d-njmbp,1
+WARNING,Redirect STDOUT/STDIN to Network Connection in Container,busybox:latest,sensitive-mount-deployment-7fd6f8467-889gq,1
+WARNING,Redirect STDOUT/STDIN to Network Connection in Container,busybox:latest,privileged-deployment-574878fc9d-k7vn9,1
+WARNING,Redirect STDOUT/STDIN to Network Connection in Container,busybox:latest,sensitive-mount-deployment-7fd6f8467-srfjm,1
+WARNING,Delete or rename shell history,busybox:latest,sensitive-mount-deployment-7fd6f8467-dwp4f,1
+WARNING,Delete or rename shell history,busybox:latest,sensitive-mount-deployment-7fd6f8467-27c88,1
+WARNING,Delete or rename shell history,busybox:latest,privileged-deployment-574878fc9d-crwv7,1
+WARNING,Delete or rename shell history,busybox:latest,privileged-deployment-574878fc9d-dst5n,1
+WARNING,Delete or rename shell history,busybox:latest,privileged-deployment-574878fc9d-r54ng,1
+WARNING,Delete or rename shell history,busybox:latest,privileged-deployment-574878fc9d-dpztj,1
+WARNING,Delete or rename shell history,busybox:latest,sensitive-mount-deployment-7fd6f8467-6s4lf,1
+WARNING,Delete or rename shell history,busybox:latest,privileged-deployment-574878fc9d-l48wj,1
+WARNING,Delete or rename shell history,busybox:latest,sensitive-mount-deployment-7fd6f8467-2x55w,1
+WARNING,Delete or rename shell history,busybox:latest,privileged-deployment-574878fc9d-vvl8r,1
+WARNING,Delete or rename shell history,busybox:latest,sensitive-mount-deployment-7fd6f8467-22lr2,1
+WARNING,Delete or rename shell history,busybox:latest,sensitive-mount-deployment-7fd6f8467-kqcw6,1
+WARNING,Delete or rename shell history,busybox:latest,privileged-deployment-574878fc9d-9xj7k,1
+WARNING,Delete or rename shell history,busybox:latest,privileged-deployment-574878fc9d-dhwts,1
+WARNING,Delete or rename shell history,busybox:latest,sensitive-mount-deployment-7fd6f8467-zv9kv,1
+WARNING,Delete or rename shell history,busybox:latest,sensitive-mount-deployment-7fd6f8467-hz9d7,1
+WARNING,Delete or rename shell history,busybox:latest,sensitive-mount-deployment-7fd6f8467-zmwx9,1
+WARNING,Delete or rename shell history,busybox:latest,sensitive-mount-deployment-7fd6f8467-zqn8t,1
+WARNING,Delete or rename shell history,busybox:latest,sensitive-mount-deployment-67b4f8d866-2q7rm,1
+WARNING,Delete or rename shell history,busybox:latest,privileged-deployment-574878fc9d-jd2bp,1
+WARNING,Delete or rename shell history,busybox:latest,sensitive-mount-deployment-7fd6f8467-r98tz,1
+WARNING,Delete or rename shell history,busybox:latest,sensitive-mount-deployment-7fd6f8467-vnjfm,1
+WARNING,Delete or rename shell history,busybox:latest,sensitive-mount-deployment-7fd6f8467-jx6mt,1
+WARNING,Delete or rename shell history,busybox:latest,privileged-deployment-574878fc9d-qq8qh,1
+WARNING,Delete or rename shell history,busybox:latest,privileged-deployment-574878fc9d-hmc5g,1
+WARNING,Delete or rename shell history,busybox:latest,privileged-deployment-574878fc9d-mhdkb,1
+WARNING,Launch Disallowed Container,busybox:latest,privileged-deployment-574878fc9d-b7dvc,1
+WARNING,Launch Disallowed Container,busybox:latest,privileged-deployment-574878fc9d-f99nh,1
+WARNING,Launch Disallowed Container,busybox:latest,sensitive-mount-deployment-7fd6f8467-pc88x,1
+WARNING,Launch Disallowed Container,busybox:latest,sensitive-mount-deployment-7fd6f8467-l6bzz,1
+WARNING,Launch Disallowed Container,busybox:latest,sensitive-mount-deployment-7fd6f8467-wmpsb,1
+WARNING,Launch Disallowed Container,busybox:latest,privileged-deployment-574878fc9d-rttzw,1
+WARNING,Launch Disallowed Container,busybox:latest,privileged-deployment-574878fc9d-nfmd2,1
+WARNING,Launch Disallowed Container,busybox:latest,sensitive-mount-deployment-7fd6f8467-r4zwn,1
+WARNING,Launch Disallowed Container,busybox:latest,sensitive-mount-deployment-7fd6f8467-trblj,1
+WARNING,Launch Disallowed Container,busybox:latest,privileged-deployment-574878fc9d-rrlpf,1
+WARNING,Launch Disallowed Container,busybox:latest,sensitive-mount-deployment-7fd6f8467-2k66c,1
+WARNING,Launch Disallowed Container,busybox:latest,privileged-deployment-574878fc9d-nlc55,1
+WARNING,Launch Disallowed Container,busybox:latest,sensitive-mount-deployment-7fd6f8467-nzbmp,1
+WARNING,Launch Disallowed Container,busybox:latest,sensitive-mount-deployment-7fd6f8467-5htr9,1
+WARNING,Launch Disallowed Container,busybox:latest,privileged-deployment-574878fc9d-k8lpq,1
+WARNING,Launch Disallowed Container,busybox:latest,sensitive-mount-deployment-7fd6f8467-95k68,1
+WARNING,Launch Disallowed Container,busybox:latest,sensitive-mount-deployment-7fd6f8467-tchbp,1
+WARNING,Launch Disallowed Container,busybox:latest,sensitive-mount-deployment-7fd6f8467-4b99v,1
+WARNING,Launch Disallowed Container,busybox:latest,sensitive-mount-deployment-7fd6f8467-9hd9p,1
+WARNING,Launch Disallowed Container,busybox:latest,sensitive-mount-deployment-7fd6f8467-cvhpp,1
+WARNING,Launch Disallowed Container,busybox:latest,privileged-deployment-574878fc9d-w7kr4,1
+WARNING,Launch Disallowed Container,busybox:latest,sensitive-mount-deployment-7fd6f8467-g5rwm,1
+WARNING,Launch Disallowed Container,busybox:latest,sensitive-mount-deployment-7fd6f8467-k9swv,1
+WARNING,Launch Disallowed Container,busybox:latest,privileged-deployment-574878fc9d-b7w74,1
+WARNING,Launch Disallowed Container,busybox:latest,sensitive-mount-deployment-7fd6f8467-njwgb,1
+WARNING,Launch Disallowed Container,busybox:latest,sensitive-mount-deployment-7fd6f8467-rnsbs,1
+WARNING,Launch Disallowed Container,busybox:latest,sensitive-mount-deployment-67b4f8d866-ndxpw,1
+WARNING,Launch Disallowed Container,busybox:latest,privileged-deployment-574878fc9d-d9g4s,1
+WARNING,Launch Disallowed Container,busybox:latest,privileged-deployment-574878fc9d-9qzsv,1
+WARNING,Launch Disallowed Container,busybox:latest,sensitive-mount-deployment-7fd6f8467-9h8q4,1
+WARNING,Launch Disallowed Container,busybox:latest,sensitive-mount-deployment-7fd6f8467-jjtlr,1
+WARNING,Launch Disallowed Container,busybox:latest,sensitive-mount-deployment-67b4f8d866-ml42w,1
+WARNING,Launch Disallowed Container,busybox:latest,privileged-deployment-574878fc9d-6r6fs,1
+WARNING,Launch Disallowed Container,busybox:latest,sensitive-mount-deployment-7fd6f8467-b4srh,1
+WARNING,Launch Disallowed Container,busybox:latest,privileged-deployment-574878fc9d-mws88,1
+WARNING,Launch Disallowed Container,busybox:latest,sensitive-mount-deployment-7fd6f8467-t2stc,1
+WARNING,Launch Disallowed Container,busybox:latest,privileged-deployment-574878fc9d-bt9jd,1
+WARNING,Launch Disallowed Container,busybox:latest,privileged-deployment-574878fc9d-q4xrc,1
+WARNING,Launch Disallowed Container,busybox:latest,sensitive-mount-deployment-7fd6f8467-7xqgh,1
+WARNING,Outbound or Inbound Traffic not to Authorized Server Process and Port,busybox:latest,sensitive-mount-deployment-7fd6f8467-hvns2,1
+WARNING,Outbound or Inbound Traffic not to Authorized Server Process and Port,busybox:latest,sensitive-mount-deployment-7fd6f8467-dj985,1
+WARNING,Outbound or Inbound Traffic not to Authorized Server Process and Port,busybox:latest,sensitive-mount-deployment-7fd6f8467-h696s,1
+WARNING,Outbound or Inbound Traffic not to Authorized Server Process and Port,busybox:latest,sensitive-mount-deployment-7fd6f8467-px5dp,1
+WARNING,Outbound or Inbound Traffic not to Authorized Server Process and Port,busybox:latest,sensitive-mount-deployment-7fd6f8467-tz4bs,1
+WARNING,Outbound or Inbound Traffic not to Authorized Server Process and Port,busybox:latest,sensitive-mount-deployment-7fd6f8467-g2b5p,1
+WARNING,Outbound or Inbound Traffic not to Authorized Server Process and Port,busybox:latest,sensitive-mount-deployment-7fd6f8467-bb8wf,1
+WARNING,Outbound or Inbound Traffic not to Authorized Server Process and Port,busybox:latest,sensitive-mount-deployment-7fd6f8467-4kxzk,1
+WARNING,Outbound or Inbound Traffic not to Authorized Server Process and Port,busybox:latest,privileged-deployment-574878fc9d-r9t9z,1
+WARNING,Outbound or Inbound Traffic not to Authorized Server Process and Port,busybox:latest,sensitive-mount-deployment-7fd6f8467-rjlqh,1
+WARNING,Outbound or Inbound Traffic not to Authorized Server Process and Port,busybox:latest,privileged-deployment-574878fc9d-znq69,1
+WARNING,Outbound or Inbound Traffic not to Authorized Server Process and Port,busybox:latest,sensitive-mount-deployment-7fd6f8467-r9gmq,1
+WARNING,Outbound or Inbound Traffic not to Authorized Server Process and Port,busybox:latest,sensitive-mount-deployment-7fd6f8467-cdcxh,1
+WARNING,Outbound or Inbound Traffic not to Authorized Server Process and Port,busybox:latest,sensitive-mount-deployment-7fd6f8467-2cv27,1
+WARNING,Outbound or Inbound Traffic not to Authorized Server Process and Port,busybox:latest,sensitive-mount-deployment-67b4f8d866-hbq4f,1
+WARNING,Outbound or Inbound Traffic not to Authorized Server Process and Port,busybox:latest,privileged-deployment-574878fc9d-b5cxz,1
+WARNING,Outbound or Inbound Traffic not to Authorized Server Process and Port,busybox:latest,privileged-deployment-574878fc9d-skpxv,1
+WARNING,Outbound or Inbound Traffic not to Authorized Server Process and Port,busybox:latest,privileged-deployment-574878fc9d-v2zhh,1
+WARNING,Outbound or Inbound Traffic not to Authorized Server Process and Port,busybox:latest,sensitive-mount-deployment-7fd6f8467-9nrjl,1
+WARNING,Outbound or Inbound Traffic not to Authorized Server Process and Port,busybox:latest,sensitive-mount-deployment-67b4f8d866-m2scn,1
+WARNING,Outbound or Inbound Traffic not to Authorized Server Process and Port,busybox:latest,sensitive-mount-deployment-7fd6f8467-wjmvs,1
+WARNING,Outbound or Inbound Traffic not to Authorized Server Process and Port,busybox:latest,privileged-deployment-574878fc9d-mrh9q,1
+WARNING,Outbound or Inbound Traffic not to Authorized Server Process and Port,busybox:latest,sensitive-mount-deployment-7fd6f8467-mqvwf,1
+WARNING,Outbound or Inbound Traffic not to Authorized Server Process and Port,busybox:latest,privileged-deployment-574878fc9d-xmvvb,1
+WARNING,Outbound or Inbound Traffic not to Authorized Server Process and Port,busybox:latest,privileged-deployment-574878fc9d-xljzn,1
+WARNING,Outbound or Inbound Traffic not to Authorized Server Process and Port,busybox:latest,sensitive-mount-deployment-7fd6f8467-nfwj7,1
+WARNING,Outbound or Inbound Traffic not to Authorized Server Process and Port,busybox:latest,privileged-deployment-574878fc9d-blhbq,1
+WARNING,Outbound or Inbound Traffic not to Authorized Server Process and Port,busybox:latest,sensitive-mount-deployment-7fd6f8467-8jfmk,1
+WARNING,Outbound or Inbound Traffic not to Authorized Server Process and Port,busybox:latest,privileged-deployment-574878fc9d-kcwtt,1
+WARNING,Outbound or Inbound Traffic not to Authorized Server Process and Port,busybox:latest,privileged-deployment-574878fc9d-f8rjh,1
+WARNING,Outbound or Inbound Traffic not to Authorized Server Process and Port,busybox:latest,privileged-deployment-574878fc9d-6qgpl,1
+WARNING,Outbound or Inbound Traffic not to Authorized Server Process and Port,busybox:latest,privileged-deployment-574878fc9d-g4b78,1
+WARNING,Outbound or Inbound Traffic not to Authorized Server Process and Port,busybox:latest,privileged-deployment-574878fc9d-7qgff,1
+WARNING,Outbound or Inbound Traffic not to Authorized Server Process and Port,busybox:latest,privileged-deployment-574878fc9d-rc8pb,1
+WARNING,Outbound or Inbound Traffic not to Authorized Server Process and Port,busybox:latest,privileged-deployment-574878fc9d-kf7hl,1
+WARNING,Outbound or Inbound Traffic not to Authorized Server Process and Port,busybox:latest,sensitive-mount-deployment-7fd6f8467-lgpsj,1
+WARNING,Outbound or Inbound Traffic not to Authorized Server Process and Port,busybox:latest,privileged-deployment-574878fc9d-jw8sz,1
+WARNING,Outbound or Inbound Traffic not to Authorized Server Process and Port,busybox:latest,privileged-deployment-574878fc9d-4f6ng,1
+WARNING,Outbound or Inbound Traffic not to Authorized Server Process and Port,busybox:latest,sensitive-mount-deployment-7fd6f8467-vnzlr,1
+WARNING,Outbound or Inbound Traffic not to Authorized Server Process and Port,busybox:latest,sensitive-mount-deployment-7fd6f8467-8d2kp,1
+WARNING,Outbound or Inbound Traffic not to Authorized Server Process and Port,busybox:latest,sensitive-mount-deployment-7fd6f8467-rdwch,1
+WARNING,Outbound or Inbound Traffic not to Authorized Server Process and Port,busybox:latest,privileged-deployment-574878fc9d-49dqm,1
+WARNING,Outbound or Inbound Traffic not to Authorized Server Process and Port,busybox:latest,privileged-deployment-574878fc9d-n5bcn,1
+WARNING,Outbound or Inbound Traffic not to Authorized Server Process and Port,busybox:latest,privileged-deployment-574878fc9d-dsp46,1
+WARNING,Network Connection outside Local Subnet,busybox:latest,sensitive-mount-deployment-7fd6f8467-6gc99,1
+WARNING,Network Connection outside Local Subnet,busybox:latest,privileged-deployment-574878fc9d-b6h8g,1
+WARNING,Network Connection outside Local Subnet,busybox:latest,privileged-deployment-574878fc9d-587qh,1
+WARNING,Network Connection outside Local Subnet,busybox:latest,privileged-deployment-574878fc9d-vxwsr,1
+WARNING,Network Connection outside Local Subnet,busybox:latest,sensitive-mount-deployment-7fd6f8467-n542p,1
+WARNING,Network Connection outside Local Subnet,busybox:latest,sensitive-mount-deployment-7fd6f8467-bx46b,1
+WARNING,Network Connection outside Local Subnet,busybox:latest,sensitive-mount-deployment-7fd6f8467-zk2p6,1
+WARNING,Network Connection outside Local Subnet,busybox:latest,privileged-deployment-574878fc9d-9gvk6,1
+WARNING,Network Connection outside Local Subnet,busybox:latest,privileged-deployment-574878fc9d-7f9gt,1
+WARNING,Network Connection outside Local Subnet,busybox:latest,privileged-deployment-574878fc9d-lz8jf,1
+WARNING,Network Connection outside Local Subnet,busybox:latest,sensitive-mount-deployment-7fd6f8467-2llg5,1
+WARNING,Network Connection outside Local Subnet,busybox:latest,privileged-deployment-574878fc9d-m77vq,1
+WARNING,Network Connection outside Local Subnet,busybox:latest,sensitive-mount-deployment-7fd6f8467-ng6wl,1
+WARNING,Network Connection outside Local Subnet,busybox:latest,sensitive-mount-deployment-7fd6f8467-wnglz,1
+WARNING,Network Connection outside Local Subnet,busybox:latest,privileged-deployment-574878fc9d-lqvjk,1
+WARNING,Network Connection outside Local Subnet,busybox:latest,sensitive-mount-deployment-7fd6f8467-tr9ld,1
+WARNING,Network Connection outside Local Subnet,busybox:latest,sensitive-mount-deployment-7fd6f8467-s7p4q,1
+WARNING,Network Connection outside Local Subnet,busybox:latest,privileged-deployment-8849cf79f-l67pv,1
+WARNING,Network Connection outside Local Subnet,busybox:latest,privileged-deployment-574878fc9d-gftml,1
+WARNING,Network Connection outside Local Subnet,busybox:latest,sensitive-mount-deployment-7fd6f8467-vr64p,1
+WARNING,Network Connection outside Local Subnet,busybox:latest,privileged-deployment-574878fc9d-xl2pm,1
+WARNING,Network Connection outside Local Subnet,busybox:latest,privileged-deployment-574878fc9d-tk8b9,1
+WARNING,Network Connection outside Local Subnet,busybox:latest,sensitive-mount-deployment-7fd6f8467-2s6sc,1
+WARNING,Network Connection outside Local Subnet,busybox:latest,privileged-deployment-574878fc9d-zd7sp,1
+WARNING,Network Connection outside Local Subnet,busybox:latest,privileged-deployment-574878fc9d-j422j,1
+WARNING,Network Connection outside Local Subnet,busybox:latest,privileged-deployment-574878fc9d-jmj5j,1
+WARNING,Network Connection outside Local Subnet,busybox:latest,sensitive-mount-deployment-7fd6f8467-tc4dk,1
+WARNING,Network Connection outside Local Subnet,busybox:latest,privileged-deployment-574878fc9d-8f488,1
+WARNING,Network Connection outside Local Subnet,busybox:latest,privileged-deployment-574878fc9d-jztc7,1
+WARNING,Network Connection outside Local Subnet,busybox:latest,sensitive-mount-deployment-67b4f8d866-cz52t,1
+WARNING,Network Connection outside Local Subnet,busybox:latest,privileged-deployment-574878fc9d-xt8hn,1
+WARNING,Network Connection outside Local Subnet,busybox:latest,privileged-deployment-574878fc9d-wdm52,1
+CRITICAL,Detect outbound connections to common miner pool ports,busybox:latest,sensitive-mount-deployment-7fd6f8467-sn5k2,1
+CRITICAL,Detect outbound connections to common miner pool ports,busybox:latest,privileged-deployment-8849cf79f-r8btm,1
+CRITICAL,Detect outbound connections to common miner pool ports,busybox:latest,sensitive-mount-deployment-7fd6f8467-84nt9,1
+CRITICAL,Detect outbound connections to common miner pool ports,busybox:latest,privileged-deployment-574878fc9d-j9rvk,1
+CRITICAL,Detect outbound connections to common miner pool ports,busybox:latest,privileged-deployment-574878fc9d-mgdfx,1
+CRITICAL,Detect outbound connections to common miner pool ports,busybox:latest,privileged-deployment-574878fc9d-vwqdk,1
+CRITICAL,Detect outbound connections to common miner pool ports,busybox:latest,privileged-deployment-574878fc9d-xbr6b,1
+CRITICAL,Detect outbound connections to common miner pool ports,busybox:latest,sensitive-mount-deployment-7fd6f8467-jzbj2,1
+CRITICAL,Detect outbound connections to common miner pool ports,busybox:latest,sensitive-mount-deployment-7fd6f8467-mnznn,1
+CRITICAL,Detect outbound connections to common miner pool ports,busybox:latest,privileged-deployment-574878fc9d-vwxpw,1
+CRITICAL,Detect outbound connections to common miner pool ports,busybox:latest,sensitive-mount-deployment-7fd6f8467-c7r99,1
+CRITICAL,Detect outbound connections to common miner pool ports,busybox:latest,sensitive-mount-deployment-7fd6f8467-lfldv,1
+CRITICAL,Detect outbound connections to common miner pool ports,busybox:latest,privileged-deployment-574878fc9d-lhz82,1
+CRITICAL,Detect outbound connections to common miner pool ports,busybox:latest,privileged-deployment-574878fc9d-d6rls,1
+CRITICAL,Detect outbound connections to common miner pool ports,busybox:latest,sensitive-mount-deployment-67b4f8d866-776tk,1
+CRITICAL,Detect outbound connections to common miner pool ports,busybox:latest,sensitive-mount-deployment-7fd6f8467-8cvjl,1
+CRITICAL,Detect outbound connections to common miner pool ports,busybox:latest,privileged-deployment-574878fc9d-cpv7f,1
+CRITICAL,Detect outbound connections to common miner pool ports,busybox:latest,privileged-deployment-574878fc9d-cqvtd,1
+CRITICAL,Detect outbound connections to common miner pool ports,busybox:latest,sensitive-mount-deployment-7fd6f8467-69vjw,1
+CRITICAL,Detect outbound connections to common miner pool ports,busybox:latest,sensitive-mount-deployment-7fd6f8467-8qqh4,1
+CRITICAL,Detect outbound connections to common miner pool ports,busybox:latest,privileged-deployment-574878fc9d-g9ll9,1
+CRITICAL,Detect outbound connections to common miner pool ports,busybox:latest,privileged-deployment-574878fc9d-6zx6b,1
+CRITICAL,Detect outbound connections to common miner pool ports,busybox:latest,sensitive-mount-deployment-67b4f8d866-npzsn,1
+CRITICAL,Detect outbound connections to common miner pool ports,busybox:latest,sensitive-mount-deployment-7fd6f8467-fhzdc,1
+CRITICAL,Detect outbound connections to common miner pool ports,busybox:latest,sensitive-mount-deployment-7fd6f8467-2tjx8,1
+CRITICAL,Detect outbound connections to common miner pool ports,busybox:latest,privileged-deployment-574878fc9d-9g8dk,1
+CRITICAL,Detect outbound connections to common miner pool ports,busybox:latest,sensitive-mount-deployment-7fd6f8467-ftls8,1
+CRITICAL,Detect outbound connections to common miner pool ports,busybox:latest,sensitive-mount-deployment-67b4f8d866-sjp24,1
+CRITICAL,Detect outbound connections to common miner pool ports,busybox:latest,sensitive-mount-deployment-7fd6f8467-f9skp,1
+CRITICAL,Detect outbound connections to common miner pool ports,busybox:latest,sensitive-mount-deployment-7fd6f8467-92v4x,1
+CRITICAL,Detect outbound connections to common miner pool ports,busybox:latest,privileged-deployment-8849cf79f-l2gm7,1
+CRITICAL,Detect outbound connections to common miner pool ports,busybox:latest,privileged-deployment-574878fc9d-sr6bd,1
+CRITICAL,Detect crypto miners using the Stratum protocol,busybox:latest,privileged-deployment-574878fc9d-vft7p,1
+CRITICAL,Detect crypto miners using the Stratum protocol,busybox:latest,privileged-deployment-574878fc9d-2nvlm,1
+CRITICAL,Detect crypto miners using the Stratum protocol,busybox:latest,sensitive-mount-deployment-7fd6f8467-l4kmn,1
+CRITICAL,Detect crypto miners using the Stratum protocol,busybox:latest,sensitive-mount-deployment-7fd6f8467-v65jq,1
+CRITICAL,Detect crypto miners using the Stratum protocol,busybox:latest,privileged-deployment-574878fc9d-ql2j4,1
+CRITICAL,Detect crypto miners using the Stratum protocol,busybox:latest,privileged-deployment-574878fc9d-kv6w8,1
+CRITICAL,Detect crypto miners using the Stratum protocol,busybox:latest,sensitive-mount-deployment-7fd6f8467-clblm,1
+CRITICAL,Detect crypto miners using the Stratum protocol,busybox:latest,privileged-deployment-574878fc9d-vk6qc,1
+CRITICAL,Detect crypto miners using the Stratum protocol,busybox:latest,sensitive-mount-deployment-7fd6f8467-c8sv8,1
+CRITICAL,Detect crypto miners using the Stratum protocol,busybox:latest,sensitive-mount-deployment-7fd6f8467-8twpx,1
+CRITICAL,Detect crypto miners using the Stratum protocol,busybox:latest,sensitive-mount-deployment-7fd6f8467-tqftv,1
+CRITICAL,Detect crypto miners using the Stratum protocol,busybox:latest,sensitive-mount-deployment-7fd6f8467-t4f4b,1
+CRITICAL,Detect crypto miners using the Stratum protocol,busybox:latest,sensitive-mount-deployment-7fd6f8467-hpj5g,1
+CRITICAL,Detect crypto miners using the Stratum protocol,busybox:latest,sensitive-mount-deployment-7fd6f8467-vdxg6,1
+CRITICAL,Detect crypto miners using the Stratum protocol,busybox:latest,sensitive-mount-deployment-7fd6f8467-6vrsj,1
+CRITICAL,Detect crypto miners using the Stratum protocol,busybox:latest,privileged-deployment-574878fc9d-bjs62,1
+CRITICAL,Detect crypto miners using the Stratum protocol,busybox:latest,privileged-deployment-574878fc9d-mvpkw,1
+CRITICAL,Detect crypto miners using the Stratum protocol,busybox:latest,privileged-deployment-574878fc9d-2nlld,1
+CRITICAL,Detect crypto miners using the Stratum protocol,busybox:latest,privileged-deployment-574878fc9d-dm6p9,1
+CRITICAL,Detect crypto miners using the Stratum protocol,busybox:latest,privileged-deployment-574878fc9d-nqf7t,1
+CRITICAL,Detect crypto miners using the Stratum protocol,busybox:latest,privileged-deployment-8849cf79f-t2rhf,1
+CRITICAL,Detect crypto miners using the Stratum protocol,busybox:latest,privileged-deployment-574878fc9d-nfmd2,1
+CRITICAL,Detect crypto miners using the Stratum protocol,busybox:latest,privileged-deployment-574878fc9d-784n8,1
+CRITICAL,Detect crypto miners using the Stratum protocol,busybox:latest,sensitive-mount-deployment-7fd6f8467-7hcqx,1
+CRITICAL,Detect crypto miners using the Stratum protocol,busybox:latest,privileged-deployment-574878fc9d-gzd59,1
+CRITICAL,Detect crypto miners using the Stratum protocol,busybox:latest,privileged-deployment-574878fc9d-8vbv2,1
+CRITICAL,Detect crypto miners using the Stratum protocol,busybox:latest,privileged-deployment-574878fc9d-nf52r,1
+CRITICAL,Detect crypto miners using the Stratum protocol,busybox:latest,privileged-deployment-574878fc9d-6xnkf,1
+CRITICAL,Detect crypto miners using the Stratum protocol,busybox:latest,privileged-deployment-574878fc9d-vpc26,1
+CRITICAL,Detect crypto miners using the Stratum protocol,busybox:latest,sensitive-mount-deployment-7fd6f8467-2kqnv,1
+CRITICAL,Detect crypto miners using the Stratum protocol,busybox:latest,sensitive-mount-deployment-7fd6f8467-8p47d,1
+CRITICAL,Detect crypto miners using the Stratum protocol,busybox:latest,privileged-deployment-574878fc9d-ds6qc,1
+CRITICAL,Detect crypto miners using the Stratum protocol,busybox:latest,sensitive-mount-deployment-7fd6f8467-lm2rc,1
+CRITICAL,Detect crypto miners using the Stratum protocol,busybox:latest,privileged-deployment-574878fc9d-ggnth,1
+CRITICAL,Detect crypto miners using the Stratum protocol,busybox:latest,privileged-deployment-574878fc9d-bk4vn,1
+CRITICAL,Detect crypto miners using the Stratum protocol,busybox:latest,sensitive-mount-deployment-7fd6f8467-6lcbl,1
+CRITICAL,Detect crypto miners using the Stratum protocol,busybox:latest,sensitive-mount-deployment-7fd6f8467-qmfxq,1
+CRITICAL,Detect crypto miners using the Stratum protocol,busybox:latest,sensitive-mount-deployment-7fd6f8467-dzrvz,1
+CRITICAL,Detect crypto miners using the Stratum protocol,busybox:latest,sensitive-mount-deployment-67b4f8d866-lbx9h,1
+CRITICAL,Detect crypto miners using the Stratum protocol,busybox:latest,sensitive-mount-deployment-7fd6f8467-qvwf8,1
+CRITICAL,Detect crypto miners using the Stratum protocol,busybox:latest,privileged-deployment-574878fc9d-b4hdv,1
+CRITICAL,Detect crypto miners using the Stratum protocol,busybox:latest,privileged-deployment-574878fc9d-m7ksm,1
+CRITICAL,Detect crypto miners using the Stratum protocol,busybox:latest,privileged-deployment-574878fc9d-dv2x9,1
+WARNING,Netcat Remote Code Execution in Container,busybox:latest,privileged-deployment-574878fc9d-rlc8l,1
+WARNING,Netcat Remote Code Execution in Container,busybox:latest,sensitive-mount-deployment-7fd6f8467-hgxfz,1
+WARNING,Netcat Remote Code Execution in Container,busybox:latest,privileged-deployment-574878fc9d-dbhcx,1
+WARNING,Netcat Remote Code Execution in Container,busybox:latest,privileged-deployment-574878fc9d-gm9qj,1
+WARNING,Netcat Remote Code Execution in Container,busybox:latest,sensitive-mount-deployment-7fd6f8467-2cv27,1
+WARNING,Netcat Remote Code Execution in Container,busybox:latest,privileged-deployment-574878fc9d-fsmg8,1
+WARNING,Netcat Remote Code Execution in Container,busybox:latest,privileged-deployment-574878fc9d-nr8cv,1
+WARNING,Netcat Remote Code Execution in Container,busybox:latest,sensitive-mount-deployment-7fd6f8467-cvcn4,1
+WARNING,Netcat Remote Code Execution in Container,busybox:latest,sensitive-mount-deployment-7fd6f8467-h56xm,1
+WARNING,Netcat Remote Code Execution in Container,busybox:latest,sensitive-mount-deployment-67b4f8d866-7wmgk,1
+WARNING,Netcat Remote Code Execution in Container,busybox:latest,privileged-deployment-574878fc9d-bpxw7,1
+WARNING,Netcat Remote Code Execution in Container,busybox:latest,sensitive-mount-deployment-7fd6f8467-vd4w5,1
+WARNING,Netcat Remote Code Execution in Container,busybox:latest,sensitive-mount-deployment-7fd6f8467-2tqqd,1
+WARNING,Netcat Remote Code Execution in Container,busybox:latest,sensitive-mount-deployment-7fd6f8467-nmr9z,1
+WARNING,Netcat Remote Code Execution in Container,busybox:latest,sensitive-mount-deployment-7fd6f8467-vz7w5,1
+WARNING,Netcat Remote Code Execution in Container,busybox:latest,sensitive-mount-deployment-7fd6f8467-75dzl,1
+WARNING,Netcat Remote Code Execution in Container,busybox:latest,privileged-deployment-574878fc9d-45ltr,1
+WARNING,Netcat Remote Code Execution in Container,busybox:latest,sensitive-mount-deployment-7fd6f8467-nj5g9,1
+WARNING,Netcat Remote Code Execution in Container,falcosecurity/event-generator,falco-event-generator-f7rlt,1
+WARNING,Netcat Remote Code Execution in Container,busybox:latest,privileged-deployment-574878fc9d-6pnjq,1
+WARNING,Netcat Remote Code Execution in Container,busybox:latest,sensitive-mount-deployment-7fd6f8467-c6p2d,1
+WARNING,Netcat Remote Code Execution in Container,busybox:latest,privileged-deployment-574878fc9d-xz7hb,1
+WARNING,Netcat Remote Code Execution in Container,busybox:latest,sensitive-mount-deployment-7fd6f8467-tc4dk,1
+WARNING,Netcat Remote Code Execution in Container,busybox:latest,privileged-deployment-574878fc9d-xhdtr,1
+WARNING,Netcat Remote Code Execution in Container,busybox:latest,privileged-deployment-574878fc9d-hz298,1
+WARNING,Netcat Remote Code Execution in Container,busybox:latest,privileged-deployment-574878fc9d-x895l,1
+WARNING,Netcat Remote Code Execution in Container,busybox:latest,sensitive-mount-deployment-7fd6f8467-4v7v7,1
+WARNING,Netcat Remote Code Execution in Container,busybox:latest,sensitive-mount-deployment-7fd6f8467-gf29l,1
+WARNING,Netcat Remote Code Execution in Container,busybox:latest,privileged-deployment-574878fc9d-fhjrl,1
+WARNING,Netcat Remote Code Execution in Container,busybox:latest,sensitive-mount-deployment-67b4f8d866-lc9w9,1
+ERROR,Container Drift Detected (chmod),busybox:latest,privileged-deployment-574878fc9d-468h6,1
+ERROR,Container Drift Detected (chmod),busybox:latest,sensitive-mount-deployment-7fd6f8467-hv97r,1
+ERROR,Container Drift Detected (chmod),busybox:latest,privileged-deployment-574878fc9d-wh9df,1
+ERROR,Container Drift Detected (chmod),busybox:latest,sensitive-mount-deployment-7fd6f8467-4l476,1
+ERROR,Container Drift Detected (chmod),busybox:latest,privileged-deployment-574878fc9d-qlxg9,1
+ERROR,Container Drift Detected (chmod),busybox:latest,privileged-deployment-8849cf79f-ptwdn,1
+ERROR,Container Drift Detected (chmod),busybox:latest,privileged-deployment-574878fc9d-mwc44,1
+ERROR,Container Drift Detected (chmod),busybox:latest,privileged-deployment-574878fc9d-tqm2n,1
+ERROR,Container Drift Detected (chmod),busybox:latest,sensitive-mount-deployment-7fd6f8467-thv7d,1
+ERROR,Container Drift Detected (chmod),busybox:latest,privileged-deployment-574878fc9d-crk69,1
+ERROR,Container Drift Detected (chmod),busybox:latest,sensitive-mount-deployment-7fd6f8467-62qpk,1
+ERROR,Container Drift Detected (chmod),busybox:latest,privileged-deployment-574878fc9d-w7tf7,1
+ERROR,Container Drift Detected (chmod),busybox:latest,privileged-deployment-574878fc9d-x2sqz,1
+ERROR,Container Drift Detected (chmod),busybox:latest,privileged-deployment-574878fc9d-f8rjh,1
+ERROR,Container Drift Detected (chmod),busybox:latest,sensitive-mount-deployment-7fd6f8467-bznsv,1
+ERROR,Container Drift Detected (chmod),busybox:latest,sensitive-mount-deployment-7fd6f8467-sml2q,1
+ERROR,Container Drift Detected (chmod),busybox:latest,privileged-deployment-574878fc9d-ghg9g,1
+ERROR,Container Drift Detected (chmod),busybox:latest,sensitive-mount-deployment-7fd6f8467-k6jd7,1
+ERROR,Container Drift Detected (chmod),busybox:latest,sensitive-mount-deployment-7fd6f8467-tkrgf,1
+ERROR,Container Drift Detected (chmod),busybox:latest,sensitive-mount-deployment-7fd6f8467-vwl74,1
+ERROR,Container Drift Detected (chmod),busybox:latest,privileged-deployment-574878fc9d-tjbvw,1
+ERROR,Container Drift Detected (chmod),busybox:latest,sensitive-mount-deployment-7fd6f8467-ztnml,1
+ERROR,Container Drift Detected (chmod),busybox:latest,sensitive-mount-deployment-7fd6f8467-rfjpv,1
+ERROR,Container Drift Detected (chmod),busybox:latest,sensitive-mount-deployment-7fd6f8467-t5xqp,1
+ERROR,Container Drift Detected (chmod),busybox:latest,privileged-deployment-574878fc9d-tffnk,1
+ERROR,Container Drift Detected (chmod),busybox:latest,privileged-deployment-574878fc9d-5p8bh,1
+ERROR,Container Drift Detected (chmod),busybox:latest,privileged-deployment-574878fc9d-pw2jv,1
+ERROR,Container Drift Detected (chmod),busybox:latest,sensitive-mount-deployment-7fd6f8467-bq4dj,1
+ERROR,Container Drift Detected (chmod),busybox:latest,sensitive-mount-deployment-7fd6f8467-6bq9k,1
+ERROR,Container Drift Detected (chmod),busybox:latest,sensitive-mount-deployment-7fd6f8467-v2kjd,1
+ERROR,Container Drift Detected (open+create),busybox:latest,privileged-deployment-574878fc9d-r7hwl,1
+ERROR,Container Drift Detected (open+create),busybox:latest,sensitive-mount-deployment-7fd6f8467-nfvmf,1
+ERROR,Container Drift Detected (open+create),busybox:latest,privileged-deployment-574878fc9d-ztnwk,1
+ERROR,Container Drift Detected (open+create),busybox:latest,sensitive-mount-deployment-7fd6f8467-cw6tm,1
+ERROR,Container Drift Detected (open+create),busybox:latest,privileged-deployment-574878fc9d-kztv7,1
+ERROR,Container Drift Detected (open+create),busybox:latest,sensitive-mount-deployment-7fd6f8467-b9z7g,1
+ERROR,Container Drift Detected (open+create),busybox:latest,privileged-deployment-574878fc9d-2pwx9,1
+ERROR,Container Drift Detected (open+create),busybox:latest,privileged-deployment-574878fc9d-zx2cl,1
+ERROR,Container Drift Detected (open+create),busybox:latest,sensitive-mount-deployment-7fd6f8467-t5xqp,1
+ERROR,Container Drift Detected (open+create),busybox:latest,privileged-deployment-574878fc9d-kwjz9,1
+ERROR,Container Drift Detected (open+create),busybox:latest,sensitive-mount-deployment-7fd6f8467-5sbb9,1
+ERROR,Container Drift Detected (open+create),busybox:latest,sensitive-mount-deployment-7fd6f8467-sp5nk,1
+ERROR,Container Drift Detected (open+create),busybox:latest,privileged-deployment-574878fc9d-8k887,1
+ERROR,Container Drift Detected (open+create),busybox:latest,sensitive-mount-deployment-7fd6f8467-7hdz7,1
+ERROR,Container Drift Detected (open+create),busybox:latest,sensitive-mount-deployment-7fd6f8467-7tvh8,1
+ERROR,Container Drift Detected (open+create),busybox:latest,privileged-deployment-574878fc9d-njrgv,1
+ERROR,Container Drift Detected (open+create),busybox:latest,privileged-deployment-574878fc9d-9crvk,1
+ERROR,Container Drift Detected (open+create),busybox:latest,sensitive-mount-deployment-7fd6f8467-49htr,1
+ERROR,Container Drift Detected (open+create),busybox:latest,sensitive-mount-deployment-7fd6f8467-nbtdg,1
+ERROR,Container Drift Detected (open+create),busybox:latest,privileged-deployment-574878fc9d-nxmnz,1
+ERROR,Container Drift Detected (open+create),busybox:latest,sensitive-mount-deployment-7fd6f8467-bjc5d,1
+ERROR,Container Drift Detected (open+create),busybox:latest,sensitive-mount-deployment-7fd6f8467-dtsfv,1
+ERROR,Container Drift Detected (open+create),busybox:latest,sensitive-mount-deployment-7fd6f8467-vsbxp,1
+ERROR,Container Drift Detected (open+create),busybox:latest,privileged-deployment-574878fc9d-7q25p,1
+ERROR,Container Drift Detected (open+create),busybox:latest,sensitive-mount-deployment-7fd6f8467-mzzdk,1
+ERROR,Container Drift Detected (open+create),busybox:latest,privileged-deployment-574878fc9d-8l9p7,1
+ERROR,Container Drift Detected (open+create),busybox:latest,sensitive-mount-deployment-7fd6f8467-g6rxw,1
+ERROR,Container Drift Detected (open+create),busybox:latest,sensitive-mount-deployment-7fd6f8467-s7xlh,1
+ERROR,Container Drift Detected (open+create),busybox:latest,privileged-deployment-574878fc9d-xkz9b,1
+ERROR,Container Drift Detected (open+create),busybox:latest,privileged-deployment-574878fc9d-chf9h,1
+ERROR,Container Drift Detected (open+create),busybox:latest,sensitive-mount-deployment-7fd6f8467-ddhhx,1
+ERROR,Container Drift Detected (open+create),busybox:latest,privileged-deployment-574878fc9d-cpnch,1
+ERROR,Container Drift Detected (open+create),busybox:latest,privileged-deployment-574878fc9d-w8j8w,1
+ERROR,Launch Package Management Process in Container,busybox:latest,sensitive-mount-deployment-7fd6f8467-hhkfr,1
+ERROR,Launch Package Management Process in Container,busybox:latest,sensitive-mount-deployment-7fd6f8467-sl2cd,1
+ERROR,Launch Package Management Process in Container,busybox:latest,privileged-deployment-574878fc9d-smbs5,1
+ERROR,Launch Package Management Process in Container,busybox:latest,privileged-deployment-574878fc9d-8zkbt,1
+ERROR,Launch Package Management Process in Container,busybox:latest,privileged-deployment-574878fc9d-wqpj9,1
+ERROR,Launch Package Management Process in Container,busybox:latest,sensitive-mount-deployment-7fd6f8467-8jfmk,1
+ERROR,Launch Package Management Process in Container,busybox:latest,sensitive-mount-deployment-7fd6f8467-c6vjf,1
+ERROR,Launch Package Management Process in Container,busybox:latest,privileged-deployment-574878fc9d-cvr6d,1
+ERROR,Launch Package Management Process in Container,busybox:latest,privileged-deployment-574878fc9d-gdbck,1
+ERROR,Launch Package Management Process in Container,busybox:latest,privileged-deployment-574878fc9d-5r542,1
+ERROR,Launch Package Management Process in Container,busybox:latest,privileged-deployment-574878fc9d-22s6w,1
+ERROR,Launch Package Management Process in Container,busybox:latest,sensitive-mount-deployment-7fd6f8467-5s9qp,1
+ERROR,Launch Package Management Process in Container,busybox:latest,sensitive-mount-deployment-7fd6f8467-6hzn7,1
+ERROR,Launch Package Management Process in Container,busybox:latest,privileged-deployment-574878fc9d-7kg8n,1
+ERROR,Launch Package Management Process in Container,busybox:latest,privileged-deployment-574878fc9d-7k7v9,1
+ERROR,Launch Package Management Process in Container,busybox:latest,privileged-deployment-574878fc9d-sqxnb,1
+ERROR,Launch Package Management Process in Container,busybox:latest,privileged-deployment-574878fc9d-plhbv,1
+ERROR,Launch Package Management Process in Container,busybox:latest,privileged-deployment-574878fc9d-7rqwl,1
+ERROR,Launch Package Management Process in Container,busybox:latest,privileged-deployment-574878fc9d-wdcpc,1
+ERROR,Launch Package Management Process in Container,busybox:latest,sensitive-mount-deployment-7fd6f8467-7brch,1
+ERROR,Launch Package Management Process in Container,busybox:latest,sensitive-mount-deployment-67b4f8d866-lpghq,1
+ERROR,Launch Package Management Process in Container,busybox:latest,privileged-deployment-574878fc9d-jlgr8,1
+ERROR,Launch Package Management Process in Container,busybox:latest,sensitive-mount-deployment-7fd6f8467-2tx5q,1
+ERROR,Launch Package Management Process in Container,busybox:latest,privileged-deployment-574878fc9d-v4sqt,1
+CRITICAL,Sudo Potential Privilege Escalation,busybox:latest,sensitive-mount-deployment-7fd6f8467-6h7d5,1
+CRITICAL,Sudo Potential Privilege Escalation,busybox:latest,sensitive-mount-deployment-7fd6f8467-5jjns,1
+CRITICAL,Sudo Potential Privilege Escalation,busybox:latest,privileged-deployment-574878fc9d-c6cjs,1
+CRITICAL,Sudo Potential Privilege Escalation,busybox:latest,privileged-deployment-574878fc9d-h7sc6,1
+CRITICAL,Sudo Potential Privilege Escalation,busybox:latest,sensitive-mount-deployment-7fd6f8467-f8snn,1
+CRITICAL,Sudo Potential Privilege Escalation,busybox:latest,sensitive-mount-deployment-7fd6f8467-ndw67,1
+CRITICAL,Sudo Potential Privilege Escalation,busybox:latest,sensitive-mount-deployment-7fd6f8467-pfdt5,1
+CRITICAL,Sudo Potential Privilege Escalation,busybox:latest,sensitive-mount-deployment-7fd6f8467-dmrlx,1
+CRITICAL,Sudo Potential Privilege Escalation,busybox:latest,privileged-deployment-574878fc9d-j5gv5,1
+CRITICAL,Sudo Potential Privilege Escalation,busybox:latest,sensitive-mount-deployment-7fd6f8467-vkwvh,1
+CRITICAL,Sudo Potential Privilege Escalation,busybox:latest,privileged-deployment-574878fc9d-sl52j,1
+CRITICAL,Sudo Potential Privilege Escalation,busybox:latest,sensitive-mount-deployment-7fd6f8467-wpf7q,1
+CRITICAL,Sudo Potential Privilege Escalation,busybox:latest,privileged-deployment-574878fc9d-gxwfv,1
+CRITICAL,Sudo Potential Privilege Escalation,busybox:latest,sensitive-mount-deployment-7fd6f8467-h24dd,1
+CRITICAL,Sudo Potential Privilege Escalation,busybox:latest,privileged-deployment-574878fc9d-dnbld,1
+CRITICAL,Sudo Potential Privilege Escalation,busybox:latest,sensitive-mount-deployment-7fd6f8467-thzsl,1
+CRITICAL,Sudo Potential Privilege Escalation,busybox:latest,sensitive-mount-deployment-7fd6f8467-s5z74,1
+CRITICAL,Sudo Potential Privilege Escalation,busybox:latest,sensitive-mount-deployment-7fd6f8467-z9sw9,1
+CRITICAL,Sudo Potential Privilege Escalation,busybox:latest,sensitive-mount-deployment-7fd6f8467-xbv89,1
+CRITICAL,Sudo Potential Privilege Escalation,busybox:latest,privileged-deployment-574878fc9d-ctt68,1
+CRITICAL,Sudo Potential Privilege Escalation,busybox:latest,sensitive-mount-deployment-7fd6f8467-vzbgt,1
+CRITICAL,Sudo Potential Privilege Escalation,busybox:latest,privileged-deployment-574878fc9d-ggnth,1
+CRITICAL,Sudo Potential Privilege Escalation,busybox:latest,sensitive-mount-deployment-7fd6f8467-fvstm,1
+CRITICAL,Sudo Potential Privilege Escalation,busybox:latest,privileged-deployment-574878fc9d-42dws,1
+CRITICAL,Sudo Potential Privilege Escalation,busybox:latest,privileged-deployment-574878fc9d-bmfb7,1
+CRITICAL,Sudo Potential Privilege Escalation,busybox:latest,privileged-deployment-574878fc9d-sr2mb,1
+CRITICAL,Sudo Potential Privilege Escalation,busybox:latest,sensitive-mount-deployment-7fd6f8467-ljpq9,1
+CRITICAL,Sudo Potential Privilege Escalation,busybox:latest,privileged-deployment-574878fc9d-tq9kv,1
+CRITICAL,Sudo Potential Privilege Escalation,busybox:latest,sensitive-mount-deployment-7fd6f8467-ctmfb,1
+CRITICAL,Sudo Potential Privilege Escalation,busybox:latest,sensitive-mount-deployment-7fd6f8467-dzmrl,1
+CRITICAL,Sudo Potential Privilege Escalation,busybox:latest,sensitive-mount-deployment-7fd6f8467-xljkv,1
+CRITICAL,Sudo Potential Privilege Escalation,busybox:latest,privileged-deployment-574878fc9d-dg2lc,1
+CRITICAL,Sudo Potential Privilege Escalation,busybox:latest,privileged-deployment-574878fc9d-dk6dh,1
+CRITICAL,Sudo Potential Privilege Escalation,busybox:latest,sensitive-mount-deployment-7fd6f8467-gznnp,1
+CRITICAL,Sudo Potential Privilege Escalation,busybox:latest,sensitive-mount-deployment-7fd6f8467-8hqlb,1
+CRITICAL,Sudo Potential Privilege Escalation,busybox:latest,sensitive-mount-deployment-7fd6f8467-cw5kj,1
+CRITICAL,Sudo Potential Privilege Escalation,busybox:latest,privileged-deployment-8849cf79f-xtgn4,1
+ERROR,Mkdir binary dirs,busybox:latest,privileged-deployment-574878fc9d-pdmwg,1
+ERROR,Mkdir binary dirs,busybox:latest,sensitive-mount-deployment-7fd6f8467-4qrvw,1
+ERROR,Mkdir binary dirs,busybox:latest,privileged-deployment-574878fc9d-t2pvv,1
+ERROR,Mkdir binary dirs,busybox:latest,privileged-deployment-574878fc9d-mdm58,1
+ERROR,Mkdir binary dirs,busybox:latest,sensitive-mount-deployment-7fd6f8467-xt7tz,1
+ERROR,Mkdir binary dirs,busybox:latest,sensitive-mount-deployment-7fd6f8467-m8z2x,1
+ERROR,Mkdir binary dirs,busybox:latest,privileged-deployment-574878fc9d-k4z5k,1
+ERROR,Mkdir binary dirs,busybox:latest,sensitive-mount-deployment-7fd6f8467-792xs,1
+ERROR,Mkdir binary dirs,busybox:latest,privileged-deployment-574878fc9d-96sn4,1
+ERROR,Mkdir binary dirs,busybox:latest,privileged-deployment-574878fc9d-ckzrk,1
+ERROR,Mkdir binary dirs,busybox:latest,privileged-deployment-574878fc9d-4j262,1
+ERROR,Mkdir binary dirs,busybox:latest,sensitive-mount-deployment-7fd6f8467-jszl9,1
+ERROR,Mkdir binary dirs,busybox:latest,privileged-deployment-574878fc9d-v8pmp,1
+ERROR,Mkdir binary dirs,busybox:latest,sensitive-mount-deployment-7fd6f8467-qcrvp,1
+ERROR,Mkdir binary dirs,busybox:latest,sensitive-mount-deployment-7fd6f8467-s7xlh,1
+ERROR,Mkdir binary dirs,busybox:latest,sensitive-mount-deployment-7fd6f8467-8rl9n,1
+ERROR,Mkdir binary dirs,busybox:latest,sensitive-mount-deployment-7fd6f8467-jdtz2,1
+ERROR,Mkdir binary dirs,busybox:latest,sensitive-mount-deployment-67b4f8d866-cjlgn,1
+ERROR,Mkdir binary dirs,busybox:latest,sensitive-mount-deployment-7fd6f8467-7f2wr,1
+ERROR,Mkdir binary dirs,busybox:latest,privileged-deployment-574878fc9d-mvzch,1
+ERROR,Mkdir binary dirs,busybox:latest,sensitive-mount-deployment-7fd6f8467-lf9bx,1
+ERROR,Mkdir binary dirs,busybox:latest,sensitive-mount-deployment-7fd6f8467-dzc2z,1
+ERROR,Mkdir binary dirs,busybox:latest,privileged-deployment-574878fc9d-2xxgz,1
+ERROR,Mkdir binary dirs,busybox:latest,privileged-deployment-574878fc9d-v65h8,1
+ERROR,Mkdir binary dirs,busybox:latest,privileged-deployment-574878fc9d-8nw56,1
+ERROR,Mkdir binary dirs,busybox:latest,sensitive-mount-deployment-7fd6f8467-74tvs,1
+ERROR,Mkdir binary dirs,busybox:latest,privileged-deployment-574878fc9d-ngh9g,1
+ERROR,Mkdir binary dirs,busybox:latest,privileged-deployment-574878fc9d-zx25j,1
+ERROR,Mkdir binary dirs,busybox:latest,privileged-deployment-574878fc9d-6zd2t,1
+ERROR,Mkdir binary dirs,busybox:latest,sensitive-mount-deployment-7fd6f8467-lwjcv,1
+ERROR,Modify binary dirs,busybox:latest,privileged-deployment-574878fc9d-wwkp6,1
+ERROR,Modify binary dirs,busybox:latest,privileged-deployment-8849cf79f-tzbv6,1
+ERROR,Modify binary dirs,busybox:latest,privileged-deployment-574878fc9d-6j2rn,1
+ERROR,Modify binary dirs,busybox:latest,sensitive-mount-deployment-7fd6f8467-rtjq6,1
+ERROR,Modify binary dirs,busybox:latest,sensitive-mount-deployment-67b4f8d866-w64tb,1
+ERROR,Modify binary dirs,busybox:latest,privileged-deployment-574878fc9d-7kf9m,1
+ERROR,Modify binary dirs,busybox:latest,privileged-deployment-574878fc9d-sl52j,1
+ERROR,Modify binary dirs,busybox:latest,privileged-deployment-574878fc9d-rxbfm,1
+ERROR,Modify binary dirs,busybox:latest,sensitive-mount-deployment-7fd6f8467-ktbxj,1
+ERROR,Modify binary dirs,busybox:latest,sensitive-mount-deployment-7fd6f8467-hjwkm,1
+ERROR,Modify binary dirs,busybox:latest,privileged-deployment-574878fc9d-gc5cm,1
+ERROR,Modify binary dirs,busybox:latest,privileged-deployment-574878fc9d-vck9q,1
+ERROR,Modify binary dirs,busybox:latest,sensitive-mount-deployment-67b4f8d866-xtp6m,1
+ERROR,Modify binary dirs,busybox:latest,sensitive-mount-deployment-7fd6f8467-l62gh,1
+ERROR,Modify binary dirs,busybox:latest,privileged-deployment-574878fc9d-w75bl,1
+ERROR,Modify binary dirs,busybox:latest,sensitive-mount-deployment-7fd6f8467-c6xh7,1
+ERROR,Modify binary dirs,busybox:latest,sensitive-mount-deployment-7fd6f8467-4p6jb,1
+ERROR,Modify binary dirs,busybox:latest,privileged-deployment-574878fc9d-bmx4w,1
+ERROR,Modify binary dirs,busybox:latest,sensitive-mount-deployment-7fd6f8467-klvkz,1
+ERROR,Modify binary dirs,busybox:latest,sensitive-mount-deployment-7fd6f8467-8p47d,1
+ERROR,Modify binary dirs,falcosecurity/event-generator,falco-event-generator-f7rlt,1
+ERROR,Modify binary dirs,busybox:latest,sensitive-mount-deployment-7fd6f8467-pwvt4,1
+ERROR,Modify binary dirs,busybox:latest,privileged-deployment-574878fc9d-4jgts,1
+WARNING,Read sensitive file trusted after startup,busybox:latest,privileged-deployment-574878fc9d-hdspq,1
+WARNING,Read sensitive file trusted after startup,busybox:latest,sensitive-mount-deployment-7fd6f8467-pdwlr,1
+WARNING,Read sensitive file trusted after startup,busybox:latest,privileged-deployment-574878fc9d-l8g9h,1
+WARNING,Read sensitive file trusted after startup,busybox:latest,sensitive-mount-deployment-67b4f8d866-k9vgw,1
+WARNING,Read sensitive file trusted after startup,busybox:latest,sensitive-mount-deployment-7fd6f8467-j5szx,1
+WARNING,Read sensitive file trusted after startup,busybox:latest,privileged-deployment-574878fc9d-9cmhq,1
+WARNING,Read sensitive file trusted after startup,busybox:latest,privileged-deployment-574878fc9d-52hzw,1
+WARNING,Read sensitive file trusted after startup,busybox:latest,privileged-deployment-574878fc9d-pvvx4,1
+WARNING,Read sensitive file trusted after startup,busybox:latest,privileged-deployment-574878fc9d-rr6hw,1
+WARNING,Read sensitive file trusted after startup,busybox:latest,sensitive-mount-deployment-7fd6f8467-w6lzz,1
+WARNING,Read sensitive file trusted after startup,busybox:latest,privileged-deployment-574878fc9d-g8g9s,1
+WARNING,Read sensitive file trusted after startup,busybox:latest,privileged-deployment-574878fc9d-vwqh4,1
+WARNING,Read sensitive file trusted after startup,busybox:latest,privileged-deployment-574878fc9d-r42m6,1
+WARNING,Read sensitive file trusted after startup,busybox:latest,sensitive-mount-deployment-67b4f8d866-dswvz,1
+WARNING,Read sensitive file trusted after startup,busybox:latest,privileged-deployment-574878fc9d-b4p7d,1
+WARNING,Read sensitive file trusted after startup,busybox:latest,privileged-deployment-574878fc9d-s92qr,1
+WARNING,Read sensitive file trusted after startup,busybox:latest,privileged-deployment-574878fc9d-dj9gz,1
+WARNING,Read sensitive file trusted after startup,busybox:latest,sensitive-mount-deployment-67b4f8d866-xfwrp,1
+WARNING,Read sensitive file trusted after startup,busybox:latest,sensitive-mount-deployment-7fd6f8467-h56xm,1
+WARNING,Read sensitive file trusted after startup,busybox:latest,privileged-deployment-574878fc9d-gh99g,1
+WARNING,Read sensitive file trusted after startup,busybox:latest,sensitive-mount-deployment-7fd6f8467-2cnxz,1
+WARNING,Read sensitive file trusted after startup,busybox:latest,sensitive-mount-deployment-7fd6f8467-bz7cm,1
+WARNING,Read sensitive file trusted after startup,busybox:latest,privileged-deployment-574878fc9d-4mc69,1
+WARNING,Read sensitive file untrusted,busybox:latest,privileged-deployment-574878fc9d-dvcq6,1
+WARNING,Read sensitive file untrusted,busybox:latest,privileged-deployment-574878fc9d-8wd6x,1
+WARNING,Read sensitive file untrusted,busybox:latest,privileged-deployment-574878fc9d-m2pg4,1
+WARNING,Read sensitive file untrusted,busybox:latest,sensitive-mount-deployment-7fd6f8467-hgx8t,1
+WARNING,Read sensitive file untrusted,busybox:latest,privileged-deployment-574878fc9d-749dn,1
+WARNING,Read sensitive file untrusted,busybox:latest,sensitive-mount-deployment-67b4f8d866-xxkz5,1
+WARNING,Read sensitive file untrusted,busybox:latest,privileged-deployment-574878fc9d-dknnp,1
+WARNING,Read sensitive file untrusted,busybox:latest,sensitive-mount-deployment-7fd6f8467-dzmrl,1
+WARNING,Read sensitive file untrusted,busybox:latest,sensitive-mount-deployment-7fd6f8467-9b6xf,1
+WARNING,Read sensitive file untrusted,busybox:latest,privileged-deployment-574878fc9d-xv8x5,1
+WARNING,Read sensitive file untrusted,busybox:latest,privileged-deployment-574878fc9d-z249m,1
+WARNING,Read sensitive file untrusted,busybox:latest,privileged-deployment-574878fc9d-96wph,1
+WARNING,Read sensitive file untrusted,busybox:latest,privileged-deployment-574878fc9d-psxxr,1
+WARNING,Read sensitive file untrusted,busybox:latest,sensitive-mount-deployment-7fd6f8467-2qcsp,1
+WARNING,Read sensitive file untrusted,busybox:latest,sensitive-mount-deployment-7fd6f8467-2f7fs,1
+WARNING,Read sensitive file untrusted,busybox:latest,sensitive-mount-deployment-7fd6f8467-v2gxg,1
+WARNING,Read sensitive file untrusted,busybox:latest,privileged-deployment-574878fc9d-n6hzq,1
+WARNING,Read sensitive file untrusted,busybox:latest,privileged-deployment-574878fc9d-5jk5w,1
+WARNING,Read sensitive file untrusted,busybox:latest,sensitive-mount-deployment-7fd6f8467-5qn5g,1
+WARNING,Read sensitive file untrusted,busybox:latest,sensitive-mount-deployment-7fd6f8467-flszn,1
+WARNING,Read sensitive file untrusted,busybox:latest,privileged-deployment-574878fc9d-lgqj8,1
+WARNING,Read sensitive file untrusted,busybox:latest,sensitive-mount-deployment-7fd6f8467-xwhrg,1
+WARNING,Read sensitive file untrusted,busybox:latest,sensitive-mount-deployment-7fd6f8467-vhhp6,1
+WARNING,Read sensitive file untrusted,busybox:latest,sensitive-mount-deployment-7fd6f8467-chg9l,1
+WARNING,Read sensitive file untrusted,busybox:latest,privileged-deployment-574878fc9d-mbwxn,1
+WARNING,Read sensitive file untrusted,busybox:latest,privileged-deployment-574878fc9d-chpcp,1
+WARNING,Read sensitive file untrusted,busybox:latest,privileged-deployment-574878fc9d-wcsz6,1
+WARNING,Read sensitive file untrusted,busybox:latest,sensitive-mount-deployment-7fd6f8467-kz87z,1
+WARNING,Read sensitive file untrusted,busybox:latest,privileged-deployment-574878fc9d-7xcjm,1
+WARNING,Read sensitive file untrusted,busybox:latest,privileged-deployment-574878fc9d-bxz4v,1
+WARNING,Read sensitive file untrusted,busybox:latest,sensitive-mount-deployment-7fd6f8467-7fwmk,1
+WARNING,Read sensitive file untrusted,busybox:latest,privileged-deployment-574878fc9d-5jv2l,1
+WARNING,Read sensitive file untrusted,busybox:latest,sensitive-mount-deployment-7fd6f8467-pczdq,1
+ERROR,Write below etc,busybox:latest,privileged-deployment-574878fc9d-7qts4,1
+ERROR,Write below etc,busybox:latest,privileged-deployment-574878fc9d-8kvqr,1
+ERROR,Write below etc,busybox:latest,privileged-deployment-574878fc9d-mfw9w,1
+ERROR,Write below etc,busybox:latest,privileged-deployment-574878fc9d-cq2bd,1
+ERROR,Write below etc,busybox:latest,privileged-deployment-574878fc9d-d2vsp,1
+ERROR,Write below etc,busybox:latest,sensitive-mount-deployment-7fd6f8467-l59b4,1
+ERROR,Write below etc,busybox:latest,privileged-deployment-574878fc9d-l5vgr,1
+ERROR,Write below etc,busybox:latest,sensitive-mount-deployment-7fd6f8467-zjzgb,1
+ERROR,Write below etc,busybox:latest,sensitive-mount-deployment-7fd6f8467-lj5ts,1
+ERROR,Write below etc,busybox:latest,sensitive-mount-deployment-7fd6f8467-trr58,1
+ERROR,Write below etc,busybox:latest,sensitive-mount-deployment-7fd6f8467-9trbs,1
+ERROR,Write below etc,busybox:latest,sensitive-mount-deployment-67b4f8d866-4wpcg,1
+ERROR,Write below etc,busybox:latest,privileged-deployment-574878fc9d-p26q5,1
+ERROR,Write below etc,busybox:latest,privileged-deployment-574878fc9d-k5khb,1
+ERROR,Write below etc,busybox:latest,sensitive-mount-deployment-7fd6f8467-tkrtr,1
+ERROR,Write below etc,busybox:latest,sensitive-mount-deployment-7fd6f8467-v2p9j,1
+ERROR,Write below etc,busybox:latest,sensitive-mount-deployment-7fd6f8467-d5tm8,1
+ERROR,Write below etc,busybox:latest,sensitive-mount-deployment-7fd6f8467-pwx24,1
+ERROR,Write below etc,busybox:latest,sensitive-mount-deployment-7fd6f8467-kwl4r,1
+ERROR,Write below etc,busybox:latest,sensitive-mount-deployment-7fd6f8467-t5px5,1
+ERROR,Write below etc,busybox:latest,privileged-deployment-574878fc9d-zd8xm,1
+ERROR,Write below etc,busybox:latest,privileged-deployment-574878fc9d-fvztg,1
+ERROR,Write below etc,busybox:latest,sensitive-mount-deployment-7fd6f8467-b5qqt,1
+ERROR,Write below etc,busybox:latest,privileged-deployment-574878fc9d-c28wg,1
+ERROR,Write below etc,busybox:latest,sensitive-mount-deployment-67b4f8d866-2q7rm,1
+ERROR,Write below etc,busybox:latest,sensitive-mount-deployment-7fd6f8467-k8jv6,1
+ERROR,Write below etc,busybox:latest,sensitive-mount-deployment-7fd6f8467-jvz5x,1
+ERROR,Write below etc,busybox:latest,privileged-deployment-574878fc9d-dp965,1
+ERROR,Write below etc,falcosecurity/falco,falco-jdbjh,1
+ERROR,Write below etc,busybox:latest,sensitive-mount-deployment-7fd6f8467-rg9hn,1
+ERROR,Write below etc,busybox:latest,sensitive-mount-deployment-7fd6f8467-2cpq7,1
+ERROR,Write below etc,busybox:latest,sensitive-mount-deployment-7fd6f8467-dbc9c,1
+ERROR,Write below etc,busybox:latest,privileged-deployment-574878fc9d-v7szm,1
+ERROR,Write below etc,busybox:latest,privileged-deployment-574878fc9d-9n448,1
+ERROR,Write below etc,busybox:latest,sensitive-mount-deployment-7fd6f8467-x9bc4,1
+ERROR,Write below etc,busybox:latest,privileged-deployment-574878fc9d-zzbw9,1
+ERROR,Write below etc,busybox:latest,sensitive-mount-deployment-7fd6f8467-92mfg,1
+ERROR,Write below etc,busybox:latest,privileged-deployment-574878fc9d-njq78,1
+ERROR,Write below etc,busybox:latest,privileged-deployment-574878fc9d-k9fkz,1
+ERROR,Write below etc,busybox:latest,sensitive-mount-deployment-7fd6f8467-jn2jm,1
+ERROR,Write below etc,busybox:latest,privileged-deployment-574878fc9d-vjbvs,1
+ERROR,Write below etc,busybox:latest,privileged-deployment-574878fc9d-f2llt,1
+ERROR,Write below binary dir,busybox:latest,privileged-deployment-574878fc9d-qcnqb,1
+ERROR,Write below binary dir,busybox:latest,sensitive-mount-deployment-7fd6f8467-ls2gd,1
+ERROR,Write below binary dir,busybox:latest,privileged-deployment-574878fc9d-qpbcv,1
+ERROR,Write below binary dir,busybox:latest,sensitive-mount-deployment-7fd6f8467-bx6g5,1
+ERROR,Write below binary dir,busybox:latest,sensitive-mount-deployment-7fd6f8467-tn9fb,1
+ERROR,Write below binary dir,busybox:latest,privileged-deployment-574878fc9d-z9wlw,1
+ERROR,Write below binary dir,busybox:latest,privileged-deployment-574878fc9d-v22fw,1
+ERROR,Write below binary dir,busybox:latest,privileged-deployment-574878fc9d-j2fwf,1
+ERROR,Write below binary dir,busybox:latest,sensitive-mount-deployment-67b4f8d866-7d5q6,1
+ERROR,Write below binary dir,busybox:latest,sensitive-mount-deployment-7fd6f8467-rssqr,1
+ERROR,Write below binary dir,busybox:latest,sensitive-mount-deployment-7fd6f8467-g7dp6,1
+ERROR,Write below binary dir,busybox:latest,privileged-deployment-574878fc9d-pmmfc,1
+ERROR,Write below binary dir,busybox:latest,sensitive-mount-deployment-7fd6f8467-26hbl,1
+ERROR,Write below binary dir,busybox:latest,privileged-deployment-574878fc9d-4wjcp,1
+ERROR,Write below binary dir,busybox:latest,sensitive-mount-deployment-7fd6f8467-pzz7m,1
+ERROR,Write below binary dir,busybox:latest,sensitive-mount-deployment-7fd6f8467-x9xz5,1
+ERROR,Write below binary dir,busybox:latest,privileged-deployment-574878fc9d-fd7jb,1
+ERROR,Write below binary dir,busybox:latest,privileged-deployment-574878fc9d-586q7,1
+ERROR,Write below binary dir,busybox:latest,sensitive-mount-deployment-7fd6f8467-jhqms,1
+ERROR,Write below binary dir,busybox:latest,sensitive-mount-deployment-7fd6f8467-wkwlr,1
+ERROR,Write below binary dir,busybox:latest,privileged-deployment-574878fc9d-f2w54,1
+ERROR,Write below monitored dir,busybox:latest,privileged-deployment-574878fc9d-49j5k,1
+ERROR,Write below monitored dir,busybox:latest,sensitive-mount-deployment-7fd6f8467-8zr22,1
+ERROR,Write below monitored dir,busybox:latest,sensitive-mount-deployment-7fd6f8467-kqlmf,1
+ERROR,Write below monitored dir,busybox:latest,privileged-deployment-574878fc9d-gsgl8,1
+ERROR,Write below monitored dir,busybox:latest,privileged-deployment-574878fc9d-z5njz,1
+ERROR,Write below monitored dir,busybox:latest,privileged-deployment-574878fc9d-8crrf,1
+ERROR,Write below monitored dir,busybox:latest,privileged-deployment-574878fc9d-xt84c,1
+ERROR,Write below monitored dir,busybox:latest,privileged-deployment-574878fc9d-rlm2v,1
+ERROR,Write below monitored dir,busybox:latest,sensitive-mount-deployment-7fd6f8467-ddsnf,1
+ERROR,Write below monitored dir,busybox:latest,privileged-deployment-574878fc9d-b7vhb,1
+ERROR,Write below monitored dir,busybox:latest,privileged-deployment-574878fc9d-zc29n,1
+ERROR,Write below monitored dir,busybox:latest,privileged-deployment-574878fc9d-pgkn4,1
+ERROR,Write below monitored dir,busybox:latest,privileged-deployment-574878fc9d-rsvtl,1
+ERROR,Write below monitored dir,busybox:latest,privileged-deployment-574878fc9d-b28nq,1
+ERROR,Write below monitored dir,busybox:latest,sensitive-mount-deployment-7fd6f8467-6wkvj,1
+ERROR,Write below monitored dir,busybox:latest,privileged-deployment-574878fc9d-p5zsc,1
+ERROR,Write below monitored dir,busybox:latest,sensitive-mount-deployment-7fd6f8467-tb8zs,1
+ERROR,Write below monitored dir,busybox:latest,sensitive-mount-deployment-7fd6f8467-7qzw9,1
+ERROR,Write below monitored dir,busybox:latest,sensitive-mount-deployment-7fd6f8467-6brld,1
+ERROR,Write below monitored dir,busybox:latest,privileged-deployment-574878fc9d-gjh7k,1
+ERROR,Write below monitored dir,busybox:latest,sensitive-mount-deployment-7fd6f8467-46lk4,1
+ERROR,Write below monitored dir,busybox:latest,sensitive-mount-deployment-7fd6f8467-pg725,1
+ERROR,Write below monitored dir,busybox:latest,sensitive-mount-deployment-7fd6f8467-64hhr,1
+ERROR,Write below monitored dir,busybox:latest,sensitive-mount-deployment-7fd6f8467-zx482,1
+ERROR,Write below monitored dir,busybox:latest,sensitive-mount-deployment-7fd6f8467-n2fkg,1
+ERROR,Write below monitored dir,busybox:latest,sensitive-mount-deployment-7fd6f8467-lc98z,1
+ERROR,Write below monitored dir,busybox:latest,privileged-deployment-574878fc9d-scvx4,1
+ERROR,Write below monitored dir,busybox:latest,privileged-deployment-574878fc9d-fqwc4,1
+ERROR,Write below monitored dir,busybox:latest,sensitive-mount-deployment-67b4f8d866-cv4rm,1
+ERROR,Write below monitored dir,busybox:latest,privileged-deployment-574878fc9d-kh8kb,1
+ERROR,Write below monitored dir,busybox:latest,sensitive-mount-deployment-7fd6f8467-q4qlt,1
+ERROR,Write below monitored dir,busybox:latest,sensitive-mount-deployment-7fd6f8467-7fhnl,1
+ERROR,Write below root,busybox:latest,privileged-deployment-574878fc9d-bgq7b,1
+ERROR,Write below root,busybox:latest,privileged-deployment-574878fc9d-k8mz4,1
+ERROR,Write below root,busybox:latest,sensitive-mount-deployment-7fd6f8467-pfdt5,1
+ERROR,Write below root,busybox:latest,privileged-deployment-574878fc9d-9nlch,1
+ERROR,Write below root,busybox:latest,privileged-deployment-574878fc9d-2gnrm,1
+ERROR,Write below root,busybox:latest,privileged-deployment-574878fc9d-fb547,1
+ERROR,Write below root,busybox:latest,privileged-deployment-574878fc9d-wgcqw,1
+ERROR,Write below root,busybox:latest,privileged-deployment-574878fc9d-d5qft,1
+ERROR,Write below root,busybox:latest,privileged-deployment-574878fc9d-g2mll,1
+ERROR,Write below root,busybox:latest,privileged-deployment-574878fc9d-62565,1
+ERROR,Write below root,busybox:latest,privileged-deployment-574878fc9d-rrp7x,1
+ERROR,Write below root,busybox:latest,privileged-deployment-574878fc9d-jgd8l,1
+ERROR,Write below root,busybox:latest,sensitive-mount-deployment-7fd6f8467-kf7f7,1
+ERROR,Write below root,busybox:latest,privileged-deployment-574878fc9d-qpjzh,1
+ERROR,Write below root,busybox:latest,privileged-deployment-574878fc9d-vw77j,1
+ERROR,Write below root,busybox:latest,privileged-deployment-574878fc9d-5kvfr,1
+ERROR,Write below root,busybox:latest,privileged-deployment-574878fc9d-zf9gg,1
+ERROR,Write below root,busybox:latest,privileged-deployment-574878fc9d-k28hz,1
+ERROR,Write below root,busybox:latest,privileged-deployment-574878fc9d-5gx9c,1
+ERROR,Write below root,busybox:latest,privileged-deployment-574878fc9d-mgdfx,1
+ERROR,Write below root,busybox:latest,privileged-deployment-574878fc9d-4p789,1
+ERROR,Write below root,busybox:latest,sensitive-mount-deployment-7fd6f8467-5vs8f,1
+ERROR,Write below root,busybox:latest,privileged-deployment-574878fc9d-72q4d,1
+ERROR,Write below root,busybox:latest,sensitive-mount-deployment-7fd6f8467-7qbbb,1
+ERROR,Write below root,busybox:latest,sensitive-mount-deployment-7fd6f8467-2cpq7,1
+ERROR,Write below root,busybox:latest,privileged-deployment-574878fc9d-xbr6b,1
+ERROR,Write below root,busybox:latest,sensitive-mount-deployment-7fd6f8467-hdn95,1
+ERROR,Write below root,busybox:latest,sensitive-mount-deployment-7fd6f8467-5qrhz,1
+ERROR,Write below root,busybox:latest,sensitive-mount-deployment-7fd6f8467-2mw2j,1
+ERROR,Write below root,busybox:latest,privileged-deployment-8849cf79f-4w7v2,1
+ERROR,Write below root,busybox:latest,sensitive-mount-deployment-7fd6f8467-jzbj2,1
+ERROR,Write below root,busybox:latest,privileged-deployment-574878fc9d-ns8js,1
+ERROR,Write below root,busybox:latest,sensitive-mount-deployment-7fd6f8467-g25wh,1
+ERROR,Write below root,busybox:latest,privileged-deployment-574878fc9d-j86zh,1
+ERROR,Write below root,busybox:latest,sensitive-mount-deployment-7fd6f8467-j8hbc,1
+ERROR,Write below root,busybox:latest,sensitive-mount-deployment-7fd6f8467-4dnzm,1
+ERROR,Write below rpm database,busybox:latest,sensitive-mount-deployment-7fd6f8467-kpg9v,1
+ERROR,Write below rpm database,busybox:latest,sensitive-mount-deployment-7fd6f8467-cvpwp,1
+ERROR,Write below rpm database,busybox:latest,sensitive-mount-deployment-7fd6f8467-scg6g,1
+ERROR,Write below rpm database,busybox:latest,privileged-deployment-574878fc9d-kmpc5,1
+ERROR,Write below rpm database,busybox:latest,privileged-deployment-574878fc9d-v6gkj,1
+ERROR,Write below rpm database,busybox:latest,sensitive-mount-deployment-7fd6f8467-ws9ds,1
+ERROR,Write below rpm database,busybox:latest,privileged-deployment-574878fc9d-5zlv9,1
+ERROR,Write below rpm database,busybox:latest,privileged-deployment-8849cf79f-c77tg,1
+ERROR,Write below rpm database,busybox:latest,privileged-deployment-574878fc9d-292sw,1
+ERROR,Write below rpm database,busybox:latest,sensitive-mount-deployment-7fd6f8467-xrhzd,1
+ERROR,Write below rpm database,busybox:latest,privileged-deployment-574878fc9d-jx7b7,1
+ERROR,Write below rpm database,busybox:latest,sensitive-mount-deployment-7fd6f8467-bbv4w,1
+ERROR,Write below rpm database,busybox:latest,sensitive-mount-deployment-7fd6f8467-8cm6z,1
+ERROR,Write below rpm database,busybox:latest,sensitive-mount-deployment-7fd6f8467-qf6t5,1
+ERROR,Write below rpm database,busybox:latest,privileged-deployment-574878fc9d-qfcdp,1
+ERROR,Write below rpm database,busybox:latest,privileged-deployment-574878fc9d-rnhxd,1
+ERROR,Write below rpm database,busybox:latest,sensitive-mount-deployment-7fd6f8467-sgv7l,1
+ERROR,Write below rpm database,busybox:latest,privileged-deployment-574878fc9d-psxxr,1
+ERROR,Write below rpm database,busybox:latest,sensitive-mount-deployment-7fd6f8467-wfcbk,1
+ERROR,Write below rpm database,busybox:latest,sensitive-mount-deployment-7fd6f8467-jhp2p,1
+ERROR,Write below rpm database,busybox:latest,privileged-deployment-574878fc9d-mg2gh,1
+ERROR,Write below rpm database,busybox:latest,privileged-deployment-574878fc9d-bmns6,1
+ERROR,Write below rpm database,busybox:latest,sensitive-mount-deployment-67b4f8d866-mlhmk,1
+ERROR,Write below rpm database,busybox:latest,privileged-deployment-574878fc9d-9hv9t,1
+ERROR,Write below rpm database,busybox:latest,privileged-deployment-574878fc9d-mj9cr,1
+ERROR,Write below rpm database,busybox:latest,privileged-deployment-574878fc9d-qlxg9,1
+ERROR,Write below rpm database,busybox:latest,privileged-deployment-574878fc9d-dgkcc,1
+ERROR,Write below rpm database,busybox:latest,sensitive-mount-deployment-7fd6f8467-bzzb8,1
+ERROR,Write below rpm database,busybox:latest,sensitive-mount-deployment-7fd6f8467-qxkw6,1
+ERROR,Write below rpm database,busybox:latest,privileged-deployment-574878fc9d-htdrt,1
+ERROR,Write below rpm database,busybox:latest,privileged-deployment-574878fc9d-bncf8,1
+ERROR,Write below rpm database,busybox:latest,privileged-deployment-574878fc9d-27r2t,1
+ERROR,Write below rpm database,busybox:latest,privileged-deployment-574878fc9d-59hd7,1
+ERROR,Write below rpm database,busybox:latest,sensitive-mount-deployment-7fd6f8467-lfrmh,1
+ERROR,Write below rpm database,busybox:latest,privileged-deployment-574878fc9d-z8phs,1
+ERROR,Write below rpm database,busybox:latest,sensitive-mount-deployment-7fd6f8467-k6qwn,1
+ERROR,Write below rpm database,busybox:latest,sensitive-mount-deployment-67b4f8d866-8v724,1
+ERROR,Write below rpm database,busybox:latest,sensitive-mount-deployment-7fd6f8467-hggb4,1
+ERROR,Write below rpm database,busybox:latest,privileged-deployment-574878fc9d-79wp5,1
+ERROR,Write below rpm database,busybox:latest,sensitive-mount-deployment-7fd6f8467-mgw49,1
+ERROR,Create files below dev,busybox:latest,privileged-deployment-574878fc9d-bv7vd,1
+ERROR,Create files below dev,busybox:latest,sensitive-mount-deployment-7fd6f8467-27q4f,1
+ERROR,Create files below dev,busybox:latest,privileged-deployment-574878fc9d-vvqh4,1
+ERROR,Create files below dev,busybox:latest,privileged-deployment-574878fc9d-w56ck,1
+ERROR,Create files below dev,busybox:latest,sensitive-mount-deployment-7fd6f8467-hw46w,1
+ERROR,Create files below dev,busybox:latest,privileged-deployment-574878fc9d-x4q2p,1
+ERROR,Create files below dev,busybox:latest,privileged-deployment-574878fc9d-jkv8p,1
+ERROR,Create files below dev,busybox:latest,sensitive-mount-deployment-7fd6f8467-ds8js,1
+ERROR,Create files below dev,busybox:latest,sensitive-mount-deployment-7fd6f8467-j8lfq,1
+ERROR,Create files below dev,busybox:latest,sensitive-mount-deployment-7fd6f8467-9tjwv,1
+ERROR,Create files below dev,busybox:latest,sensitive-mount-deployment-7fd6f8467-jxcrf,1
+ERROR,Create files below dev,busybox:latest,sensitive-mount-deployment-7fd6f8467-gkznz,1
+ERROR,Create files below dev,busybox:latest,sensitive-mount-deployment-7fd6f8467-s6tck,1
+ERROR,Create files below dev,busybox:latest,privileged-deployment-574878fc9d-4p789,1
+ERROR,Create files below dev,busybox:latest,sensitive-mount-deployment-7fd6f8467-59swn,1
+ERROR,Create files below dev,busybox:latest,privileged-deployment-574878fc9d-wvzk8,1
+ERROR,Create files below dev,busybox:latest,privileged-deployment-574878fc9d-vrh2j,1
+ERROR,Create files below dev,busybox:latest,sensitive-mount-deployment-7fd6f8467-z7sv9,1
+ERROR,Create files below dev,busybox:latest,sensitive-mount-deployment-7fd6f8467-mz9ds,1
+ERROR,Create files below dev,busybox:latest,privileged-deployment-574878fc9d-6p2dp,1
+ERROR,Create files below dev,busybox:latest,privileged-deployment-574878fc9d-d5qft,1
+ERROR,Create files below dev,busybox:latest,sensitive-mount-deployment-7fd6f8467-vw46g,1
+ERROR,Create files below dev,busybox:latest,privileged-deployment-574878fc9d-fvvrq,1
+ERROR,Create files below dev,busybox:latest,privileged-deployment-574878fc9d-mfzp9,1
+ERROR,Create files below dev,busybox:latest,privileged-deployment-8849cf79f-c77tg,1
+ERROR,Create files below dev,busybox:latest,sensitive-mount-deployment-7fd6f8467-s9mk6,1
+ERROR,Create files below dev,busybox:latest,privileged-deployment-574878fc9d-nxmnz,1
+ERROR,Create files below dev,busybox:latest,privileged-deployment-574878fc9d-2m4qr,1
+ERROR,Create files below dev,busybox:latest,privileged-deployment-574878fc9d-8pcxz,1
+ERROR,Create files below dev,busybox:latest,privileged-deployment-574878fc9d-wgdkv,1
+ERROR,Create files below dev,busybox:latest,privileged-deployment-574878fc9d-pqwpb,1
+ERROR,Create files below dev,busybox:latest,privileged-deployment-574878fc9d-42dws,1
+ERROR,Create files below dev,busybox:latest,privileged-deployment-574878fc9d-6nxjl,1
+ERROR,Create files below dev,busybox:latest,sensitive-mount-deployment-7fd6f8467-zz4ls,1
+ERROR,Create files below dev,busybox:latest,sensitive-mount-deployment-7fd6f8467-n9bw5,1
+ERROR,Create files below dev,busybox:latest,privileged-deployment-574878fc9d-bvn58,1
+ERROR,Create files below dev,busybox:latest,privileged-deployment-574878fc9d-jwmhc,1
+ERROR,Create files below dev,busybox:latest,sensitive-mount-deployment-7fd6f8467-pwnxn,1
+ERROR,Create files below dev,busybox:latest,privileged-deployment-574878fc9d-b6cz5,1
+ERROR,Create files below dev,busybox:latest,privileged-deployment-574878fc9d-ckdxp,1
+ERROR,Create files below dev,busybox:latest,sensitive-mount-deployment-7fd6f8467-nht46,1
+ERROR,Read ssh information,<NA>,,1
+WARNING,Delete Bash History,,,1
+WARNING,Search Private Keys or Passwords,,,1
+WARNING,Search Private Keys or Passwords,<NA>,,1
+WARNING,Linux Kernel Module Injection Detected,<NA>,,1
+WARNING,Outbound Connection to C2 Servers,<NA>,,1
+ERROR,Container Drift Detected (chmod),,,1
+CRITICAL,Sudo Potential Privilege Escalation,<NA>,,1
+ERROR,Write below etc,<NA>,,1
+ERROR,Write below root,,,1
+ERROR,Read ssh information,falcosecurity/event-generator,falco-event-generator-deployment-7bf5f7d76b-4824w,3
+WARNING,The docker client is executed in a container,falcosecurity/event-generator,falco-event-generator-deployment-7bf5f7d76b-4824w,4
+CRITICAL,Unprivileged Delegation of Page Faults Handling to a Userspace Process,falcosecurity/event-generator,falco-event-generator-deployment-7bf5f7d76b-4824w,5
+WARNING,Read Shell Configuration File,falcosecurity/event-generator,falco-event-generator-deployment-7bf5f7d76b-4824w,4
+WARNING,Delete Bash History,falcosecurity/event-generator,falco-event-generator-deployment-7bf5f7d76b-4824w,1
+WARNING,Clear Log Activities,falcosecurity/event-generator,falco-event-generator-deployment-7bf5f7d76b-4824w,7
+WARNING,Debugfs Launched in Privileged Container,falcosecurity/event-generator,falco-event-generator-deployment-7bf5f7d76b-4824w,2
+WARNING,Mount Launched in Privileged Container,falcosecurity/event-generator,falco-event-generator-deployment-7bf5f7d76b-4824w,4
+WARNING,Search Private Keys or Passwords,falcosecurity/event-generator,falco-event-generator-deployment-7bf5f7d76b-4824w,7
+WARNING,Linux Kernel Module Injection Detected,falcosecurity/event-generator,falco-event-generator-deployment-7bf5f7d76b-4824w,8
+WARNING,Outbound Connection to C2 Servers,falcosecurity/event-generator,falco-event-generator-deployment-7bf5f7d76b-4824w,7
+WARNING,Remove Bulk Data from Disk,falcosecurity/event-generator,falco-event-generator-deployment-7bf5f7d76b-4824w,4
+WARNING,Redirect STDOUT/STDIN to Network Connection in Container,falcosecurity/event-generator,falco-event-generator-deployment-7bf5f7d76b-4824w,3
+WARNING,Delete or rename shell history,falcosecurity/event-generator,falco-event-generator-deployment-7bf5f7d76b-4824w,5
+WARNING,Launch Disallowed Container,falcosecurity/event-generator,falco-event-generator-deployment-7bf5f7d76b-4824w,3
+WARNING,Outbound or Inbound Traffic not to Authorized Server Process and Port,falcosecurity/event-generator,falco-event-generator-deployment-7bf5f7d76b-4824w,5
+WARNING,Network Connection outside Local Subnet,falcosecurity/event-generator,falco-event-generator-deployment-7bf5f7d76b-4824w,7
+CRITICAL,Detect outbound connections to common miner pool ports,falcosecurity/event-generator,falco-event-generator-deployment-7bf5f7d76b-4824w,8
+CRITICAL,Detect crypto miners using the Stratum protocol,falcosecurity/event-generator,falco-event-generator-deployment-7bf5f7d76b-4824w,4
+WARNING,Netcat Remote Code Execution in Container,falcosecurity/event-generator,falco-event-generator-deployment-7bf5f7d76b-4824w,5
+ERROR,Container Drift Detected (chmod),falcosecurity/event-generator,falco-event-generator-deployment-7bf5f7d76b-4824w,5
+ERROR,Container Drift Detected (open+create),falcosecurity/event-generator,falco-event-generator-deployment-7bf5f7d76b-4824w,8
+ERROR,Launch Package Management Process in Container,falcosecurity/event-generator,falco-event-generator-deployment-7bf5f7d76b-4824w,2
+CRITICAL,Sudo Potential Privilege Escalation,falcosecurity/event-generator,falco-event-generator-deployment-7bf5f7d76b-4824w,4
+ERROR,Mkdir binary dirs,falcosecurity/event-generator,falco-event-generator-deployment-7bf5f7d76b-4824w,2
+ERROR,Modify binary dirs,falcosecurity/event-generator,falco-event-generator-deployment-7bf5f7d76b-4824w,9
+WARNING,Read sensitive file trusted after startup,falcosecurity/event-generator,falco-event-generator-deployment-7bf5f7d76b-4824w,4
+WARNING,Read sensitive file untrusted,falcosecurity/event-generator,falco-event-generator-deployment-7bf5f7d76b-4824w,7
+ERROR,Write below etc,falcosecurity/event-generator,falco-event-generator-deployment-7bf5f7d76b-4824w,9
+ERROR,Write below binary dir,falcosecurity/event-generator,falco-event-generator-deployment-7bf5f7d76b-4824w,8
+ERROR,Write below monitored dir,falcosecurity/event-generator,falco-event-generator-deployment-7bf5f7d76b-4824w,12
+ERROR,Write below root,falcosecurity/event-generator,falco-event-generator-deployment-7bf5f7d76b-4824w,1
+ERROR,Write below rpm database,falcosecurity/event-generator,falco-event-generator-deployment-7bf5f7d76b-4824w,7
+ERROR,Create files below dev,falcosecurity/event-generator,falco-event-generator-deployment-7bf5f7d76b-4824w,7
+WARNING,The docker client is executed in a container,falcosecurity/event-generator,falco-event-generator-deployment-7bf5f7d76b-jmcxw,1
+CRITICAL,Unprivileged Delegation of Page Faults Handling to a Userspace Process,falcosecurity/event-generator,falco-event-generator-deployment-7bf5f7d76b-jmcxw,2
+WARNING,Read Shell Configuration File,falcosecurity/event-generator,falco-event-generator-deployment-7bf5f7d76b-jmcxw,1
+WARNING,Delete Bash History,falcosecurity/event-generator,falco-event-generator-deployment-7bf5f7d76b-jmcxw,3
+WARNING,Debugfs Launched in Privileged Container,falcosecurity/event-generator,falco-event-generator-deployment-7bf5f7d76b-jmcxw,2
+WARNING,Mount Launched in Privileged Container,falcosecurity/event-generator,falco-event-generator-deployment-7bf5f7d76b-jmcxw,1
+WARNING,Search Private Keys or Passwords,falcosecurity/event-generator,falco-event-generator-deployment-7bf5f7d76b-jmcxw,1
+WARNING,Linux Kernel Module Injection Detected,falcosecurity/event-generator,falco-event-generator-deployment-7bf5f7d76b-jmcxw,2
+WARNING,Redirect STDOUT/STDIN to Network Connection in Container,falcosecurity/event-generator,falco-event-generator-deployment-7bf5f7d76b-jmcxw,1
+WARNING,Delete or rename shell history,falcosecurity/event-generator,falco-event-generator-deployment-7bf5f7d76b-jmcxw,3
+WARNING,Launch Disallowed Container,falcosecurity/event-generator,falco-event-generator-deployment-7bf5f7d76b-jmcxw,3
+WARNING,Network Connection outside Local Subnet,falcosecurity/event-generator,falco-event-generator-deployment-7bf5f7d76b-jmcxw,1
+CRITICAL,Detect outbound connections to common miner pool ports,falcosecurity/event-generator,falco-event-generator-deployment-7bf5f7d76b-jmcxw,2
+CRITICAL,Detect crypto miners using the Stratum protocol,falcosecurity/event-generator,falco-event-generator-deployment-7bf5f7d76b-jmcxw,2
+ERROR,Container Drift Detected (chmod),falcosecurity/event-generator,falco-event-generator-deployment-7bf5f7d76b-jmcxw,1
+ERROR,Container Drift Detected (open+create),falcosecurity/event-generator,falco-event-generator-deployment-7bf5f7d76b-jmcxw,1
+ERROR,Launch Package Management Process in Container,falcosecurity/event-generator,falco-event-generator-deployment-7bf5f7d76b-jmcxw,2
+ERROR,Modify binary dirs,falcosecurity/event-generator,falco-event-generator-deployment-7bf5f7d76b-jmcxw,2
+WARNING,Read sensitive file untrusted,falcosecurity/event-generator,falco-event-generator-deployment-7bf5f7d76b-jmcxw,1
+ERROR,Write below monitored dir,falcosecurity/event-generator,falco-event-generator-deployment-7bf5f7d76b-jmcxw,1
+ERROR,Write below root,falcosecurity/event-generator,falco-event-generator-deployment-7bf5f7d76b-jmcxw,5
+ERROR,Write below rpm database,falcosecurity/event-generator,falco-event-generator-deployment-7bf5f7d76b-jmcxw,1
+ERROR,Read ssh information,falcosecurity/event-generator,falco-event-generator-deployment-7bf5f7d76b-krnm7,2
+WARNING,The docker client is executed in a container,falcosecurity/event-generator,falco-event-generator-deployment-7bf5f7d76b-krnm7,3
+WARNING,Clear Log Activities,falcosecurity/event-generator,falco-event-generator-deployment-7bf5f7d76b-krnm7,3
+WARNING,Search Private Keys or Passwords,falcosecurity/event-generator,falco-event-generator-deployment-7bf5f7d76b-krnm7,1
+WARNING,Linux Kernel Module Injection Detected,falcosecurity/event-generator,falco-event-generator-deployment-7bf5f7d76b-krnm7,1
+WARNING,Outbound Connection to C2 Servers,falcosecurity/event-generator,falco-event-generator-deployment-7bf5f7d76b-krnm7,6
+WARNING,Remove Bulk Data from Disk,falcosecurity/event-generator,falco-event-generator-deployment-7bf5f7d76b-krnm7,3
+WARNING,Redirect STDOUT/STDIN to Network Connection in Container,falcosecurity/event-generator,falco-event-generator-deployment-7bf5f7d76b-krnm7,2
+WARNING,Delete or rename shell history,falcosecurity/event-generator,falco-event-generator-deployment-7bf5f7d76b-krnm7,2
+WARNING,Launch Disallowed Container,falcosecurity/event-generator,falco-event-generator-deployment-7bf5f7d76b-krnm7,3
+WARNING,Outbound or Inbound Traffic not to Authorized Server Process and Port,falcosecurity/event-generator,falco-event-generator-deployment-7bf5f7d76b-krnm7,2
+WARNING,Network Connection outside Local Subnet,falcosecurity/event-generator,falco-event-generator-deployment-7bf5f7d76b-krnm7,4
+CRITICAL,Detect crypto miners using the Stratum protocol,falcosecurity/event-generator,falco-event-generator-deployment-7bf5f7d76b-krnm7,2
+WARNING,Netcat Remote Code Execution in Container,falcosecurity/event-generator,falco-event-generator-deployment-7bf5f7d76b-krnm7,2
+ERROR,Container Drift Detected (open+create),falcosecurity/event-generator,falco-event-generator-deployment-7bf5f7d76b-krnm7,2
+ERROR,Launch Package Management Process in Container,falcosecurity/event-generator,falco-event-generator-deployment-7bf5f7d76b-krnm7,3
+CRITICAL,Sudo Potential Privilege Escalation,falcosecurity/event-generator,falco-event-generator-deployment-7bf5f7d76b-krnm7,3
+ERROR,Modify binary dirs,falcosecurity/event-generator,falco-event-generator-deployment-7bf5f7d76b-krnm7,2
+WARNING,Read sensitive file trusted after startup,falcosecurity/event-generator,falco-event-generator-deployment-7bf5f7d76b-krnm7,3
+WARNING,Read sensitive file untrusted,falcosecurity/event-generator,falco-event-generator-deployment-7bf5f7d76b-krnm7,1
+ERROR,Write below binary dir,falcosecurity/event-generator,falco-event-generator-deployment-7bf5f7d76b-krnm7,1
+ERROR,Write below monitored dir,falcosecurity/event-generator,falco-event-generator-deployment-7bf5f7d76b-krnm7,1
+ERROR,Write below root,falcosecurity/event-generator,falco-event-generator-deployment-7bf5f7d76b-krnm7,1
+ERROR,Write below rpm database,falcosecurity/event-generator,falco-event-generator-deployment-7bf5f7d76b-krnm7,1

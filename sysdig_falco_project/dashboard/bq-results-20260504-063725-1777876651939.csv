@@ -1,0 +1,1147 @@
+experiment_group,workflow_version,priority,rule_name,image_name,user_role,company_size,industry,cloud_provider,plan_type,total_alert_views,total_investigations,total_remediations,investigation_rate,remediation_rate,avg_time_to_investigate_minutes
+control,old_page,WARNING,Delete or rename shell history,busybox:latest,platform_engineer,enterprise,fintech,aws,enterprise,3,1,1,0.33333333333333331,0.33333333333333331,28
+control,old_page,ERROR,Write below rpm database,busybox:latest,platform_engineer,enterprise,fintech,aws,enterprise,1,0,0,0,0,
+control,old_page,WARNING,Delete Bash History,busybox:latest,platform_engineer,enterprise,fintech,aws,enterprise,2,1,1,0.5,0.5,49
+control,old_page,ERROR,Create files below dev,busybox:latest,platform_engineer,enterprise,fintech,aws,enterprise,1,0,0,0,0,
+control,old_page,CRITICAL,Sudo Potential Privilege Escalation,falcosecurity/event-generator,platform_engineer,enterprise,fintech,aws,enterprise,2,1,0,0.5,0,17
+control,old_page,WARNING,Search Private Keys or Passwords,busybox:latest,platform_engineer,enterprise,fintech,aws,enterprise,2,2,1,1,0.5,23
+control,old_page,WARNING,Outbound Connection to C2 Servers,busybox:latest,platform_engineer,enterprise,fintech,aws,enterprise,1,1,1,1,1,93
+control,old_page,ERROR,Write below etc,busybox:latest,platform_engineer,enterprise,fintech,aws,enterprise,2,1,1,0.5,0.5,57
+control,old_page,ERROR,Write below etc,falcosecurity/event-generator,platform_engineer,enterprise,fintech,aws,enterprise,1,1,1,1,1,115
+control,old_page,WARNING,Read Shell Configuration File,busybox:latest,platform_engineer,enterprise,fintech,aws,enterprise,1,1,1,1,1,75
+control,old_page,WARNING,Netcat Remote Code Execution in Container,busybox:latest,platform_engineer,enterprise,fintech,aws,enterprise,1,1,1,1,1,94
+control,old_page,WARNING,Linux Kernel Module Injection Detected,falcosecurity/event-generator,platform_engineer,enterprise,fintech,aws,enterprise,1,0,0,0,0,
+control,old_page,WARNING,Read sensitive file trusted after startup,busybox:latest,platform_engineer,enterprise,fintech,aws,enterprise,1,1,1,1,1,1
+control,old_page,ERROR,Container Drift Detected (open+create),falcosecurity/event-generator,platform_engineer,enterprise,fintech,aws,enterprise,1,0,0,0,0,
+control,old_page,ERROR,Launch Package Management Process in Container,busybox:latest,platform_engineer,enterprise,fintech,aws,enterprise,1,0,0,0,0,
+control,old_page,WARNING,Network Connection outside Local Subnet,falcosecurity/event-generator,platform_engineer,enterprise,fintech,aws,enterprise,1,1,0,1,0,54
+control,old_page,WARNING,The docker client is executed in a container,busybox:latest,platform_engineer,enterprise,fintech,aws,enterprise,1,0,0,0,0,
+control,old_page,ERROR,Write below monitored dir,falcosecurity/event-generator,platform_engineer,enterprise,fintech,aws,enterprise,1,1,1,1,1,111
+control,old_page,ERROR,Read ssh information,busybox:latest,platform_engineer,enterprise,fintech,aws,enterprise,2,1,1,0.5,0.5,72
+control,old_page,WARNING,Launch Disallowed Container,busybox:latest,platform_engineer,enterprise,fintech,aws,enterprise,1,1,0,1,0,95
+control,old_page,WARNING,Remove Bulk Data from Disk,busybox:latest,platform_engineer,enterprise,fintech,aws,enterprise,1,1,0,1,0,66
+control,old_page,ERROR,Create files below dev,busybox:latest,security_engineer,enterprise,fintech,aws,enterprise,2,1,1,0.5,0.5,120
+control,old_page,WARNING,Read sensitive file trusted after startup,busybox:latest,security_engineer,enterprise,fintech,aws,enterprise,1,1,1,1,1,91
+control,old_page,WARNING,Delete or rename shell history,busybox:latest,security_engineer,enterprise,fintech,aws,enterprise,1,1,1,1,1,79
+control,old_page,WARNING,Read Shell Configuration File,falcosecurity/event-generator,security_engineer,enterprise,fintech,aws,enterprise,1,0,0,0,0,
+control,old_page,ERROR,Read ssh information,busybox:latest,security_engineer,enterprise,fintech,aws,enterprise,1,1,1,1,1,1
+control,old_page,CRITICAL,Detect outbound connections to common miner pool ports,falcosecurity/event-generator,security_engineer,enterprise,fintech,aws,enterprise,1,0,0,0,0,
+control,old_page,WARNING,Outbound Connection to C2 Servers,busybox:latest,security_engineer,enterprise,fintech,aws,enterprise,2,1,0,0.5,0,10
+control,old_page,ERROR,Mkdir binary dirs,busybox:latest,devops_engineer,medium,health,aws,free,2,0,0,0,0,
+control,old_page,WARNING,Outbound or Inbound Traffic not to Authorized Server Process and Port,busybox:latest,devops_engineer,medium,health,aws,free,2,1,0,0.5,0,99
+control,old_page,ERROR,Read ssh information,busybox:latest,devops_engineer,medium,health,aws,free,2,2,1,1,0.5,23
+control,old_page,ERROR,Write below binary dir,busybox:latest,devops_engineer,medium,health,aws,free,1,1,0,1,0,39
+control,old_page,WARNING,Launch Disallowed Container,busybox:latest,devops_engineer,medium,health,aws,free,2,1,1,0.5,0.5,72
+control,old_page,CRITICAL,Sudo Potential Privilege Escalation,busybox:latest,devops_engineer,medium,health,aws,free,2,0,0,0,0,
+control,old_page,ERROR,Write below etc,busybox:latest,devops_engineer,medium,health,aws,free,1,1,1,1,1,63
+control,old_page,WARNING,Search Private Keys or Passwords,busybox:latest,devops_engineer,medium,health,aws,free,1,1,0,1,0,37
+control,old_page,WARNING,Clear Log Activities,falcosecurity/event-generator,devops_engineer,medium,health,aws,free,1,0,0,0,0,
+control,old_page,ERROR,Launch Package Management Process in Container,busybox:latest,devops_engineer,medium,health,aws,free,1,0,0,0,0,
+control,old_page,ERROR,Modify binary dirs,falcosecurity/event-generator,devops_engineer,medium,health,aws,free,1,1,0,1,0,67
+control,old_page,WARNING,Remove Bulk Data from Disk,busybox:latest,devops_engineer,medium,health,aws,free,2,2,0,1,0,103.5
+control,old_page,WARNING,Read Shell Configuration File,busybox:latest,devops_engineer,medium,health,aws,free,2,1,0,0.5,0,81
+control,old_page,WARNING,Read sensitive file untrusted,busybox:latest,devops_engineer,medium,health,aws,free,1,0,0,0,0,
+control,old_page,WARNING,Mount Launched in Privileged Container,busybox:latest,devops_engineer,medium,health,aws,free,2,1,1,0.5,0.5,48
+control,old_page,WARNING,Network Connection outside Local Subnet,falcosecurity/event-generator,devops_engineer,medium,health,aws,free,1,0,0,0,0,
+control,old_page,WARNING,Debugfs Launched in Privileged Container,busybox:latest,devops_engineer,medium,health,aws,free,1,1,0,1,0,46
+control,old_page,CRITICAL,Unprivileged Delegation of Page Faults Handling to a Userspace Process,busybox:latest,devops_engineer,medium,health,aws,free,3,1,0,0.33333333333333331,0,2
+control,old_page,ERROR,Write below monitored dir,busybox:latest,devops_engineer,medium,health,aws,free,1,1,1,1,1,94
+control,old_page,ERROR,Write below root,busybox:latest,devops_engineer,medium,health,aws,free,2,0,0,0,0,
+control,old_page,CRITICAL,Detect crypto miners using the Stratum protocol,busybox:latest,devops_engineer,medium,health,aws,free,2,1,1,0.5,0.5,40
+control,old_page,ERROR,Write below rpm database,busybox:latest,devops_engineer,medium,health,aws,free,1,0,0,0,0,
+control,old_page,CRITICAL,Sudo Potential Privilege Escalation,falcosecurity/event-generator,platform_engineer,enterprise,fintech,azure,enterprise,1,0,0,0,0,
+control,old_page,WARNING,Redirect STDOUT/STDIN to Network Connection in Container,falcosecurity/event-generator,platform_engineer,enterprise,fintech,azure,enterprise,1,0,0,0,0,
+control,old_page,CRITICAL,Detect crypto miners using the Stratum protocol,busybox:latest,platform_engineer,enterprise,fintech,azure,enterprise,1,1,0,1,0,28
+control,old_page,ERROR,Write below etc,falcosecurity/event-generator,platform_engineer,enterprise,fintech,azure,enterprise,2,0,0,0,0,
+control,old_page,ERROR,Write below rpm database,busybox:latest,platform_engineer,enterprise,fintech,azure,enterprise,3,2,1,0.66666666666666663,0.33333333333333331,55.5
+control,old_page,WARNING,Read sensitive file trusted after startup,busybox:latest,platform_engineer,enterprise,fintech,azure,enterprise,2,1,1,0.5,0.5,63
+control,old_page,WARNING,Mount Launched in Privileged Container,busybox:latest,devops_engineer,enterprise,fintech,azure,enterprise,2,0,0,0,0,
+control,old_page,CRITICAL,Detect crypto miners using the Stratum protocol,busybox:latest,devops_engineer,enterprise,fintech,azure,enterprise,1,0,0,0,0,
+control,old_page,WARNING,Outbound Connection to C2 Servers,busybox:latest,devops_engineer,enterprise,fintech,azure,enterprise,1,1,1,1,1,47
+control,old_page,ERROR,Write below binary dir,falcosecurity/event-generator,security_engineer,enterprise,fintech,azure,enterprise,1,0,0,0,0,
+control,old_page,WARNING,Network Connection outside Local Subnet,falcosecurity/event-generator,security_engineer,enterprise,fintech,azure,enterprise,1,1,1,1,1,91
+control,old_page,CRITICAL,Unprivileged Delegation of Page Faults Handling to a Userspace Process,busybox:latest,security_engineer,enterprise,fintech,azure,enterprise,1,1,0,1,0,93
+control,old_page,ERROR,Launch Package Management Process in Container,busybox:latest,security_engineer,enterprise,fintech,azure,enterprise,1,0,0,0,0,
+control,old_page,WARNING,Network Connection outside Local Subnet,busybox:latest,security_engineer,enterprise,fintech,azure,enterprise,2,1,0,0.5,0,108
+control,old_page,WARNING,Outbound or Inbound Traffic not to Authorized Server Process and Port,busybox:latest,security_engineer,enterprise,fintech,azure,enterprise,1,1,1,1,1,89
+control,old_page,WARNING,Launch Disallowed Container,busybox:latest,security_engineer,enterprise,fintech,azure,enterprise,1,1,1,1,1,43
+control,old_page,ERROR,Create files below dev,busybox:latest,security_engineer,enterprise,fintech,azure,enterprise,1,0,0,0,0,
+control,old_page,ERROR,Launch Package Management Process in Container,falcosecurity/event-generator,security_engineer,enterprise,fintech,azure,enterprise,1,0,0,0,0,
+control,old_page,WARNING,Read Shell Configuration File,busybox:latest,security_engineer,enterprise,fintech,azure,enterprise,2,2,2,1,1,65.5
+control,old_page,WARNING,Clear Log Activities,falcosecurity/event-generator,security_engineer,enterprise,fintech,azure,enterprise,1,0,0,0,0,
+control,old_page,WARNING,Redirect STDOUT/STDIN to Network Connection in Container,busybox:latest,security_engineer,enterprise,fintech,azure,enterprise,1,1,1,1,1,8
+control,old_page,WARNING,Network Connection outside Local Subnet,busybox:latest,security_engineer,enterprise,fintech,azure,pro,1,1,1,1,1,76
+control,old_page,WARNING,Outbound or Inbound Traffic not to Authorized Server Process and Port,busybox:latest,security_engineer,enterprise,fintech,azure,pro,4,3,3,0.75,0.75,43.333333333333329
+control,old_page,WARNING,Delete Bash History,busybox:latest,security_engineer,enterprise,fintech,azure,pro,1,0,0,0,0,
+control,old_page,WARNING,Search Private Keys or Passwords,,security_engineer,enterprise,fintech,azure,pro,1,0,0,0,0,
+control,old_page,WARNING,Search Private Keys or Passwords,busybox:latest,security_engineer,enterprise,fintech,azure,pro,1,1,0,1,0,48
+control,old_page,WARNING,Outbound Connection to C2 Servers,falcosecurity/event-generator,security_engineer,enterprise,fintech,azure,pro,1,1,0,1,0,80
+control,old_page,ERROR,Mkdir binary dirs,busybox:latest,security_engineer,enterprise,fintech,azure,pro,2,1,1,0.5,0.5,58
+control,old_page,ERROR,Modify binary dirs,busybox:latest,security_engineer,enterprise,fintech,azure,pro,2,1,0,0.5,0,25
+control,old_page,ERROR,Read ssh information,busybox:latest,security_engineer,enterprise,fintech,azure,pro,1,0,0,0,0,
+control,old_page,WARNING,Outbound Connection to C2 Servers,busybox:latest,security_engineer,enterprise,fintech,azure,pro,1,1,1,1,1,98
+control,old_page,WARNING,The docker client is executed in a container,busybox:latest,security_engineer,enterprise,fintech,azure,pro,1,1,1,1,1,40
+control,old_page,WARNING,Launch Disallowed Container,busybox:latest,security_engineer,enterprise,fintech,azure,pro,1,0,0,0,0,
+control,old_page,CRITICAL,Detect crypto miners using the Stratum protocol,busybox:latest,security_engineer,enterprise,fintech,azure,pro,1,0,0,0,0,
+control,old_page,CRITICAL,Sudo Potential Privilege Escalation,busybox:latest,devops_engineer,enterprise,fintech,azure,pro,2,1,0,0.5,0,29
+control,old_page,WARNING,Network Connection outside Local Subnet,busybox:latest,devops_engineer,enterprise,fintech,azure,pro,2,2,2,1,1,80
+control,old_page,ERROR,Container Drift Detected (open+create),busybox:latest,devops_engineer,enterprise,fintech,azure,pro,2,2,2,1,1,41
+control,old_page,WARNING,Outbound Connection to C2 Servers,busybox:latest,devops_engineer,enterprise,fintech,azure,pro,1,0,0,0,0,
+control,old_page,ERROR,Launch Package Management Process in Container,busybox:latest,devops_engineer,enterprise,fintech,azure,pro,2,1,0,0.5,0,13
+control,old_page,ERROR,Write below root,falcosecurity/event-generator,devops_engineer,enterprise,fintech,azure,pro,1,1,0,1,0,5
+control,old_page,WARNING,Clear Log Activities,busybox:latest,devops_engineer,enterprise,fintech,azure,pro,2,2,1,1,0.5,72.5
+control,old_page,WARNING,Outbound or Inbound Traffic not to Authorized Server Process and Port,falcosecurity/event-generator,devops_engineer,enterprise,fintech,azure,pro,1,1,1,1,1,56
+control,old_page,ERROR,Mkdir binary dirs,busybox:latest,devops_engineer,enterprise,fintech,azure,pro,1,0,0,0,0,
+control,old_page,WARNING,Delete or rename shell history,busybox:latest,devops_engineer,enterprise,fintech,azure,pro,1,1,1,1,1,55
+control,old_page,WARNING,Outbound Connection to C2 Servers,falcosecurity/event-generator,devops_engineer,enterprise,fintech,azure,pro,1,1,1,1,1,114
+control,old_page,WARNING,Read sensitive file untrusted,busybox:latest,devops_engineer,enterprise,fintech,azure,pro,1,0,0,0,0,
+control,old_page,WARNING,The docker client is executed in a container,busybox:latest,devops_engineer,enterprise,fintech,azure,pro,1,0,0,0,0,
+control,old_page,WARNING,Delete Bash History,busybox:latest,devops_engineer,enterprise,fintech,azure,pro,1,0,0,0,0,
+control,old_page,CRITICAL,Unprivileged Delegation of Page Faults Handling to a Userspace Process,busybox:latest,devops_engineer,enterprise,fintech,azure,pro,1,1,1,1,1,94
+control,old_page,WARNING,Delete or rename shell history,falcosecurity/event-generator,devops_engineer,enterprise,fintech,azure,pro,1,1,1,1,1,45
+control,old_page,ERROR,Modify binary dirs,busybox:latest,devops_engineer,enterprise,fintech,azure,pro,1,1,0,1,0,4
+control,old_page,WARNING,Read Shell Configuration File,falcosecurity/event-generator,devops_engineer,enterprise,fintech,azure,pro,1,1,1,1,1,96
+control,old_page,ERROR,Write below rpm database,busybox:latest,devops_engineer,enterprise,fintech,azure,pro,1,0,0,0,0,
+control,old_page,ERROR,Read ssh information,busybox:latest,security_engineer,small,fintech,aws,free,3,1,1,0.33333333333333331,0.33333333333333331,57
+control,old_page,WARNING,Read sensitive file untrusted,falcosecurity/event-generator,security_engineer,small,fintech,aws,free,1,0,0,0,0,
+control,old_page,CRITICAL,Sudo Potential Privilege Escalation,busybox:latest,security_engineer,small,fintech,aws,free,1,1,0,1,0,38
+control,old_page,WARNING,Launch Disallowed Container,busybox:latest,security_engineer,small,fintech,aws,free,1,0,0,0,0,
+control,old_page,ERROR,Container Drift Detected (open+create),busybox:latest,security_engineer,small,fintech,aws,free,1,0,0,0,0,
+control,old_page,WARNING,Search Private Keys or Passwords,busybox:latest,security_engineer,small,fintech,aws,free,2,1,1,0.5,0.5,108
+control,old_page,ERROR,Container Drift Detected (open+create),falcosecurity/event-generator,security_engineer,small,fintech,aws,free,1,1,0,1,0,65
+control,old_page,WARNING,Read sensitive file trusted after startup,busybox:latest,security_engineer,small,fintech,aws,free,2,2,0,1,0,31.5
+control,old_page,ERROR,Write below binary dir,busybox:latest,security_engineer,small,fintech,aws,free,1,1,1,1,1,11
+control,old_page,WARNING,Network Connection outside Local Subnet,busybox:latest,security_engineer,small,fintech,aws,free,1,0,0,0,0,
+control,old_page,ERROR,Write below root,busybox:latest,security_engineer,small,fintech,aws,free,2,2,2,1,1,62.5
+control,old_page,WARNING,Debugfs Launched in Privileged Container,busybox:latest,security_engineer,small,fintech,aws,free,1,1,0,1,0,93
+control,old_page,WARNING,Clear Log Activities,busybox:latest,platform_engineer,small,fintech,aws,free,2,1,1,0.5,0.5,111
+control,old_page,WARNING,Delete Bash History,busybox:latest,platform_engineer,small,fintech,aws,free,2,2,1,1,0.5,59.5
+control,old_page,CRITICAL,Detect outbound connections to common miner pool ports,falcosecurity/event-generator,platform_engineer,small,fintech,aws,free,1,1,1,1,1,72
+control,old_page,WARNING,Debugfs Launched in Privileged Container,busybox:latest,platform_engineer,small,fintech,aws,free,1,1,0,1,0,40
+control,old_page,ERROR,Write below binary dir,busybox:latest,platform_engineer,small,fintech,aws,free,1,0,0,0,0,
+control,old_page,WARNING,Remove Bulk Data from Disk,busybox:latest,platform_engineer,small,fintech,aws,free,1,0,0,0,0,
+control,old_page,ERROR,Launch Package Management Process in Container,busybox:latest,platform_engineer,small,fintech,aws,free,1,1,0,1,0,59
+control,old_page,CRITICAL,Sudo Potential Privilege Escalation,busybox:latest,platform_engineer,small,fintech,aws,free,1,1,1,1,1,42
+control,old_page,CRITICAL,Detect crypto miners using the Stratum protocol,busybox:latest,platform_engineer,small,fintech,aws,free,1,0,0,0,0,
+control,old_page,WARNING,Netcat Remote Code Execution in Container,busybox:latest,platform_engineer,small,fintech,aws,free,1,0,0,0,0,
+control,old_page,CRITICAL,Unprivileged Delegation of Page Faults Handling to a Userspace Process,busybox:latest,platform_engineer,small,fintech,aws,free,1,0,0,0,0,
+control,old_page,WARNING,Delete or rename shell history,busybox:latest,platform_engineer,small,fintech,aws,free,1,1,1,1,1,80
+control,old_page,ERROR,Modify binary dirs,busybox:latest,platform_engineer,small,fintech,aws,free,2,2,2,1,1,30.5
+control,old_page,ERROR,Write below etc,busybox:latest,platform_engineer,small,fintech,aws,free,1,1,0,1,0,116
+control,old_page,WARNING,Read sensitive file untrusted,busybox:latest,platform_engineer,small,fintech,aws,free,1,0,0,0,0,
+control,old_page,WARNING,Search Private Keys or Passwords,busybox:latest,security_engineer,small,fintech,azure,free,1,0,0,0,0,
+control,old_page,WARNING,Linux Kernel Module Injection Detected,busybox:latest,security_engineer,small,fintech,azure,free,2,2,0,1,0,80.5
+control,old_page,CRITICAL,Unprivileged Delegation of Page Faults Handling to a Userspace Process,falcosecurity/event-generator,security_engineer,small,fintech,azure,free,1,1,0,1,0,81
+control,old_page,WARNING,The docker client is executed in a container,falcosecurity/event-generator,security_engineer,small,fintech,azure,free,1,0,0,0,0,
+control,old_page,ERROR,Launch Package Management Process in Container,busybox:latest,security_engineer,small,fintech,azure,free,1,1,0,1,0,112
+control,old_page,ERROR,Write below binary dir,busybox:latest,security_engineer,small,fintech,azure,free,1,1,0,1,0,107
+control,old_page,ERROR,Write below rpm database,busybox:latest,security_engineer,small,fintech,azure,free,1,1,1,1,1,77
+control,old_page,WARNING,Read Shell Configuration File,falcosecurity/event-generator,security_engineer,small,fintech,azure,free,1,0,0,0,0,
+control,old_page,ERROR,Create files below dev,busybox:latest,security_engineer,small,fintech,azure,free,1,0,0,0,0,
+control,old_page,ERROR,Write below root,falcosecurity/event-generator,security_engineer,small,fintech,azure,free,1,1,1,1,1,36
+control,old_page,WARNING,Mount Launched in Privileged Container,busybox:latest,platform_engineer,small,fintech,azure,free,1,0,0,0,0,
+control,old_page,WARNING,Outbound Connection to C2 Servers,falcosecurity/event-generator,platform_engineer,small,fintech,azure,free,1,0,0,0,0,
+control,old_page,WARNING,Clear Log Activities,busybox:latest,platform_engineer,small,fintech,azure,free,1,1,1,1,1,55
+control,old_page,WARNING,Remove Bulk Data from Disk,busybox:latest,platform_engineer,small,fintech,azure,free,1,1,0,1,0,73
+control,old_page,ERROR,Write below root,busybox:latest,platform_engineer,small,fintech,azure,free,1,0,0,0,0,
+control,old_page,CRITICAL,Detect outbound connections to common miner pool ports,busybox:latest,platform_engineer,small,fintech,azure,free,1,1,1,1,1,40
+control,old_page,WARNING,Outbound or Inbound Traffic not to Authorized Server Process and Port,busybox:latest,platform_engineer,small,fintech,azure,free,1,1,0,1,0,15
+control,old_page,ERROR,Create files below dev,busybox:latest,platform_engineer,small,fintech,azure,free,1,0,0,0,0,
+control,old_page,ERROR,Write below monitored dir,busybox:latest,platform_engineer,small,fintech,azure,free,1,0,0,0,0,
+control,old_page,ERROR,Launch Package Management Process in Container,busybox:latest,devops_engineer,small,fintech,azure,free,1,1,1,1,1,26
+control,old_page,WARNING,Netcat Remote Code Execution in Container,busybox:latest,devops_engineer,small,fintech,azure,free,1,1,1,1,1,34
+control,old_page,CRITICAL,Unprivileged Delegation of Page Faults Handling to a Userspace Process,busybox:latest,devops_engineer,small,fintech,azure,free,1,1,1,1,1,29
+control,old_page,ERROR,Write below rpm database,falcosecurity/event-generator,devops_engineer,small,fintech,azure,free,1,1,0,1,0,112
+control,old_page,WARNING,Clear Log Activities,falcosecurity/event-generator,devops_engineer,small,fintech,azure,free,1,1,0,1,0,3
+control,old_page,WARNING,Linux Kernel Module Injection Detected,busybox:latest,devops_engineer,small,fintech,azure,free,1,0,0,0,0,
+control,old_page,ERROR,Create files below dev,busybox:latest,devops_engineer,small,fintech,azure,free,1,0,0,0,0,
+control,old_page,ERROR,Launch Package Management Process in Container,falcosecurity/event-generator,devops_engineer,small,fintech,azure,free,1,0,0,0,0,
+control,old_page,CRITICAL,Detect crypto miners using the Stratum protocol,busybox:latest,devops_engineer,small,fintech,azure,free,1,0,0,0,0,
+control,old_page,ERROR,Container Drift Detected (chmod),busybox:latest,devops_engineer,small,fintech,azure,free,1,0,0,0,0,
+control,old_page,WARNING,Delete Bash History,busybox:latest,devops_engineer,small,fintech,azure,free,1,0,0,0,0,
+control,old_page,ERROR,Write below etc,busybox:latest,devops_engineer,small,fintech,azure,free,1,1,0,1,0,102
+control,old_page,CRITICAL,Detect outbound connections to common miner pool ports,busybox:latest,devops_engineer,small,fintech,azure,free,1,1,1,1,1,50
+control,old_page,WARNING,Read sensitive file untrusted,busybox:latest,devops_engineer,small,fintech,azure,free,1,1,0,1,0,113
+control,old_page,ERROR,Container Drift Detected (chmod),busybox:latest,security_engineer,enterprise,saas,aws,pro,2,0,0,0,0,
+control,old_page,WARNING,Mount Launched in Privileged Container,busybox:latest,security_engineer,enterprise,saas,aws,pro,1,1,0,1,0,59
+control,old_page,WARNING,The docker client is executed in a container,busybox:latest,security_engineer,enterprise,saas,aws,pro,1,0,0,0,0,
+control,old_page,WARNING,Outbound Connection to C2 Servers,busybox:latest,devops_engineer,enterprise,saas,aws,pro,1,0,0,0,0,
+control,old_page,WARNING,Outbound or Inbound Traffic not to Authorized Server Process and Port,busybox:latest,devops_engineer,enterprise,saas,aws,pro,1,0,0,0,0,
+control,old_page,ERROR,Write below etc,busybox:latest,devops_engineer,enterprise,saas,aws,pro,1,0,0,0,0,
+control,old_page,WARNING,Redirect STDOUT/STDIN to Network Connection in Container,falcosecurity/event-generator,devops_engineer,enterprise,saas,aws,pro,1,1,0,1,0,94
+control,old_page,ERROR,Write below rpm database,busybox:latest,devops_engineer,enterprise,saas,aws,pro,1,1,0,1,0,3
+control,old_page,CRITICAL,Detect outbound connections to common miner pool ports,busybox:latest,devops_engineer,enterprise,saas,aws,pro,1,0,0,0,0,
+control,old_page,WARNING,Outbound or Inbound Traffic not to Authorized Server Process and Port,falcosecurity/event-generator,security_engineer,enterprise,saas,aws,pro,1,0,0,0,0,
+control,old_page,WARNING,Delete or rename shell history,busybox:latest,security_engineer,enterprise,saas,aws,pro,1,0,0,0,0,
+control,old_page,WARNING,Read sensitive file trusted after startup,busybox:latest,security_engineer,enterprise,saas,aws,pro,2,1,1,0.5,0.5,31
+control,old_page,CRITICAL,Detect outbound connections to common miner pool ports,busybox:latest,security_engineer,enterprise,saas,aws,pro,1,1,1,1,1,80
+control,old_page,ERROR,Read ssh information,busybox:latest,security_engineer,enterprise,saas,aws,pro,1,1,1,1,1,20
+control,old_page,WARNING,Linux Kernel Module Injection Detected,falcosecurity/event-generator,security_engineer,enterprise,saas,aws,pro,1,0,0,0,0,
+control,old_page,WARNING,Search Private Keys or Passwords,busybox:latest,platform_engineer,enterprise,saas,aws,pro,1,0,0,0,0,
+control,old_page,WARNING,Outbound or Inbound Traffic not to Authorized Server Process and Port,falcosecurity/event-generator,platform_engineer,enterprise,saas,aws,pro,1,1,1,1,1,19
+control,old_page,ERROR,Read ssh information,falcosecurity/event-generator,platform_engineer,enterprise,saas,aws,pro,1,1,0,1,0,90
+control,old_page,WARNING,Read sensitive file untrusted,falcosecurity/event-generator,platform_engineer,enterprise,saas,aws,pro,1,0,0,0,0,
+control,old_page,CRITICAL,Detect outbound connections to common miner pool ports,busybox:latest,platform_engineer,enterprise,saas,aws,pro,1,1,0,1,0,101
+control,old_page,ERROR,Write below root,busybox:latest,platform_engineer,enterprise,saas,aws,pro,1,0,0,0,0,
+control,old_page,WARNING,Read Shell Configuration File,busybox:latest,platform_engineer,enterprise,saas,aws,pro,2,0,0,0,0,
+control,old_page,ERROR,Create files below dev,busybox:latest,platform_engineer,enterprise,saas,aws,pro,1,1,0,1,0,25
+control,old_page,CRITICAL,Detect crypto miners using the Stratum protocol,busybox:latest,platform_engineer,enterprise,saas,aws,pro,1,1,1,1,1,11
+control,old_page,WARNING,The docker client is executed in a container,busybox:latest,platform_engineer,enterprise,ecommerce,aws,free,1,1,1,1,1,65
+control,old_page,ERROR,Read ssh information,busybox:latest,platform_engineer,enterprise,ecommerce,aws,free,1,0,0,0,0,
+control,old_page,ERROR,Modify binary dirs,busybox:latest,platform_engineer,enterprise,ecommerce,aws,free,1,1,0,1,0,44
+control,old_page,WARNING,Search Private Keys or Passwords,busybox:latest,platform_engineer,enterprise,ecommerce,aws,free,2,1,1,0.5,0.5,3
+control,old_page,ERROR,Write below etc,busybox:latest,platform_engineer,enterprise,ecommerce,aws,free,2,1,1,0.5,0.5,61
+control,old_page,WARNING,Read sensitive file untrusted,busybox:latest,platform_engineer,enterprise,ecommerce,aws,free,1,0,0,0,0,
+control,old_page,WARNING,Outbound or Inbound Traffic not to Authorized Server Process and Port,busybox:latest,platform_engineer,enterprise,ecommerce,aws,free,1,1,0,1,0,82
+control,old_page,WARNING,Launch Disallowed Container,busybox:latest,platform_engineer,enterprise,ecommerce,aws,free,1,1,0,1,0,21
+control,old_page,ERROR,Write below root,busybox:latest,platform_engineer,enterprise,ecommerce,aws,free,2,1,1,0.5,0.5,50
+control,old_page,WARNING,Read sensitive file trusted after startup,busybox:latest,platform_engineer,enterprise,ecommerce,aws,free,2,2,1,1,0.5,71.5
+control,old_page,WARNING,Redirect STDOUT/STDIN to Network Connection in Container,busybox:latest,platform_engineer,enterprise,ecommerce,aws,free,4,2,0,0.5,0,85.5
+control,old_page,WARNING,Linux Kernel Module Injection Detected,busybox:latest,platform_engineer,enterprise,ecommerce,aws,free,1,0,0,0,0,
+control,old_page,CRITICAL,Detect outbound connections to common miner pool ports,falcosecurity/event-generator,platform_engineer,enterprise,ecommerce,aws,free,1,0,0,0,0,
+control,old_page,WARNING,Redirect STDOUT/STDIN to Network Connection in Container,busybox:latest,devops_engineer,enterprise,ecommerce,aws,free,1,1,0,1,0,70
+control,old_page,CRITICAL,Detect outbound connections to common miner pool ports,busybox:latest,devops_engineer,enterprise,ecommerce,aws,free,1,1,1,1,1,45
+control,old_page,WARNING,Netcat Remote Code Execution in Container,busybox:latest,devops_engineer,enterprise,ecommerce,aws,free,1,0,0,0,0,
+control,old_page,WARNING,Outbound or Inbound Traffic not to Authorized Server Process and Port,busybox:latest,devops_engineer,enterprise,ecommerce,aws,free,1,1,1,1,1,19
+control,old_page,ERROR,Read ssh information,falcosecurity/event-generator,devops_engineer,enterprise,ecommerce,aws,free,1,0,0,0,0,
+control,old_page,WARNING,Network Connection outside Local Subnet,busybox:latest,devops_engineer,enterprise,ecommerce,aws,free,1,0,0,0,0,
+control,old_page,ERROR,Write below etc,busybox:latest,devops_engineer,enterprise,ecommerce,aws,free,1,1,0,1,0,11
+control,old_page,ERROR,Container Drift Detected (open+create),busybox:latest,devops_engineer,enterprise,ecommerce,aws,free,1,0,0,0,0,
+control,old_page,CRITICAL,Sudo Potential Privilege Escalation,busybox:latest,devops_engineer,enterprise,ecommerce,aws,free,1,0,0,0,0,
+control,old_page,ERROR,Container Drift Detected (chmod),,platform_engineer,enterprise,ecommerce,aws,free,1,1,0,1,0,118
+control,old_page,WARNING,Network Connection outside Local Subnet,busybox:latest,platform_engineer,enterprise,ecommerce,aws,free,1,0,0,0,0,
+control,old_page,ERROR,Write below monitored dir,falcosecurity/event-generator,platform_engineer,enterprise,ecommerce,aws,free,1,1,1,1,1,94
+control,old_page,CRITICAL,Detect crypto miners using the Stratum protocol,busybox:latest,platform_engineer,enterprise,ecommerce,aws,free,1,1,1,1,1,28
+control,old_page,WARNING,Outbound Connection to C2 Servers,busybox:latest,platform_engineer,enterprise,ecommerce,aws,free,1,0,0,0,0,
+control,old_page,WARNING,Delete Bash History,busybox:latest,devops_engineer,enterprise,saas,gcp,pro,2,1,1,0.5,0.5,10
+control,old_page,WARNING,The docker client is executed in a container,busybox:latest,devops_engineer,enterprise,saas,gcp,pro,1,1,1,1,1,27
+control,old_page,ERROR,Container Drift Detected (open+create),falcosecurity/event-generator,devops_engineer,enterprise,saas,gcp,pro,1,0,0,0,0,
+control,old_page,WARNING,Launch Disallowed Container,busybox:latest,devops_engineer,enterprise,saas,gcp,pro,1,1,0,1,0,21
+control,old_page,ERROR,Modify binary dirs,falcosecurity/event-generator,devops_engineer,enterprise,saas,gcp,pro,1,1,1,1,1,13
+control,old_page,WARNING,Mount Launched in Privileged Container,busybox:latest,devops_engineer,enterprise,saas,gcp,pro,1,0,0,0,0,
+control,old_page,ERROR,Write below monitored dir,busybox:latest,devops_engineer,enterprise,saas,gcp,pro,2,0,0,0,0,
+control,old_page,CRITICAL,Unprivileged Delegation of Page Faults Handling to a Userspace Process,busybox:latest,devops_engineer,enterprise,saas,gcp,pro,2,0,0,0,0,
+control,old_page,WARNING,Read sensitive file untrusted,falcosecurity/event-generator,security_engineer,enterprise,saas,gcp,pro,1,1,0,1,0,92
+control,old_page,CRITICAL,Unprivileged Delegation of Page Faults Handling to a Userspace Process,falcosecurity/event-generator,security_engineer,enterprise,saas,gcp,pro,1,1,0,1,0,78
+control,old_page,WARNING,Delete Bash History,falcosecurity/event-generator,security_engineer,enterprise,saas,gcp,pro,1,1,0,1,0,24
+control,old_page,WARNING,Read Shell Configuration File,busybox:latest,security_engineer,enterprise,saas,gcp,pro,1,1,0,1,0,58
+control,old_page,CRITICAL,Detect crypto miners using the Stratum protocol,busybox:latest,security_engineer,enterprise,saas,gcp,pro,1,1,1,1,1,5
+control,old_page,ERROR,Write below etc,busybox:latest,security_engineer,enterprise,saas,gcp,pro,1,1,0,1,0,116
+control,old_page,WARNING,Delete Bash History,busybox:latest,security_engineer,enterprise,saas,gcp,pro,1,0,0,0,0,
+control,old_page,ERROR,Create files below dev,busybox:latest,security_engineer,enterprise,saas,gcp,pro,1,1,0,1,0,111
+control,old_page,WARNING,Launch Disallowed Container,busybox:latest,platform_engineer,enterprise,saas,gcp,pro,1,1,0,1,0,96
+control,old_page,ERROR,Container Drift Detected (chmod),busybox:latest,platform_engineer,enterprise,saas,gcp,pro,1,0,0,0,0,
+control,old_page,ERROR,Create files below dev,busybox:latest,platform_engineer,enterprise,saas,gcp,pro,1,1,0,1,0,80
+control,old_page,WARNING,Outbound Connection to C2 Servers,busybox:latest,platform_engineer,enterprise,saas,gcp,pro,1,0,0,0,0,
+control,old_page,WARNING,Outbound or Inbound Traffic not to Authorized Server Process and Port,busybox:latest,platform_engineer,enterprise,saas,gcp,pro,1,0,0,0,0,
+control,old_page,ERROR,Read ssh information,busybox:latest,devops_engineer,enterprise,saas,gcp,pro,1,1,1,1,1,93
+control,old_page,WARNING,Delete or rename shell history,busybox:latest,devops_engineer,enterprise,saas,gcp,pro,1,1,1,1,1,84
+control,old_page,WARNING,Debugfs Launched in Privileged Container,falcosecurity/event-generator,devops_engineer,enterprise,saas,gcp,pro,1,0,0,0,0,
+control,old_page,ERROR,Write below root,busybox:latest,devops_engineer,enterprise,saas,gcp,pro,1,0,0,0,0,
+control,old_page,ERROR,Write below etc,busybox:latest,devops_engineer,enterprise,saas,gcp,pro,1,0,0,0,0,
+control,old_page,WARNING,Remove Bulk Data from Disk,busybox:latest,devops_engineer,enterprise,saas,gcp,pro,1,0,0,0,0,
+control,old_page,CRITICAL,Detect outbound connections to common miner pool ports,busybox:latest,devops_engineer,enterprise,saas,gcp,pro,1,1,0,1,0,85
+control,old_page,WARNING,Read sensitive file untrusted,busybox:latest,devops_engineer,enterprise,saas,gcp,pro,1,1,1,1,1,72
+control,old_page,WARNING,Outbound or Inbound Traffic not to Authorized Server Process and Port,busybox:latest,devops_engineer,enterprise,saas,gcp,pro,1,0,0,0,0,
+control,old_page,CRITICAL,Sudo Potential Privilege Escalation,busybox:latest,security_engineer,small,health,gcp,free,4,1,1,0.25,0.25,78
+control,old_page,ERROR,Create files below dev,busybox:latest,security_engineer,small,health,gcp,free,2,2,0,1,0,7
+control,old_page,ERROR,Write below rpm database,busybox:latest,security_engineer,small,health,gcp,free,3,2,1,0.66666666666666663,0.33333333333333331,25
+control,old_page,WARNING,Mount Launched in Privileged Container,falcosecurity/event-generator,security_engineer,small,health,gcp,free,1,0,0,0,0,
+control,old_page,WARNING,Linux Kernel Module Injection Detected,busybox:latest,security_engineer,small,health,gcp,free,3,1,0,0.33333333333333331,0,15
+control,old_page,ERROR,Launch Package Management Process in Container,busybox:latest,security_engineer,small,health,gcp,free,1,0,0,0,0,
+control,old_page,WARNING,Linux Kernel Module Injection Detected,falcosecurity/event-generator,security_engineer,small,health,gcp,free,2,1,1,0.5,0.5,108
+control,old_page,ERROR,Container Drift Detected (chmod),busybox:latest,security_engineer,small,health,gcp,free,2,2,0,1,0,40
+control,old_page,WARNING,Redirect STDOUT/STDIN to Network Connection in Container,busybox:latest,security_engineer,small,health,gcp,free,2,2,1,1,0.5,38.5
+control,old_page,WARNING,Read sensitive file untrusted,falcosecurity/event-generator,security_engineer,small,health,gcp,free,1,1,0,1,0,41
+control,old_page,WARNING,Read Shell Configuration File,busybox:latest,security_engineer,small,health,gcp,free,1,0,0,0,0,
+control,old_page,WARNING,Outbound or Inbound Traffic not to Authorized Server Process and Port,busybox:latest,security_engineer,small,health,gcp,free,1,1,1,1,1,115
+control,old_page,WARNING,Remove Bulk Data from Disk,busybox:latest,security_engineer,small,health,gcp,free,2,1,0,0.5,0,49
+control,old_page,ERROR,Write below root,busybox:latest,security_engineer,small,health,gcp,free,2,1,1,0.5,0.5,108
+control,old_page,ERROR,Write below etc,busybox:latest,security_engineer,small,health,gcp,free,1,0,0,0,0,
+control,old_page,WARNING,Mount Launched in Privileged Container,busybox:latest,security_engineer,small,health,gcp,free,1,0,0,0,0,
+control,old_page,WARNING,Search Private Keys or Passwords,busybox:latest,security_engineer,small,health,gcp,free,1,0,0,0,0,
+control,old_page,WARNING,Outbound Connection to C2 Servers,falcosecurity/event-generator,security_engineer,small,health,gcp,free,1,1,1,1,1,56
+control,old_page,WARNING,Launch Disallowed Container,busybox:latest,security_engineer,small,health,gcp,free,2,0,0,0,0,
+control,old_page,WARNING,Network Connection outside Local Subnet,falcosecurity/event-generator,security_engineer,small,health,gcp,free,1,1,0,1,0,97
+control,old_page,CRITICAL,Detect outbound connections to common miner pool ports,busybox:latest,security_engineer,small,health,gcp,free,3,2,2,0.66666666666666663,0.66666666666666663,30
+control,old_page,WARNING,Debugfs Launched in Privileged Container,busybox:latest,security_engineer,small,health,gcp,free,2,2,1,1,0.5,54.5
+control,old_page,WARNING,Clear Log Activities,falcosecurity/event-generator,security_engineer,small,health,gcp,free,1,0,0,0,0,
+control,old_page,ERROR,Container Drift Detected (open+create),busybox:latest,security_engineer,small,health,gcp,free,2,2,2,1,1,50.5
+control,old_page,ERROR,Write below binary dir,falcosecurity/event-generator,security_engineer,small,health,gcp,free,2,2,1,1,0.5,50
+control,old_page,WARNING,Delete or rename shell history,busybox:latest,security_engineer,small,health,gcp,free,2,0,0,0,0,
+control,old_page,CRITICAL,Unprivileged Delegation of Page Faults Handling to a Userspace Process,busybox:latest,security_engineer,small,health,gcp,free,1,0,0,0,0,
+control,old_page,WARNING,The docker client is executed in a container,busybox:latest,security_engineer,small,health,gcp,free,1,0,0,0,0,
+control,old_page,CRITICAL,Sudo Potential Privilege Escalation,busybox:latest,platform_engineer,small,saas,aws,pro,1,1,0,1,0,95
+control,old_page,WARNING,Remove Bulk Data from Disk,busybox:latest,platform_engineer,small,saas,aws,pro,1,0,0,0,0,
+control,old_page,ERROR,Create files below dev,busybox:latest,platform_engineer,small,saas,aws,pro,2,0,0,0,0,
+control,old_page,ERROR,Write below binary dir,busybox:latest,platform_engineer,small,saas,aws,pro,2,2,1,1,0.5,109.5
+control,old_page,WARNING,Read sensitive file untrusted,busybox:latest,platform_engineer,small,saas,aws,pro,1,1,1,1,1,46
+control,old_page,WARNING,Outbound Connection to C2 Servers,falcosecurity/event-generator,platform_engineer,small,saas,aws,pro,1,1,1,1,1,15
+control,old_page,ERROR,Container Drift Detected (open+create),busybox:latest,platform_engineer,small,saas,aws,pro,2,1,1,0.5,0.5,113
+control,old_page,ERROR,Write below monitored dir,busybox:latest,platform_engineer,small,saas,aws,pro,2,2,1,1,0.5,64.5
+control,old_page,ERROR,Create files below dev,busybox:latest,security_engineer,small,saas,aws,pro,1,1,1,1,1,101
+control,old_page,CRITICAL,Detect crypto miners using the Stratum protocol,busybox:latest,security_engineer,small,saas,aws,pro,1,1,1,1,1,74
+control,old_page,WARNING,Delete or rename shell history,busybox:latest,security_engineer,small,saas,aws,pro,1,0,0,0,0,
+control,old_page,WARNING,Netcat Remote Code Execution in Container,falcosecurity/event-generator,security_engineer,small,saas,aws,pro,1,1,1,1,1,47
+control,old_page,ERROR,Launch Package Management Process in Container,busybox:latest,security_engineer,small,saas,aws,pro,1,1,1,1,1,119
+control,old_page,WARNING,Delete Bash History,busybox:latest,security_engineer,small,saas,aws,pro,1,1,1,1,1,80
+control,old_page,WARNING,Mount Launched in Privileged Container,busybox:latest,security_engineer,small,saas,aws,pro,2,2,2,1,1,64.5
+control,old_page,WARNING,Read sensitive file untrusted,busybox:latest,security_engineer,small,saas,aws,pro,1,1,0,1,0,24
+control,old_page,WARNING,The docker client is executed in a container,busybox:latest,security_engineer,small,saas,aws,pro,1,0,0,0,0,
+control,old_page,WARNING,Mount Launched in Privileged Container,busybox:latest,platform_engineer,small,saas,aws,pro,1,1,1,1,1,87
+control,old_page,WARNING,Launch Disallowed Container,falcosecurity/event-generator,platform_engineer,small,saas,aws,pro,1,1,0,1,0,38
+control,old_page,WARNING,Network Connection outside Local Subnet,busybox:latest,platform_engineer,small,saas,aws,pro,1,0,0,0,0,
+control,old_page,WARNING,Redirect STDOUT/STDIN to Network Connection in Container,falcosecurity/event-generator,platform_engineer,small,saas,aws,pro,1,1,1,1,1,81
+control,old_page,WARNING,Debugfs Launched in Privileged Container,busybox:latest,platform_engineer,small,saas,aws,pro,1,1,1,1,1,94
+control,old_page,WARNING,The docker client is executed in a container,busybox:latest,platform_engineer,small,saas,aws,pro,1,0,0,0,0,
+control,old_page,CRITICAL,Detect outbound connections to common miner pool ports,busybox:latest,platform_engineer,small,saas,aws,pro,1,1,1,1,1,11
+control,old_page,ERROR,Write below etc,falcosecurity/falco,platform_engineer,small,saas,aws,pro,1,1,0,1,0,67
+control,old_page,WARNING,Clear Log Activities,busybox:latest,platform_engineer,small,saas,aws,pro,1,0,0,0,0,
+control,old_page,WARNING,Search Private Keys or Passwords,falcosecurity/event-generator,platform_engineer,small,saas,aws,pro,1,1,1,1,1,43
+control,old_page,ERROR,Modify binary dirs,falcosecurity/event-generator,platform_engineer,small,saas,aws,pro,1,1,1,1,1,78
+control,old_page,WARNING,Remove Bulk Data from Disk,busybox:latest,platform_engineer,medium,ecommerce,aws,enterprise,1,0,0,0,0,
+control,old_page,WARNING,Read sensitive file untrusted,busybox:latest,platform_engineer,medium,ecommerce,aws,enterprise,1,1,0,1,0,118
+control,old_page,WARNING,Redirect STDOUT/STDIN to Network Connection in Container,busybox:latest,platform_engineer,medium,ecommerce,aws,enterprise,1,0,0,0,0,
+control,old_page,ERROR,Write below root,busybox:latest,platform_engineer,medium,ecommerce,aws,enterprise,1,1,0,1,0,4
+control,old_page,WARNING,Search Private Keys or Passwords,busybox:latest,platform_engineer,medium,ecommerce,aws,enterprise,1,1,1,1,1,59
+control,old_page,WARNING,The docker client is executed in a container,busybox:latest,platform_engineer,medium,ecommerce,aws,enterprise,1,1,1,1,1,61
+control,old_page,WARNING,Remove Bulk Data from Disk,busybox:latest,security_engineer,medium,ecommerce,aws,enterprise,1,0,0,0,0,
+control,old_page,ERROR,Write below etc,busybox:latest,security_engineer,medium,ecommerce,aws,enterprise,1,0,0,0,0,
+control,old_page,ERROR,Container Drift Detected (chmod),busybox:latest,security_engineer,medium,ecommerce,aws,enterprise,1,0,0,0,0,
+control,old_page,ERROR,Mkdir binary dirs,busybox:latest,security_engineer,medium,ecommerce,aws,enterprise,1,0,0,0,0,
+control,old_page,WARNING,Linux Kernel Module Injection Detected,busybox:latest,security_engineer,medium,ecommerce,aws,enterprise,1,1,0,1,0,18
+control,old_page,WARNING,Search Private Keys or Passwords,busybox:latest,devops_engineer,medium,ecommerce,aws,enterprise,1,0,0,0,0,
+control,old_page,ERROR,Write below etc,busybox:latest,devops_engineer,medium,ecommerce,aws,enterprise,2,1,1,0.5,0.5,6
+control,old_page,CRITICAL,Sudo Potential Privilege Escalation,falcosecurity/event-generator,devops_engineer,medium,ecommerce,aws,enterprise,1,0,0,0,0,
+control,old_page,WARNING,Redirect STDOUT/STDIN to Network Connection in Container,busybox:latest,devops_engineer,medium,ecommerce,aws,enterprise,2,1,1,0.5,0.5,73
+control,old_page,ERROR,Launch Package Management Process in Container,busybox:latest,devops_engineer,medium,ecommerce,aws,enterprise,1,0,0,0,0,
+control,old_page,ERROR,Modify binary dirs,busybox:latest,devops_engineer,medium,ecommerce,aws,enterprise,1,0,0,0,0,
+control,old_page,CRITICAL,Detect outbound connections to common miner pool ports,falcosecurity/event-generator,platform_engineer,medium,ecommerce,aws,enterprise,1,0,0,0,0,
+control,old_page,ERROR,Read ssh information,busybox:latest,platform_engineer,medium,ecommerce,aws,enterprise,1,1,1,1,1,49
+control,old_page,CRITICAL,Sudo Potential Privilege Escalation,busybox:latest,platform_engineer,medium,ecommerce,aws,enterprise,1,1,0,1,0,52
+control,old_page,WARNING,Linux Kernel Module Injection Detected,busybox:latest,platform_engineer,medium,fintech,gcp,free,2,2,1,1,0.5,86.5
+control,old_page,WARNING,Clear Log Activities,busybox:latest,platform_engineer,medium,fintech,gcp,free,2,1,1,0.5,0.5,75
+control,old_page,ERROR,Write below etc,falcosecurity/event-generator,platform_engineer,medium,fintech,gcp,free,1,1,1,1,1,17
+control,old_page,ERROR,Write below root,busybox:latest,platform_engineer,medium,fintech,gcp,free,1,0,0,0,0,
+control,old_page,WARNING,Read sensitive file untrusted,busybox:latest,platform_engineer,medium,fintech,gcp,free,1,1,0,1,0,100
+control,old_page,WARNING,Network Connection outside Local Subnet,falcosecurity/event-generator,platform_engineer,medium,fintech,gcp,free,1,1,0,1,0,109
+control,old_page,ERROR,Write below etc,busybox:latest,platform_engineer,medium,fintech,gcp,free,1,0,0,0,0,
+control,old_page,ERROR,Write below root,busybox:latest,devops_engineer,medium,fintech,gcp,free,2,2,1,1,0.5,53.5
+control,old_page,ERROR,Create files below dev,busybox:latest,devops_engineer,medium,fintech,gcp,free,1,1,0,1,0,120
+control,old_page,WARNING,Netcat Remote Code Execution in Container,falcosecurity/event-generator,devops_engineer,medium,fintech,gcp,free,1,0,0,0,0,
+control,old_page,WARNING,Redirect STDOUT/STDIN to Network Connection in Container,busybox:latest,devops_engineer,medium,fintech,gcp,free,1,0,0,0,0,
+control,old_page,WARNING,Debugfs Launched in Privileged Container,busybox:latest,devops_engineer,medium,fintech,gcp,free,1,1,1,1,1,32
+control,old_page,WARNING,Launch Disallowed Container,busybox:latest,devops_engineer,medium,fintech,gcp,free,2,0,0,0,0,
+control,old_page,ERROR,Container Drift Detected (chmod),falcosecurity/event-generator,devops_engineer,medium,fintech,gcp,free,1,1,0,1,0,105
+control,old_page,ERROR,Modify binary dirs,falcosecurity/event-generator,devops_engineer,medium,fintech,gcp,free,1,0,0,0,0,
+control,old_page,WARNING,Launch Disallowed Container,busybox:latest,platform_engineer,medium,fintech,gcp,free,1,0,0,0,0,
+control,old_page,ERROR,Write below rpm database,busybox:latest,platform_engineer,medium,fintech,gcp,free,1,0,0,0,0,
+control,old_page,ERROR,Write below monitored dir,falcosecurity/event-generator,platform_engineer,medium,fintech,gcp,free,1,1,0,1,0,75
+control,old_page,WARNING,Outbound Connection to C2 Servers,busybox:latest,platform_engineer,medium,fintech,gcp,free,1,1,1,1,1,64
+control,old_page,WARNING,Outbound Connection to C2 Servers,falcosecurity/event-generator,platform_engineer,medium,fintech,gcp,free,1,0,0,0,0,
+control,old_page,WARNING,Network Connection outside Local Subnet,busybox:latest,platform_engineer,medium,fintech,gcp,free,1,1,0,1,0,33
+control,old_page,ERROR,Create files below dev,busybox:latest,platform_engineer,medium,fintech,gcp,free,1,1,0,1,0,58
+control,old_page,WARNING,Outbound or Inbound Traffic not to Authorized Server Process and Port,falcosecurity/event-generator,platform_engineer,medium,fintech,gcp,free,1,0,0,0,0,
+control,old_page,WARNING,Read sensitive file trusted after startup,falcosecurity/event-generator,platform_engineer,medium,fintech,gcp,free,1,0,0,0,0,
+control,old_page,WARNING,Redirect STDOUT/STDIN to Network Connection in Container,busybox:latest,platform_engineer,medium,fintech,gcp,free,1,0,0,0,0,
+control,old_page,WARNING,The docker client is executed in a container,busybox:latest,security_engineer,medium,fintech,gcp,free,1,1,0,1,0,5
+control,old_page,ERROR,Container Drift Detected (chmod),busybox:latest,security_engineer,medium,fintech,gcp,free,1,1,1,1,1,57
+control,old_page,WARNING,Launch Disallowed Container,busybox:latest,security_engineer,medium,fintech,gcp,free,1,1,1,1,1,38
+control,old_page,WARNING,Delete or rename shell history,busybox:latest,security_engineer,medium,fintech,gcp,free,1,1,0,1,0,56
+control,old_page,WARNING,Redirect STDOUT/STDIN to Network Connection in Container,busybox:latest,security_engineer,medium,fintech,gcp,free,1,1,1,1,1,105
+control,old_page,ERROR,Write below root,busybox:latest,security_engineer,medium,fintech,gcp,free,1,1,1,1,1,25
+control,old_page,ERROR,Write below etc,busybox:latest,security_engineer,medium,fintech,gcp,free,1,1,0,1,0,66
+control,old_page,ERROR,Container Drift Detected (chmod),busybox:latest,platform_engineer,medium,fintech,gcp,free,1,1,0,1,0,77
+control,old_page,ERROR,Container Drift Detected (open+create),busybox:latest,platform_engineer,medium,fintech,gcp,free,1,1,0,1,0,67
+control,old_page,ERROR,Container Drift Detected (open+create),falcosecurity/event-generator,platform_engineer,medium,fintech,gcp,free,1,1,0,1,0,120
+control,old_page,WARNING,Debugfs Launched in Privileged Container,busybox:latest,platform_engineer,enterprise,ecommerce,azure,enterprise,2,1,1,0.5,0.5,54
+control,old_page,ERROR,Create files below dev,busybox:latest,platform_engineer,enterprise,ecommerce,azure,enterprise,1,1,1,1,1,63
+control,old_page,ERROR,Container Drift Detected (open+create),falcosecurity/event-generator,platform_engineer,enterprise,ecommerce,azure,enterprise,1,1,1,1,1,42
+control,old_page,WARNING,Search Private Keys or Passwords,busybox:latest,platform_engineer,enterprise,ecommerce,azure,enterprise,1,0,0,0,0,
+control,old_page,ERROR,Modify binary dirs,falcosecurity/event-generator,platform_engineer,enterprise,ecommerce,azure,enterprise,1,1,1,1,1,12
+control,old_page,WARNING,Launch Disallowed Container,falcosecurity/event-generator,platform_engineer,enterprise,ecommerce,azure,enterprise,2,1,1,0.5,0.5,82
+control,old_page,WARNING,The docker client is executed in a container,falcosecurity/event-generator,platform_engineer,enterprise,ecommerce,azure,enterprise,1,1,1,1,1,120
+control,old_page,WARNING,Outbound or Inbound Traffic not to Authorized Server Process and Port,busybox:latest,platform_engineer,enterprise,ecommerce,azure,enterprise,2,1,1,0.5,0.5,116
+control,old_page,WARNING,Delete or rename shell history,busybox:latest,platform_engineer,enterprise,ecommerce,azure,enterprise,1,1,1,1,1,40
+control,old_page,ERROR,Write below etc,busybox:latest,platform_engineer,enterprise,ecommerce,azure,enterprise,1,1,1,1,1,98
+control,old_page,ERROR,Write below rpm database,busybox:latest,platform_engineer,enterprise,ecommerce,azure,enterprise,1,1,0,1,0,4
+control,old_page,ERROR,Write below root,busybox:latest,platform_engineer,enterprise,ecommerce,azure,enterprise,3,1,1,0.33333333333333331,0.33333333333333331,43
+control,old_page,ERROR,Read ssh information,busybox:latest,platform_engineer,enterprise,ecommerce,azure,enterprise,1,1,0,1,0,29
+control,old_page,WARNING,Network Connection outside Local Subnet,falcosecurity/event-generator,platform_engineer,enterprise,ecommerce,azure,enterprise,1,1,1,1,1,17
+control,old_page,WARNING,Read sensitive file untrusted,busybox:latest,platform_engineer,enterprise,ecommerce,azure,enterprise,1,1,1,1,1,42
+control,old_page,WARNING,Launch Disallowed Container,busybox:latest,platform_engineer,enterprise,ecommerce,azure,enterprise,2,2,2,1,1,61.5
+control,old_page,ERROR,Container Drift Detected (open+create),busybox:latest,platform_engineer,enterprise,ecommerce,azure,enterprise,1,1,1,1,1,55
+control,old_page,WARNING,Network Connection outside Local Subnet,busybox:latest,platform_engineer,enterprise,ecommerce,azure,enterprise,1,1,0,1,0,18
+control,old_page,WARNING,Delete Bash History,busybox:latest,platform_engineer,enterprise,ecommerce,azure,enterprise,2,1,0,0.5,0,60
+control,old_page,CRITICAL,Unprivileged Delegation of Page Faults Handling to a Userspace Process,busybox:latest,platform_engineer,enterprise,ecommerce,azure,enterprise,2,2,2,1,1,51.5
+control,old_page,WARNING,Linux Kernel Module Injection Detected,falcosecurity/event-generator,platform_engineer,enterprise,ecommerce,azure,enterprise,1,0,0,0,0,
+control,old_page,ERROR,Mkdir binary dirs,busybox:latest,platform_engineer,enterprise,ecommerce,azure,enterprise,2,1,1,0.5,0.5,62
+control,old_page,WARNING,Outbound or Inbound Traffic not to Authorized Server Process and Port,falcosecurity/event-generator,platform_engineer,enterprise,ecommerce,azure,enterprise,1,1,0,1,0,39
+control,old_page,ERROR,Write below monitored dir,falcosecurity/event-generator,platform_engineer,enterprise,ecommerce,azure,enterprise,1,1,1,1,1,108
+control,old_page,WARNING,Read sensitive file trusted after startup,busybox:latest,platform_engineer,enterprise,ecommerce,azure,enterprise,1,0,0,0,0,
+control,old_page,ERROR,Container Drift Detected (chmod),busybox:latest,platform_engineer,enterprise,ecommerce,azure,enterprise,1,1,0,1,0,97
+control,old_page,WARNING,Netcat Remote Code Execution in Container,busybox:latest,platform_engineer,enterprise,ecommerce,azure,enterprise,1,0,0,0,0,
+control,old_page,CRITICAL,Detect crypto miners using the Stratum protocol,busybox:latest,platform_engineer,enterprise,ecommerce,azure,enterprise,1,1,1,1,1,9
+control,old_page,WARNING,Remove Bulk Data from Disk,busybox:latest,platform_engineer,enterprise,ecommerce,azure,enterprise,1,0,0,0,0,
+control,old_page,WARNING,Outbound Connection to C2 Servers,busybox:latest,platform_engineer,enterprise,ecommerce,azure,enterprise,1,1,1,1,1,15
+control,old_page,ERROR,Write below monitored dir,busybox:latest,platform_engineer,enterprise,ecommerce,azure,enterprise,1,0,0,0,0,
+control,old_page,ERROR,Launch Package Management Process in Container,busybox:latest,platform_engineer,enterprise,ecommerce,azure,enterprise,1,1,1,1,1,9
+control,old_page,WARNING,Mount Launched in Privileged Container,busybox:latest,platform_engineer,medium,health,azure,free,1,1,1,1,1,19
+control,old_page,ERROR,Create files below dev,busybox:latest,platform_engineer,medium,health,azure,free,1,1,0,1,0,48
+control,old_page,WARNING,Clear Log Activities,busybox:latest,platform_engineer,medium,health,azure,free,1,0,0,0,0,
+control,old_page,ERROR,Launch Package Management Process in Container,busybox:latest,platform_engineer,medium,health,azure,free,1,0,0,0,0,
+control,old_page,ERROR,Read ssh information,busybox:latest,devops_engineer,medium,health,azure,free,2,2,1,1,0.5,69
+control,old_page,ERROR,Container Drift Detected (open+create),falcosecurity/event-generator,devops_engineer,medium,health,azure,free,1,1,0,1,0,104
+control,old_page,ERROR,Write below rpm database,busybox:latest,devops_engineer,medium,health,azure,free,2,1,0,0.5,0,103
+control,old_page,ERROR,Create files below dev,busybox:latest,devops_engineer,medium,health,azure,free,1,1,0,1,0,101
+control,old_page,ERROR,Write below root,busybox:latest,devops_engineer,medium,health,azure,free,1,1,1,1,1,95
+control,old_page,WARNING,Debugfs Launched in Privileged Container,busybox:latest,devops_engineer,medium,health,azure,free,1,1,1,1,1,114
+control,old_page,ERROR,Write below monitored dir,falcosecurity/event-generator,devops_engineer,medium,health,azure,free,1,1,1,1,1,11
+control,old_page,ERROR,Create files below dev,busybox:latest,security_engineer,medium,health,azure,free,1,0,0,0,0,
+control,old_page,WARNING,Launch Disallowed Container,busybox:latest,security_engineer,medium,health,azure,free,1,1,0,1,0,74
+control,old_page,ERROR,Write below rpm database,falcosecurity/event-generator,security_engineer,medium,health,azure,free,1,1,1,1,1,6
+control,old_page,WARNING,Search Private Keys or Passwords,busybox:latest,security_engineer,medium,health,azure,free,1,1,1,1,1,7
+control,old_page,WARNING,Read sensitive file trusted after startup,falcosecurity/event-generator,security_engineer,medium,health,azure,free,1,1,1,1,1,11
+control,old_page,ERROR,Launch Package Management Process in Container,falcosecurity/event-generator,devops_engineer,medium,health,azure,free,1,0,0,0,0,
+control,old_page,WARNING,Delete Bash History,busybox:latest,devops_engineer,medium,health,azure,free,1,1,1,1,1,71
+control,old_page,WARNING,Outbound Connection to C2 Servers,busybox:latest,devops_engineer,medium,health,azure,free,1,1,0,1,0,115
+control,old_page,ERROR,Mkdir binary dirs,busybox:latest,devops_engineer,medium,health,azure,free,1,1,0,1,0,85
+control,old_page,ERROR,Write below etc,falcosecurity/event-generator,devops_engineer,medium,health,azure,free,1,0,0,0,0,
+control,old_page,ERROR,Write below binary dir,busybox:latest,devops_engineer,medium,health,azure,free,2,0,0,0,0,
+control,old_page,WARNING,Read sensitive file untrusted,busybox:latest,security_engineer,small,health,gcp,free,1,1,1,1,1,104
+control,old_page,WARNING,Network Connection outside Local Subnet,busybox:latest,security_engineer,small,health,gcp,free,1,1,1,1,1,13
+control,old_page,ERROR,Modify binary dirs,busybox:latest,security_engineer,small,health,gcp,free,1,1,1,1,1,72
+control,old_page,ERROR,Write below binary dir,busybox:latest,security_engineer,small,health,gcp,free,1,1,0,1,0,96
+control,old_page,WARNING,Read sensitive file untrusted,falcosecurity/event-generator,devops_engineer,small,health,gcp,free,1,1,0,1,0,72
+control,old_page,ERROR,Write below etc,busybox:latest,devops_engineer,small,health,gcp,free,1,1,1,1,1,38
+control,old_page,WARNING,Clear Log Activities,falcosecurity/event-generator,devops_engineer,small,health,gcp,free,1,0,0,0,0,
+control,old_page,CRITICAL,Detect outbound connections to common miner pool ports,falcosecurity/event-generator,devops_engineer,small,health,gcp,free,1,1,0,1,0,91
+control,old_page,WARNING,Launch Disallowed Container,busybox:latest,devops_engineer,small,health,gcp,free,2,2,1,1,0.5,73
+control,old_page,ERROR,Write below binary dir,busybox:latest,devops_engineer,small,health,gcp,free,1,1,1,1,1,82
+control,old_page,WARNING,Launch Disallowed Container,falcosecurity/event-generator,devops_engineer,small,health,gcp,free,1,0,0,0,0,
+control,old_page,WARNING,Clear Log Activities,busybox:latest,devops_engineer,small,health,gcp,free,1,1,1,1,1,55
+control,old_page,CRITICAL,Unprivileged Delegation of Page Faults Handling to a Userspace Process,falcosecurity/event-generator,security_engineer,small,health,gcp,free,1,1,0,1,0,53
+control,old_page,CRITICAL,Detect crypto miners using the Stratum protocol,busybox:latest,security_engineer,small,health,gcp,free,1,1,1,1,1,117
+control,old_page,ERROR,Write below monitored dir,busybox:latest,security_engineer,small,health,gcp,free,1,0,0,0,0,
+control,old_page,CRITICAL,Detect outbound connections to common miner pool ports,busybox:latest,platform_engineer,small,health,gcp,free,1,0,0,0,0,
+control,old_page,ERROR,Read ssh information,busybox:latest,platform_engineer,small,health,gcp,free,1,1,1,1,1,29
+control,old_page,WARNING,Linux Kernel Module Injection Detected,<NA>,platform_engineer,small,health,gcp,free,1,1,1,1,1,71
+control,old_page,CRITICAL,Detect crypto miners using the Stratum protocol,busybox:latest,platform_engineer,small,health,gcp,free,1,1,0,1,0,90
+control,old_page,WARNING,Outbound Connection to C2 Servers,busybox:latest,platform_engineer,small,health,gcp,free,2,1,1,0.5,0.5,18
+control,old_page,ERROR,Write below monitored dir,busybox:latest,platform_engineer,small,health,gcp,free,1,0,0,0,0,
+control,old_page,ERROR,Modify binary dirs,busybox:latest,platform_engineer,small,health,gcp,free,1,0,0,0,0,
+control,old_page,CRITICAL,Sudo Potential Privilege Escalation,busybox:latest,platform_engineer,small,health,gcp,free,1,1,1,1,1,17
+control,old_page,WARNING,Launch Disallowed Container,falcosecurity/event-generator,platform_engineer,small,health,gcp,free,1,0,0,0,0,
+control,old_page,WARNING,Delete Bash History,busybox:latest,platform_engineer,small,health,gcp,free,1,0,0,0,0,
+control,old_page,WARNING,The docker client is executed in a container,falcosecurity/event-generator,platform_engineer,small,health,gcp,free,1,1,1,1,1,34
+control,old_page,WARNING,Read sensitive file untrusted,busybox:latest,platform_engineer,small,health,gcp,free,2,1,0,0.5,0,18
+control,old_page,ERROR,Mkdir binary dirs,busybox:latest,platform_engineer,small,health,gcp,free,1,0,0,0,0,
+control,old_page,WARNING,Outbound or Inbound Traffic not to Authorized Server Process and Port,falcosecurity/event-generator,platform_engineer,small,health,gcp,free,1,1,1,1,1,36
+control,old_page,ERROR,Write below rpm database,busybox:latest,platform_engineer,small,health,gcp,free,1,1,0,1,0,12
+control,old_page,WARNING,Read sensitive file trusted after startup,busybox:latest,platform_engineer,small,health,gcp,free,2,2,2,1,1,72
+control,old_page,WARNING,Network Connection outside Local Subnet,busybox:latest,platform_engineer,small,health,gcp,free,1,1,1,1,1,34
+control,old_page,WARNING,Debugfs Launched in Privileged Container,falcosecurity/event-generator,platform_engineer,small,health,gcp,free,1,1,0,1,0,65
+control,old_page,ERROR,Container Drift Detected (open+create),falcosecurity/event-generator,platform_engineer,small,health,gcp,free,1,0,0,0,0,
+control,old_page,ERROR,Write below root,busybox:latest,platform_engineer,small,health,gcp,free,1,1,0,1,0,59
+control,old_page,WARNING,Search Private Keys or Passwords,falcosecurity/event-generator,platform_engineer,small,fintech,gcp,pro,1,0,0,0,0,
+control,old_page,WARNING,Netcat Remote Code Execution in Container,busybox:latest,platform_engineer,small,fintech,gcp,pro,1,0,0,0,0,
+control,old_page,WARNING,Mount Launched in Privileged Container,busybox:latest,platform_engineer,small,fintech,gcp,pro,1,0,0,0,0,
+control,old_page,ERROR,Modify binary dirs,busybox:latest,platform_engineer,small,fintech,gcp,pro,1,1,0,1,0,5
+control,old_page,ERROR,Container Drift Detected (open+create),busybox:latest,platform_engineer,small,fintech,gcp,pro,1,0,0,0,0,
+control,old_page,ERROR,Modify binary dirs,falcosecurity/event-generator,platform_engineer,small,fintech,gcp,pro,1,1,0,1,0,2
+control,old_page,CRITICAL,Unprivileged Delegation of Page Faults Handling to a Userspace Process,busybox:latest,platform_engineer,small,fintech,gcp,pro,1,1,1,1,1,102
+control,old_page,WARNING,The docker client is executed in a container,busybox:latest,security_engineer,small,fintech,gcp,pro,3,2,1,0.66666666666666663,0.33333333333333331,98
+control,old_page,ERROR,Read ssh information,falcosecurity/event-generator,security_engineer,small,fintech,gcp,pro,1,1,1,1,1,120
+control,old_page,ERROR,Create files below dev,busybox:latest,security_engineer,small,fintech,gcp,pro,1,1,1,1,1,53
+control,old_page,ERROR,Write below root,falcosecurity/event-generator,security_engineer,small,fintech,gcp,pro,1,1,1,1,1,110
+control,old_page,WARNING,Network Connection outside Local Subnet,falcosecurity/event-generator,security_engineer,small,fintech,gcp,pro,1,0,0,0,0,
+control,old_page,WARNING,Outbound or Inbound Traffic not to Authorized Server Process and Port,busybox:latest,security_engineer,small,fintech,gcp,pro,1,0,0,0,0,
+control,old_page,ERROR,Write below etc,busybox:latest,security_engineer,small,fintech,gcp,pro,1,0,0,0,0,
+control,old_page,WARNING,Read sensitive file trusted after startup,busybox:latest,security_engineer,small,fintech,gcp,pro,1,1,0,1,0,18
+control,old_page,WARNING,Netcat Remote Code Execution in Container,busybox:latest,security_engineer,small,fintech,gcp,pro,1,1,1,1,1,17
+control,old_page,WARNING,Delete Bash History,busybox:latest,platform_engineer,small,fintech,gcp,pro,1,1,1,1,1,47
+control,old_page,WARNING,Network Connection outside Local Subnet,falcosecurity/event-generator,platform_engineer,small,fintech,gcp,pro,1,1,1,1,1,62
+control,old_page,WARNING,Read Shell Configuration File,busybox:latest,platform_engineer,small,fintech,gcp,pro,1,1,1,1,1,61
+control,old_page,WARNING,The docker client is executed in a container,busybox:latest,platform_engineer,small,fintech,gcp,pro,2,1,0,0.5,0,108
+control,old_page,WARNING,Outbound or Inbound Traffic not to Authorized Server Process and Port,busybox:latest,platform_engineer,small,fintech,gcp,pro,2,1,1,0.5,0.5,85
+control,old_page,ERROR,Write below root,busybox:latest,platform_engineer,small,fintech,gcp,pro,1,1,0,1,0,99
+control,old_page,WARNING,Launch Disallowed Container,busybox:latest,security_engineer,small,fintech,gcp,pro,1,0,0,0,0,
+control,old_page,CRITICAL,Detect crypto miners using the Stratum protocol,falcosecurity/event-generator,security_engineer,small,fintech,gcp,pro,1,1,1,1,1,104
+control,old_page,CRITICAL,Sudo Potential Privilege Escalation,busybox:latest,security_engineer,small,fintech,gcp,pro,1,0,0,0,0,
+control,old_page,CRITICAL,Detect crypto miners using the Stratum protocol,busybox:latest,security_engineer,small,fintech,gcp,pro,2,0,0,0,0,
+control,old_page,WARNING,Redirect STDOUT/STDIN to Network Connection in Container,busybox:latest,security_engineer,small,fintech,gcp,pro,1,1,1,1,1,27
+control,old_page,ERROR,Write below monitored dir,falcosecurity/event-generator,security_engineer,small,fintech,gcp,pro,1,0,0,0,0,
+control,old_page,ERROR,Write below rpm database,falcosecurity/event-generator,security_engineer,small,fintech,gcp,pro,1,0,0,0,0,
+control,old_page,WARNING,Search Private Keys or Passwords,falcosecurity/event-generator,security_engineer,small,fintech,gcp,pro,1,0,0,0,0,
+control,old_page,ERROR,Container Drift Detected (chmod),busybox:latest,security_engineer,small,fintech,gcp,pro,1,0,0,0,0,
+control,old_page,ERROR,Mkdir binary dirs,busybox:latest,platform_engineer,medium,ecommerce,aws,pro,2,2,1,1,0.5,84.5
+control,old_page,ERROR,Modify binary dirs,falcosecurity/event-generator,platform_engineer,medium,ecommerce,aws,pro,1,0,0,0,0,
+control,old_page,WARNING,Launch Disallowed Container,falcosecurity/event-generator,platform_engineer,medium,ecommerce,aws,pro,1,1,1,1,1,70
+control,old_page,ERROR,Write below etc,falcosecurity/event-generator,platform_engineer,medium,ecommerce,aws,pro,1,0,0,0,0,
+control,old_page,ERROR,Container Drift Detected (chmod),busybox:latest,platform_engineer,medium,ecommerce,aws,pro,2,2,0,1,0,58.5
+control,old_page,WARNING,The docker client is executed in a container,busybox:latest,platform_engineer,medium,ecommerce,aws,pro,1,0,0,0,0,
+control,old_page,WARNING,Network Connection outside Local Subnet,busybox:latest,platform_engineer,medium,ecommerce,aws,pro,1,0,0,0,0,
+control,old_page,ERROR,Write below monitored dir,busybox:latest,platform_engineer,medium,ecommerce,aws,pro,1,1,0,1,0,95
+control,old_page,WARNING,Launch Disallowed Container,busybox:latest,platform_engineer,medium,ecommerce,aws,pro,1,1,1,1,1,105
+control,old_page,WARNING,Read Shell Configuration File,busybox:latest,platform_engineer,medium,ecommerce,aws,pro,1,1,1,1,1,20
+control,old_page,WARNING,Search Private Keys or Passwords,falcosecurity/event-generator,platform_engineer,medium,ecommerce,aws,pro,1,1,0,1,0,25
+control,old_page,WARNING,Outbound Connection to C2 Servers,busybox:latest,platform_engineer,medium,ecommerce,aws,pro,1,1,0,1,0,106
+control,old_page,CRITICAL,Detect crypto miners using the Stratum protocol,busybox:latest,platform_engineer,medium,ecommerce,aws,pro,1,0,0,0,0,
+control,old_page,WARNING,Outbound or Inbound Traffic not to Authorized Server Process and Port,busybox:latest,platform_engineer,medium,ecommerce,aws,pro,1,0,0,0,0,
+control,old_page,WARNING,Netcat Remote Code Execution in Container,falcosecurity/event-generator,platform_engineer,medium,ecommerce,aws,pro,1,0,0,0,0,
+control,old_page,WARNING,Remove Bulk Data from Disk,falcosecurity/event-generator,platform_engineer,medium,ecommerce,aws,pro,1,0,0,0,0,
+control,old_page,WARNING,Read sensitive file untrusted,busybox:latest,platform_engineer,medium,ecommerce,aws,pro,1,0,0,0,0,
+control,old_page,WARNING,The docker client is executed in a container,busybox:latest,security_engineer,medium,ecommerce,aws,pro,1,0,0,0,0,
+control,old_page,WARNING,Delete Bash History,busybox:latest,security_engineer,medium,ecommerce,aws,pro,1,0,0,0,0,
+control,old_page,CRITICAL,Detect crypto miners using the Stratum protocol,falcosecurity/event-generator,security_engineer,medium,ecommerce,aws,pro,1,0,0,0,0,
+control,old_page,ERROR,Write below root,busybox:latest,security_engineer,medium,ecommerce,aws,pro,2,2,2,1,1,48.5
+control,old_page,ERROR,Modify binary dirs,busybox:latest,security_engineer,medium,ecommerce,aws,pro,1,0,0,0,0,
+control,old_page,WARNING,Read sensitive file trusted after startup,busybox:latest,security_engineer,medium,ecommerce,aws,pro,1,1,1,1,1,51
+control,old_page,CRITICAL,Unprivileged Delegation of Page Faults Handling to a Userspace Process,falcosecurity/event-generator,security_engineer,medium,ecommerce,aws,pro,1,1,1,1,1,30
+control,old_page,CRITICAL,Detect crypto miners using the Stratum protocol,busybox:latest,security_engineer,medium,ecommerce,aws,pro,1,1,1,1,1,15
+control,old_page,CRITICAL,Unprivileged Delegation of Page Faults Handling to a Userspace Process,busybox:latest,security_engineer,medium,ecommerce,aws,pro,1,1,0,1,0,102
+control,old_page,WARNING,Delete or rename shell history,busybox:latest,security_engineer,medium,ecommerce,aws,pro,1,0,0,0,0,
+control,old_page,CRITICAL,Unprivileged Delegation of Page Faults Handling to a Userspace Process,busybox:latest,devops_engineer,medium,health,azure,pro,1,0,0,0,0,
+control,old_page,WARNING,Read sensitive file untrusted,busybox:latest,devops_engineer,medium,health,azure,pro,1,0,0,0,0,
+control,old_page,ERROR,Write below etc,busybox:latest,devops_engineer,medium,health,azure,pro,1,0,0,0,0,
+control,old_page,WARNING,Outbound Connection to C2 Servers,busybox:latest,devops_engineer,medium,health,azure,pro,1,1,1,1,1,56
+control,old_page,WARNING,The docker client is executed in a container,busybox:latest,devops_engineer,medium,health,azure,pro,1,1,0,1,0,65
+control,old_page,ERROR,Read ssh information,busybox:latest,devops_engineer,medium,health,azure,pro,1,0,0,0,0,
+control,old_page,WARNING,Redirect STDOUT/STDIN to Network Connection in Container,busybox:latest,devops_engineer,medium,health,azure,pro,1,0,0,0,0,
+control,old_page,WARNING,Mount Launched in Privileged Container,falcosecurity/event-generator,devops_engineer,medium,health,azure,pro,1,1,0,1,0,6
+control,old_page,ERROR,Write below monitored dir,busybox:latest,devops_engineer,medium,health,azure,pro,1,0,0,0,0,
+control,old_page,WARNING,Read Shell Configuration File,busybox:latest,devops_engineer,medium,health,azure,pro,1,0,0,0,0,
+control,old_page,WARNING,Netcat Remote Code Execution in Container,busybox:latest,devops_engineer,medium,health,azure,pro,2,1,0,0.5,0,16
+control,old_page,ERROR,Create files below dev,busybox:latest,devops_engineer,medium,health,azure,pro,1,0,0,0,0,
+control,old_page,CRITICAL,Detect outbound connections to common miner pool ports,busybox:latest,devops_engineer,medium,health,azure,pro,1,0,0,0,0,
+control,old_page,ERROR,Launch Package Management Process in Container,busybox:latest,security_engineer,medium,health,azure,pro,1,0,0,0,0,
+control,old_page,WARNING,Outbound or Inbound Traffic not to Authorized Server Process and Port,busybox:latest,security_engineer,medium,health,azure,pro,1,1,1,1,1,17
+control,old_page,ERROR,Launch Package Management Process in Container,falcosecurity/event-generator,security_engineer,medium,health,azure,pro,1,1,0,1,0,103
+control,old_page,ERROR,Write below etc,busybox:latest,security_engineer,medium,health,azure,pro,1,1,1,1,1,41
+control,old_page,WARNING,Delete Bash History,busybox:latest,security_engineer,medium,health,azure,pro,1,0,0,0,0,
+control,old_page,ERROR,Write below rpm database,busybox:latest,security_engineer,medium,health,azure,pro,2,0,0,0,0,
+control,old_page,ERROR,Read ssh information,busybox:latest,security_engineer,medium,health,azure,pro,1,0,0,0,0,
+control,old_page,ERROR,Mkdir binary dirs,busybox:latest,security_engineer,medium,health,azure,pro,1,1,0,1,0,37
+control,old_page,CRITICAL,Sudo Potential Privilege Escalation,busybox:latest,platform_engineer,medium,health,azure,pro,1,0,0,0,0,
+control,old_page,WARNING,Outbound or Inbound Traffic not to Authorized Server Process and Port,busybox:latest,platform_engineer,medium,health,azure,pro,1,1,1,1,1,70
+control,old_page,WARNING,Remove Bulk Data from Disk,busybox:latest,platform_engineer,medium,health,azure,pro,1,1,0,1,0,97
+control,old_page,ERROR,Write below etc,busybox:latest,platform_engineer,medium,health,azure,pro,2,1,1,0.5,0.5,51
+control,old_page,WARNING,Delete or rename shell history,busybox:latest,platform_engineer,medium,health,azure,pro,1,1,0,1,0,66
+control,old_page,ERROR,Modify binary dirs,falcosecurity/event-generator,platform_engineer,medium,health,azure,pro,1,1,1,1,1,10
+control,old_page,WARNING,Linux Kernel Module Injection Detected,falcosecurity/event-generator,platform_engineer,medium,health,azure,pro,1,1,0,1,0,25
+control,old_page,WARNING,Linux Kernel Module Injection Detected,busybox:latest,platform_engineer,medium,health,azure,pro,1,1,1,1,1,27
+control,old_page,WARNING,Outbound or Inbound Traffic not to Authorized Server Process and Port,falcosecurity/event-generator,platform_engineer,medium,health,azure,pro,1,0,0,0,0,
+control,old_page,WARNING,Remove Bulk Data from Disk,falcosecurity/event-generator,platform_engineer,medium,health,azure,pro,1,1,0,1,0,115
+control,old_page,WARNING,Debugfs Launched in Privileged Container,busybox:latest,platform_engineer,medium,health,azure,pro,1,1,1,1,1,37
+control,old_page,WARNING,Outbound Connection to C2 Servers,busybox:latest,platform_engineer,medium,health,azure,pro,1,1,1,1,1,17
+control,old_page,CRITICAL,Unprivileged Delegation of Page Faults Handling to a Userspace Process,busybox:latest,platform_engineer,medium,health,azure,pro,1,0,0,0,0,
+control,old_page,WARNING,Outbound or Inbound Traffic not to Authorized Server Process and Port,busybox:latest,platform_engineer,enterprise,fintech,azure,enterprise,2,1,0,0.5,0,102
+control,old_page,WARNING,Search Private Keys or Passwords,busybox:latest,platform_engineer,enterprise,fintech,azure,enterprise,1,1,0,1,0,98
+control,old_page,ERROR,Launch Package Management Process in Container,busybox:latest,platform_engineer,enterprise,fintech,azure,enterprise,1,0,0,0,0,
+control,old_page,WARNING,Read Shell Configuration File,busybox:latest,platform_engineer,enterprise,fintech,azure,enterprise,2,0,0,0,0,
+control,old_page,ERROR,Write below binary dir,busybox:latest,platform_engineer,enterprise,fintech,azure,enterprise,2,1,1,0.5,0.5,25
+control,old_page,WARNING,Read sensitive file trusted after startup,falcosecurity/event-generator,platform_engineer,enterprise,fintech,azure,enterprise,1,0,0,0,0,
+control,old_page,WARNING,Outbound Connection to C2 Servers,busybox:latest,platform_engineer,enterprise,fintech,azure,enterprise,1,1,0,1,0,4
+control,old_page,ERROR,Read ssh information,busybox:latest,platform_engineer,enterprise,fintech,azure,enterprise,2,2,1,1,0.5,60.5
+control,old_page,ERROR,Write below monitored dir,busybox:latest,platform_engineer,enterprise,fintech,azure,enterprise,1,1,0,1,0,110
+control,old_page,ERROR,Modify binary dirs,busybox:latest,platform_engineer,enterprise,fintech,azure,enterprise,1,1,1,1,1,75
+control,old_page,WARNING,Read sensitive file untrusted,busybox:latest,platform_engineer,enterprise,fintech,azure,enterprise,1,0,0,0,0,
+control,old_page,CRITICAL,Unprivileged Delegation of Page Faults Handling to a Userspace Process,busybox:latest,platform_engineer,enterprise,fintech,azure,enterprise,1,1,0,1,0,22
+control,old_page,WARNING,Netcat Remote Code Execution in Container,falcosecurity/event-generator,devops_engineer,enterprise,fintech,azure,enterprise,1,0,0,0,0,
+control,old_page,WARNING,Delete Bash History,busybox:latest,devops_engineer,enterprise,fintech,azure,enterprise,1,0,0,0,0,
+control,old_page,WARNING,Read Shell Configuration File,busybox:latest,devops_engineer,enterprise,fintech,azure,enterprise,1,1,1,1,1,85
+control,old_page,WARNING,Clear Log Activities,falcosecurity/event-generator,devops_engineer,enterprise,fintech,azure,enterprise,1,1,0,1,0,103
+control,old_page,WARNING,Netcat Remote Code Execution in Container,busybox:latest,devops_engineer,enterprise,fintech,azure,enterprise,1,1,1,1,1,11
+control,old_page,WARNING,Outbound or Inbound Traffic not to Authorized Server Process and Port,busybox:latest,devops_engineer,enterprise,fintech,azure,enterprise,1,1,1,1,1,83
+control,old_page,WARNING,Linux Kernel Module Injection Detected,busybox:latest,devops_engineer,enterprise,fintech,azure,enterprise,2,1,0,0.5,0,9
+control,old_page,WARNING,Debugfs Launched in Privileged Container,busybox:latest,devops_engineer,enterprise,fintech,azure,enterprise,1,1,1,1,1,55
+control,old_page,ERROR,Write below rpm database,busybox:latest,devops_engineer,enterprise,fintech,azure,enterprise,1,0,0,0,0,
+treatment,runtime_context_panel,ERROR,Create files below dev,busybox:latest,platform_engineer,enterprise,fintech,aws,enterprise,1,1,0,1,0,99
+treatment,runtime_context_panel,ERROR,Read ssh information,busybox:latest,platform_engineer,enterprise,fintech,aws,enterprise,1,0,0,0,0,
+treatment,runtime_context_panel,WARNING,Delete Bash History,falcosecurity/event-generator,platform_engineer,enterprise,fintech,aws,enterprise,1,1,0,1,0,118
+treatment,runtime_context_panel,WARNING,Delete Bash History,busybox:latest,platform_engineer,enterprise,fintech,aws,enterprise,1,1,0,1,0,89
+treatment,runtime_context_panel,WARNING,Mount Launched in Privileged Container,busybox:latest,platform_engineer,enterprise,fintech,aws,enterprise,2,1,1,0.5,0.5,20
+treatment,runtime_context_panel,ERROR,Write below monitored dir,busybox:latest,platform_engineer,enterprise,fintech,aws,enterprise,1,1,0,1,0,116
+treatment,runtime_context_panel,WARNING,Netcat Remote Code Execution in Container,busybox:latest,platform_engineer,enterprise,fintech,aws,enterprise,2,2,2,1,1,40.5
+treatment,runtime_context_panel,WARNING,The docker client is executed in a container,falcosecurity/event-generator,platform_engineer,enterprise,fintech,aws,enterprise,1,1,0,1,0,16
+treatment,runtime_context_panel,WARNING,Remove Bulk Data from Disk,busybox:latest,platform_engineer,enterprise,fintech,aws,enterprise,1,1,1,1,1,9
+treatment,runtime_context_panel,WARNING,Debugfs Launched in Privileged Container,busybox:latest,platform_engineer,enterprise,fintech,aws,enterprise,2,2,1,1,0.5,81
+treatment,runtime_context_panel,ERROR,Write below binary dir,busybox:latest,platform_engineer,enterprise,fintech,aws,enterprise,1,0,0,0,0,
+treatment,runtime_context_panel,WARNING,Launch Disallowed Container,busybox:latest,platform_engineer,enterprise,fintech,aws,enterprise,2,1,1,0.5,0.5,86
+treatment,runtime_context_panel,WARNING,Search Private Keys or Passwords,busybox:latest,platform_engineer,enterprise,fintech,aws,enterprise,1,1,0,1,0,47
+treatment,runtime_context_panel,WARNING,Read sensitive file trusted after startup,falcosecurity/event-generator,platform_engineer,enterprise,fintech,aws,enterprise,1,1,1,1,1,31
+treatment,runtime_context_panel,CRITICAL,Sudo Potential Privilege Escalation,busybox:latest,platform_engineer,enterprise,fintech,aws,enterprise,4,3,2,0.75,0.5,58
+treatment,runtime_context_panel,WARNING,Linux Kernel Module Injection Detected,busybox:latest,platform_engineer,enterprise,fintech,aws,enterprise,1,1,1,1,1,106
+treatment,runtime_context_panel,ERROR,Write below rpm database,busybox:latest,platform_engineer,enterprise,fintech,aws,enterprise,1,1,0,1,0,82
+treatment,runtime_context_panel,WARNING,Redirect STDOUT/STDIN to Network Connection in Container,busybox:latest,platform_engineer,enterprise,fintech,aws,enterprise,1,1,0,1,0,108
+treatment,runtime_context_panel,WARNING,Outbound Connection to C2 Servers,busybox:latest,platform_engineer,enterprise,fintech,aws,enterprise,1,1,0,1,0,3
+treatment,runtime_context_panel,ERROR,Container Drift Detected (open+create),busybox:latest,platform_engineer,enterprise,fintech,aws,enterprise,1,0,0,0,0,
+treatment,runtime_context_panel,ERROR,Write below etc,<NA>,security_engineer,enterprise,fintech,aws,enterprise,1,1,0,1,0,25
+treatment,runtime_context_panel,ERROR,Container Drift Detected (open+create),busybox:latest,security_engineer,enterprise,fintech,aws,enterprise,1,1,1,1,1,68
+treatment,runtime_context_panel,ERROR,Container Drift Detected (chmod),falcosecurity/event-generator,security_engineer,enterprise,fintech,aws,enterprise,1,1,1,1,1,66
+treatment,runtime_context_panel,WARNING,Delete or rename shell history,busybox:latest,security_engineer,enterprise,fintech,aws,enterprise,2,2,1,1,0.5,30
+treatment,runtime_context_panel,WARNING,Outbound Connection to C2 Servers,falcosecurity/event-generator,security_engineer,enterprise,fintech,aws,enterprise,1,0,0,0,0,
+treatment,runtime_context_panel,ERROR,Write below etc,busybox:latest,security_engineer,enterprise,fintech,aws,enterprise,1,1,0,1,0,114
+treatment,runtime_context_panel,WARNING,Delete or rename shell history,falcosecurity/event-generator,security_engineer,enterprise,fintech,aws,enterprise,1,1,0,1,0,47
+treatment,runtime_context_panel,WARNING,Linux Kernel Module Injection Detected,busybox:latest,security_engineer,enterprise,fintech,aws,enterprise,1,1,0,1,0,95
+treatment,runtime_context_panel,WARNING,Remove Bulk Data from Disk,busybox:latest,devops_engineer,medium,health,aws,free,2,2,1,1,0.5,91.5
+treatment,runtime_context_panel,WARNING,Linux Kernel Module Injection Detected,busybox:latest,devops_engineer,medium,health,aws,free,2,1,1,0.5,0.5,61
+treatment,runtime_context_panel,ERROR,Write below rpm database,busybox:latest,devops_engineer,medium,health,aws,free,2,2,1,1,0.5,95.5
+treatment,runtime_context_panel,ERROR,Mkdir binary dirs,busybox:latest,devops_engineer,medium,health,aws,free,1,1,0,1,0,112
+treatment,runtime_context_panel,ERROR,Read ssh information,falcosecurity/event-generator,devops_engineer,medium,health,aws,free,1,1,1,1,1,61
+treatment,runtime_context_panel,WARNING,Read Shell Configuration File,busybox:latest,devops_engineer,medium,health,aws,free,1,0,0,0,0,
+treatment,runtime_context_panel,WARNING,Outbound or Inbound Traffic not to Authorized Server Process and Port,busybox:latest,devops_engineer,medium,health,aws,free,2,2,0,1,0,54.5
+treatment,runtime_context_panel,WARNING,Network Connection outside Local Subnet,busybox:latest,devops_engineer,medium,health,aws,free,1,1,0,1,0,22
+treatment,runtime_context_panel,WARNING,Delete Bash History,busybox:latest,devops_engineer,medium,health,aws,free,3,2,1,0.66666666666666663,0.33333333333333331,88
+treatment,runtime_context_panel,ERROR,Write below binary dir,busybox:latest,devops_engineer,medium,health,aws,free,2,2,1,1,0.5,90
+treatment,runtime_context_panel,WARNING,Debugfs Launched in Privileged Container,busybox:latest,devops_engineer,medium,health,aws,free,1,1,1,1,1,20
+treatment,runtime_context_panel,WARNING,Outbound Connection to C2 Servers,falcosecurity/event-generator,devops_engineer,medium,health,aws,free,1,0,0,0,0,
+treatment,runtime_context_panel,ERROR,Write below etc,busybox:latest,devops_engineer,medium,health,aws,free,1,0,0,0,0,
+treatment,runtime_context_panel,WARNING,The docker client is executed in a container,busybox:latest,devops_engineer,medium,health,aws,free,1,0,0,0,0,
+treatment,runtime_context_panel,WARNING,Clear Log Activities,busybox:latest,devops_engineer,medium,health,aws,free,1,1,1,1,1,15
+treatment,runtime_context_panel,WARNING,Netcat Remote Code Execution in Container,busybox:latest,devops_engineer,medium,health,aws,free,1,1,1,1,1,105
+treatment,runtime_context_panel,WARNING,Outbound Connection to C2 Servers,busybox:latest,devops_engineer,medium,health,aws,free,1,0,0,0,0,
+treatment,runtime_context_panel,WARNING,Search Private Keys or Passwords,falcosecurity/event-generator,devops_engineer,medium,health,aws,free,1,1,1,1,1,88
+treatment,runtime_context_panel,WARNING,Mount Launched in Privileged Container,busybox:latest,devops_engineer,medium,health,aws,free,1,1,0,1,0,56
+treatment,runtime_context_panel,ERROR,Create files below dev,busybox:latest,devops_engineer,medium,health,aws,free,1,0,0,0,0,
+treatment,runtime_context_panel,WARNING,Launch Disallowed Container,busybox:latest,devops_engineer,medium,health,aws,free,1,1,1,1,1,32
+treatment,runtime_context_panel,WARNING,Redirect STDOUT/STDIN to Network Connection in Container,busybox:latest,devops_engineer,medium,health,aws,free,1,1,0,1,0,3
+treatment,runtime_context_panel,WARNING,Network Connection outside Local Subnet,falcosecurity/event-generator,devops_engineer,medium,health,aws,free,1,1,1,1,1,36
+treatment,runtime_context_panel,ERROR,Read ssh information,busybox:latest,devops_engineer,medium,health,aws,free,1,1,0,1,0,31
+treatment,runtime_context_panel,ERROR,Container Drift Detected (chmod),busybox:latest,devops_engineer,medium,health,aws,free,1,1,0,1,0,69
+treatment,runtime_context_panel,ERROR,Container Drift Detected (open+create),busybox:latest,platform_engineer,enterprise,fintech,azure,enterprise,1,0,0,0,0,
+treatment,runtime_context_panel,ERROR,Create files below dev,busybox:latest,platform_engineer,enterprise,fintech,azure,enterprise,2,2,1,1,0.5,95.5
+treatment,runtime_context_panel,WARNING,Delete or rename shell history,falcosecurity/event-generator,platform_engineer,enterprise,fintech,azure,enterprise,1,1,1,1,1,73
+treatment,runtime_context_panel,CRITICAL,Sudo Potential Privilege Escalation,falcosecurity/event-generator,platform_engineer,enterprise,fintech,azure,enterprise,1,0,0,0,0,
+treatment,runtime_context_panel,WARNING,Delete or rename shell history,busybox:latest,platform_engineer,enterprise,fintech,azure,enterprise,1,1,1,1,1,98
+treatment,runtime_context_panel,WARNING,Remove Bulk Data from Disk,busybox:latest,platform_engineer,enterprise,fintech,azure,enterprise,2,2,1,1,0.5,72.5
+treatment,runtime_context_panel,ERROR,Write below root,busybox:latest,platform_engineer,enterprise,fintech,azure,enterprise,2,2,1,1,0.5,31.5
+treatment,runtime_context_panel,WARNING,The docker client is executed in a container,busybox:latest,platform_engineer,enterprise,fintech,azure,enterprise,1,1,0,1,0,79
+treatment,runtime_context_panel,ERROR,Write below etc,falcosecurity/event-generator,platform_engineer,enterprise,fintech,azure,enterprise,1,1,0,1,0,59
+treatment,runtime_context_panel,CRITICAL,Unprivileged Delegation of Page Faults Handling to a Userspace Process,busybox:latest,platform_engineer,enterprise,fintech,azure,enterprise,3,1,1,0.33333333333333331,0.33333333333333331,51
+treatment,runtime_context_panel,WARNING,Clear Log Activities,busybox:latest,platform_engineer,enterprise,fintech,azure,enterprise,1,1,0,1,0,76
+treatment,runtime_context_panel,ERROR,Write below rpm database,busybox:latest,platform_engineer,enterprise,fintech,azure,enterprise,3,3,2,1,0.66666666666666663,80.666666666666671
+treatment,runtime_context_panel,ERROR,Write below monitored dir,falcosecurity/event-generator,platform_engineer,enterprise,fintech,azure,enterprise,3,3,2,1,0.66666666666666663,38
+treatment,runtime_context_panel,CRITICAL,Sudo Potential Privilege Escalation,busybox:latest,platform_engineer,enterprise,fintech,azure,enterprise,1,0,0,0,0,
+treatment,runtime_context_panel,WARNING,Remove Bulk Data from Disk,busybox:latest,devops_engineer,enterprise,fintech,azure,enterprise,3,3,1,1,0.33333333333333331,51
+treatment,runtime_context_panel,WARNING,Outbound or Inbound Traffic not to Authorized Server Process and Port,busybox:latest,devops_engineer,enterprise,fintech,azure,enterprise,1,1,1,1,1,29
+treatment,runtime_context_panel,ERROR,Read ssh information,falcosecurity/event-generator,devops_engineer,enterprise,fintech,azure,enterprise,1,1,1,1,1,99
+treatment,runtime_context_panel,ERROR,Modify binary dirs,busybox:latest,devops_engineer,enterprise,fintech,azure,enterprise,1,1,0,1,0,107
+treatment,runtime_context_panel,WARNING,Read Shell Configuration File,busybox:latest,devops_engineer,enterprise,fintech,azure,enterprise,1,1,1,1,1,39
+treatment,runtime_context_panel,ERROR,Container Drift Detected (chmod),falcosecurity/event-generator,devops_engineer,enterprise,fintech,azure,enterprise,1,1,1,1,1,96
+treatment,runtime_context_panel,CRITICAL,Sudo Potential Privilege Escalation,busybox:latest,devops_engineer,enterprise,fintech,azure,enterprise,1,1,0,1,0,99
+treatment,runtime_context_panel,ERROR,Launch Package Management Process in Container,busybox:latest,devops_engineer,enterprise,fintech,azure,enterprise,2,2,1,1,0.5,69
+treatment,runtime_context_panel,WARNING,Clear Log Activities,busybox:latest,devops_engineer,enterprise,fintech,azure,enterprise,3,2,2,0.66666666666666663,0.66666666666666663,75.5
+treatment,runtime_context_panel,WARNING,Mount Launched in Privileged Container,busybox:latest,devops_engineer,enterprise,fintech,azure,enterprise,1,1,0,1,0,39
+treatment,runtime_context_panel,ERROR,Write below rpm database,falcosecurity/event-generator,devops_engineer,enterprise,fintech,azure,enterprise,1,1,0,1,0,113
+treatment,runtime_context_panel,WARNING,Redirect STDOUT/STDIN to Network Connection in Container,busybox:latest,devops_engineer,enterprise,fintech,azure,enterprise,1,1,1,1,1,109
+treatment,runtime_context_panel,CRITICAL,Unprivileged Delegation of Page Faults Handling to a Userspace Process,busybox:latest,devops_engineer,enterprise,fintech,azure,enterprise,2,2,2,1,1,114
+treatment,runtime_context_panel,WARNING,Read sensitive file untrusted,busybox:latest,devops_engineer,enterprise,fintech,azure,enterprise,1,0,0,0,0,
+treatment,runtime_context_panel,CRITICAL,Detect outbound connections to common miner pool ports,falcosecurity/event-generator,devops_engineer,enterprise,fintech,azure,enterprise,1,1,0,1,0,1
+treatment,runtime_context_panel,CRITICAL,Detect outbound connections to common miner pool ports,busybox:latest,devops_engineer,enterprise,fintech,azure,enterprise,1,1,0,1,0,38
+treatment,runtime_context_panel,ERROR,Container Drift Detected (chmod),busybox:latest,devops_engineer,enterprise,fintech,azure,enterprise,2,2,1,1,0.5,74.5
+treatment,runtime_context_panel,ERROR,Write below rpm database,busybox:latest,devops_engineer,enterprise,fintech,azure,enterprise,1,1,1,1,1,84
+treatment,runtime_context_panel,ERROR,Write below etc,busybox:latest,security_engineer,enterprise,fintech,azure,enterprise,1,1,0,1,0,28
+treatment,runtime_context_panel,ERROR,Mkdir binary dirs,busybox:latest,security_engineer,enterprise,fintech,azure,enterprise,1,0,0,0,0,
+treatment,runtime_context_panel,WARNING,Redirect STDOUT/STDIN to Network Connection in Container,falcosecurity/event-generator,security_engineer,enterprise,fintech,azure,enterprise,1,1,0,1,0,26
+treatment,runtime_context_panel,ERROR,Write below monitored dir,busybox:latest,security_engineer,enterprise,fintech,azure,enterprise,1,1,0,1,0,34
+treatment,runtime_context_panel,WARNING,Linux Kernel Module Injection Detected,busybox:latest,security_engineer,enterprise,fintech,azure,enterprise,1,1,1,1,1,52
+treatment,runtime_context_panel,WARNING,Read sensitive file untrusted,falcosecurity/event-generator,security_engineer,enterprise,fintech,azure,enterprise,1,1,1,1,1,77
+treatment,runtime_context_panel,CRITICAL,Detect crypto miners using the Stratum protocol,falcosecurity/event-generator,security_engineer,enterprise,fintech,azure,enterprise,1,1,1,1,1,53
+treatment,runtime_context_panel,WARNING,Network Connection outside Local Subnet,busybox:latest,security_engineer,enterprise,fintech,azure,enterprise,1,1,1,1,1,37
+treatment,runtime_context_panel,WARNING,Clear Log Activities,busybox:latest,security_engineer,enterprise,fintech,azure,enterprise,1,1,0,1,0,33
+treatment,runtime_context_panel,WARNING,Read Shell Configuration File,busybox:latest,security_engineer,enterprise,fintech,azure,enterprise,1,1,1,1,1,96
+treatment,runtime_context_panel,WARNING,The docker client is executed in a container,busybox:latest,security_engineer,enterprise,fintech,azure,pro,2,1,1,0.5,0.5,4
+treatment,runtime_context_panel,ERROR,Write below etc,busybox:latest,security_engineer,enterprise,fintech,azure,pro,1,1,0,1,0,90
+treatment,runtime_context_panel,CRITICAL,Detect outbound connections to common miner pool ports,busybox:latest,security_engineer,enterprise,fintech,azure,pro,1,1,0,1,0,76
+treatment,runtime_context_panel,WARNING,Search Private Keys or Passwords,busybox:latest,security_engineer,enterprise,fintech,azure,pro,2,1,0,0.5,0,9
+treatment,runtime_context_panel,ERROR,Container Drift Detected (open+create),busybox:latest,security_engineer,enterprise,fintech,azure,pro,1,0,0,0,0,
+treatment,runtime_context_panel,WARNING,Mount Launched in Privileged Container,busybox:latest,security_engineer,enterprise,fintech,azure,pro,1,0,0,0,0,
+treatment,runtime_context_panel,ERROR,Create files below dev,busybox:latest,security_engineer,enterprise,fintech,azure,pro,1,1,1,1,1,11
+treatment,runtime_context_panel,WARNING,Network Connection outside Local Subnet,falcosecurity/event-generator,security_engineer,enterprise,fintech,azure,pro,1,1,0,1,0,76
+treatment,runtime_context_panel,WARNING,Delete Bash History,busybox:latest,security_engineer,enterprise,fintech,azure,pro,1,1,1,1,1,18
+treatment,runtime_context_panel,WARNING,Remove Bulk Data from Disk,busybox:latest,security_engineer,enterprise,fintech,azure,pro,1,1,1,1,1,104
+treatment,runtime_context_panel,ERROR,Write below monitored dir,busybox:latest,devops_engineer,enterprise,fintech,azure,pro,1,1,0,1,0,77
+treatment,runtime_context_panel,WARNING,Remove Bulk Data from Disk,busybox:latest,devops_engineer,enterprise,fintech,azure,pro,1,1,0,1,0,72
+treatment,runtime_context_panel,ERROR,Mkdir binary dirs,busybox:latest,devops_engineer,enterprise,fintech,azure,pro,1,0,0,0,0,
+treatment,runtime_context_panel,WARNING,Launch Disallowed Container,busybox:latest,devops_engineer,enterprise,fintech,azure,pro,1,0,0,0,0,
+treatment,runtime_context_panel,ERROR,Read ssh information,busybox:latest,devops_engineer,enterprise,fintech,azure,pro,1,1,1,1,1,34
+treatment,runtime_context_panel,WARNING,The docker client is executed in a container,busybox:latest,devops_engineer,enterprise,fintech,azure,pro,1,1,0,1,0,47
+treatment,runtime_context_panel,ERROR,Container Drift Detected (open+create),busybox:latest,devops_engineer,enterprise,fintech,azure,pro,2,1,0,0.5,0,47
+treatment,runtime_context_panel,ERROR,Write below binary dir,busybox:latest,devops_engineer,enterprise,fintech,azure,pro,1,0,0,0,0,
+treatment,runtime_context_panel,ERROR,Modify binary dirs,busybox:latest,devops_engineer,enterprise,fintech,azure,pro,1,1,1,1,1,86
+treatment,runtime_context_panel,ERROR,Write below root,falcosecurity/event-generator,devops_engineer,enterprise,fintech,azure,pro,2,1,0,0.5,0,92
+treatment,runtime_context_panel,ERROR,Write below monitored dir,falcosecurity/event-generator,devops_engineer,enterprise,fintech,azure,pro,1,0,0,0,0,
+treatment,runtime_context_panel,ERROR,Create files below dev,falcosecurity/event-generator,devops_engineer,enterprise,fintech,azure,pro,1,0,0,0,0,
+treatment,runtime_context_panel,WARNING,Search Private Keys or Passwords,busybox:latest,devops_engineer,enterprise,fintech,azure,pro,1,1,0,1,0,73
+treatment,runtime_context_panel,WARNING,Read Shell Configuration File,busybox:latest,devops_engineer,enterprise,fintech,azure,pro,1,1,0,1,0,98
+treatment,runtime_context_panel,CRITICAL,Detect outbound connections to common miner pool ports,falcosecurity/event-generator,devops_engineer,enterprise,fintech,azure,pro,1,1,0,1,0,114
+treatment,runtime_context_panel,WARNING,Outbound Connection to C2 Servers,busybox:latest,devops_engineer,enterprise,fintech,azure,pro,1,1,1,1,1,33
+treatment,runtime_context_panel,ERROR,Write below etc,busybox:latest,devops_engineer,enterprise,fintech,azure,pro,1,0,0,0,0,
+treatment,runtime_context_panel,ERROR,Container Drift Detected (chmod),busybox:latest,devops_engineer,enterprise,fintech,azure,pro,1,1,0,1,0,42
+treatment,runtime_context_panel,WARNING,Delete Bash History,busybox:latest,security_engineer,small,fintech,aws,free,1,1,1,1,1,19
+treatment,runtime_context_panel,WARNING,Search Private Keys or Passwords,<NA>,security_engineer,small,fintech,aws,free,1,1,0,1,0,101
+treatment,runtime_context_panel,WARNING,Read sensitive file untrusted,busybox:latest,security_engineer,small,fintech,aws,free,1,1,1,1,1,18
+treatment,runtime_context_panel,WARNING,Read Shell Configuration File,busybox:latest,security_engineer,small,fintech,aws,free,1,1,1,1,1,26
+treatment,runtime_context_panel,CRITICAL,Detect crypto miners using the Stratum protocol,busybox:latest,security_engineer,small,fintech,aws,free,1,0,0,0,0,
+treatment,runtime_context_panel,ERROR,Write below root,busybox:latest,security_engineer,small,fintech,aws,free,1,0,0,0,0,
+treatment,runtime_context_panel,ERROR,Write below binary dir,falcosecurity/event-generator,security_engineer,small,fintech,aws,free,1,1,0,1,0,87
+treatment,runtime_context_panel,WARNING,Outbound Connection to C2 Servers,busybox:latest,security_engineer,small,fintech,aws,free,2,1,1,0.5,0.5,68
+treatment,runtime_context_panel,CRITICAL,Detect crypto miners using the Stratum protocol,falcosecurity/event-generator,security_engineer,small,fintech,aws,free,1,1,0,1,0,38
+treatment,runtime_context_panel,ERROR,Create files below dev,busybox:latest,security_engineer,small,fintech,aws,free,1,1,0,1,0,15
+treatment,runtime_context_panel,WARNING,Outbound or Inbound Traffic not to Authorized Server Process and Port,busybox:latest,security_engineer,small,fintech,aws,free,1,0,0,0,0,
+treatment,runtime_context_panel,WARNING,Launch Disallowed Container,busybox:latest,security_engineer,small,fintech,aws,free,1,0,0,0,0,
+treatment,runtime_context_panel,WARNING,Netcat Remote Code Execution in Container,falcosecurity/event-generator,security_engineer,small,fintech,aws,free,1,1,1,1,1,114
+treatment,runtime_context_panel,ERROR,Write below rpm database,busybox:latest,security_engineer,small,fintech,aws,free,2,1,1,0.5,0.5,116
+treatment,runtime_context_panel,ERROR,Read ssh information,busybox:latest,security_engineer,small,fintech,aws,free,1,1,0,1,0,6
+treatment,runtime_context_panel,WARNING,Debugfs Launched in Privileged Container,busybox:latest,security_engineer,small,fintech,aws,free,1,0,0,0,0,
+treatment,runtime_context_panel,CRITICAL,Unprivileged Delegation of Page Faults Handling to a Userspace Process,busybox:latest,security_engineer,small,fintech,aws,free,2,2,2,1,1,68
+treatment,runtime_context_panel,WARNING,Netcat Remote Code Execution in Container,busybox:latest,security_engineer,small,fintech,aws,free,2,2,2,1,1,40.5
+treatment,runtime_context_panel,ERROR,Modify binary dirs,busybox:latest,security_engineer,small,fintech,aws,free,1,1,1,1,1,110
+treatment,runtime_context_panel,ERROR,Write below etc,busybox:latest,security_engineer,small,fintech,aws,free,1,0,0,0,0,
+treatment,runtime_context_panel,WARNING,Clear Log Activities,busybox:latest,platform_engineer,small,fintech,aws,free,2,1,0,0.5,0,39
+treatment,runtime_context_panel,WARNING,Outbound Connection to C2 Servers,falcosecurity/event-generator,platform_engineer,small,fintech,aws,free,1,1,1,1,1,99
+treatment,runtime_context_panel,ERROR,Launch Package Management Process in Container,busybox:latest,platform_engineer,small,fintech,aws,free,1,1,1,1,1,27
+treatment,runtime_context_panel,CRITICAL,Detect crypto miners using the Stratum protocol,busybox:latest,platform_engineer,small,fintech,aws,free,1,0,0,0,0,
+treatment,runtime_context_panel,WARNING,Linux Kernel Module Injection Detected,falcosecurity/event-generator,platform_engineer,small,fintech,aws,free,1,1,0,1,0,15
+treatment,runtime_context_panel,WARNING,The docker client is executed in a container,busybox:latest,platform_engineer,small,fintech,aws,free,3,1,1,0.33333333333333331,0.33333333333333331,15
+treatment,runtime_context_panel,WARNING,Debugfs Launched in Privileged Container,busybox:latest,platform_engineer,small,fintech,aws,free,1,1,1,1,1,116
+treatment,runtime_context_panel,ERROR,Write below monitored dir,busybox:latest,platform_engineer,small,fintech,aws,free,1,1,1,1,1,80
+treatment,runtime_context_panel,ERROR,Write below monitored dir,falcosecurity/event-generator,platform_engineer,small,fintech,aws,free,1,0,0,0,0,
+treatment,runtime_context_panel,WARNING,Remove Bulk Data from Disk,busybox:latest,platform_engineer,small,fintech,aws,free,1,1,1,1,1,1
+treatment,runtime_context_panel,WARNING,Search Private Keys or Passwords,busybox:latest,platform_engineer,small,fintech,aws,free,1,1,0,1,0,14
+treatment,runtime_context_panel,WARNING,Outbound Connection to C2 Servers,<NA>,platform_engineer,small,fintech,aws,free,1,1,0,1,0,35
+treatment,runtime_context_panel,CRITICAL,Sudo Potential Privilege Escalation,busybox:latest,platform_engineer,small,fintech,aws,free,1,1,0,1,0,78
+treatment,runtime_context_panel,WARNING,Network Connection outside Local Subnet,busybox:latest,platform_engineer,small,fintech,aws,free,2,1,1,0.5,0.5,24
+treatment,runtime_context_panel,WARNING,Netcat Remote Code Execution in Container,busybox:latest,platform_engineer,small,fintech,aws,free,1,1,1,1,1,34
+treatment,runtime_context_panel,ERROR,Container Drift Detected (chmod),busybox:latest,platform_engineer,small,fintech,aws,free,1,0,0,0,0,
+treatment,runtime_context_panel,WARNING,Read sensitive file untrusted,busybox:latest,platform_engineer,small,fintech,aws,free,1,0,0,0,0,
+treatment,runtime_context_panel,ERROR,Write below rpm database,busybox:latest,platform_engineer,small,fintech,aws,free,1,1,0,1,0,32
+treatment,runtime_context_panel,WARNING,Delete Bash History,busybox:latest,platform_engineer,small,fintech,aws,free,1,1,1,1,1,22
+treatment,runtime_context_panel,CRITICAL,Detect crypto miners using the Stratum protocol,busybox:latest,security_engineer,small,fintech,azure,free,1,1,1,1,1,9
+treatment,runtime_context_panel,WARNING,Read sensitive file trusted after startup,busybox:latest,security_engineer,small,fintech,azure,free,1,1,0,1,0,97
+treatment,runtime_context_panel,WARNING,Delete Bash History,busybox:latest,security_engineer,small,fintech,azure,free,1,0,0,0,0,
+treatment,runtime_context_panel,ERROR,Write below root,busybox:latest,security_engineer,small,fintech,azure,free,1,1,1,1,1,51
+treatment,runtime_context_panel,WARNING,The docker client is executed in a container,falcosecurity/event-generator,security_engineer,small,fintech,azure,free,1,1,0,1,0,1
+treatment,runtime_context_panel,WARNING,Redirect STDOUT/STDIN to Network Connection in Container,busybox:latest,security_engineer,small,fintech,azure,free,1,1,1,1,1,89
+treatment,runtime_context_panel,WARNING,Search Private Keys or Passwords,busybox:latest,security_engineer,small,fintech,azure,free,2,1,0,0.5,0,10
+treatment,runtime_context_panel,ERROR,Mkdir binary dirs,busybox:latest,security_engineer,small,fintech,azure,free,2,1,1,0.5,0.5,100
+treatment,runtime_context_panel,WARNING,Search Private Keys or Passwords,falcosecurity/event-generator,security_engineer,small,fintech,azure,free,1,1,1,1,1,92
+treatment,runtime_context_panel,CRITICAL,Detect outbound connections to common miner pool ports,falcosecurity/event-generator,security_engineer,small,fintech,azure,free,1,1,1,1,1,26
+treatment,runtime_context_panel,CRITICAL,Unprivileged Delegation of Page Faults Handling to a Userspace Process,busybox:latest,security_engineer,small,fintech,azure,free,1,1,1,1,1,25
+treatment,runtime_context_panel,CRITICAL,Sudo Potential Privilege Escalation,busybox:latest,platform_engineer,small,fintech,azure,free,1,1,1,1,1,19
+treatment,runtime_context_panel,ERROR,Mkdir binary dirs,busybox:latest,platform_engineer,small,fintech,azure,free,1,1,1,1,1,95
+treatment,runtime_context_panel,ERROR,Read ssh information,busybox:latest,platform_engineer,small,fintech,azure,free,1,1,1,1,1,78
+treatment,runtime_context_panel,WARNING,Debugfs Launched in Privileged Container,busybox:latest,platform_engineer,small,fintech,azure,free,1,0,0,0,0,
+treatment,runtime_context_panel,WARNING,Redirect STDOUT/STDIN to Network Connection in Container,busybox:latest,devops_engineer,small,fintech,azure,free,1,0,0,0,0,
+treatment,runtime_context_panel,WARNING,The docker client is executed in a container,busybox:latest,devops_engineer,small,fintech,azure,free,1,0,0,0,0,
+treatment,runtime_context_panel,ERROR,Modify binary dirs,busybox:latest,devops_engineer,small,fintech,azure,free,1,1,0,1,0,14
+treatment,runtime_context_panel,WARNING,Linux Kernel Module Injection Detected,busybox:latest,devops_engineer,small,fintech,azure,free,2,2,0,1,0,17.5
+treatment,runtime_context_panel,WARNING,Outbound or Inbound Traffic not to Authorized Server Process and Port,busybox:latest,devops_engineer,small,fintech,azure,free,1,1,0,1,0,86
+treatment,runtime_context_panel,ERROR,Write below etc,falcosecurity/event-generator,devops_engineer,small,fintech,azure,free,1,1,0,1,0,37
+treatment,runtime_context_panel,CRITICAL,Detect crypto miners using the Stratum protocol,busybox:latest,devops_engineer,small,fintech,azure,free,1,1,0,1,0,104
+treatment,runtime_context_panel,ERROR,Container Drift Detected (chmod),busybox:latest,devops_engineer,small,fintech,azure,free,1,1,0,1,0,23
+treatment,runtime_context_panel,ERROR,Write below rpm database,busybox:latest,devops_engineer,small,fintech,azure,free,1,1,0,1,0,93
+treatment,runtime_context_panel,WARNING,Clear Log Activities,falcosecurity/event-generator,devops_engineer,small,fintech,azure,free,1,1,1,1,1,44
+treatment,runtime_context_panel,WARNING,Read sensitive file untrusted,busybox:latest,devops_engineer,small,fintech,azure,free,1,1,0,1,0,87
+treatment,runtime_context_panel,WARNING,Read Shell Configuration File,busybox:latest,devops_engineer,small,fintech,azure,free,1,1,1,1,1,34
+treatment,runtime_context_panel,WARNING,Delete Bash History,busybox:latest,devops_engineer,small,fintech,azure,free,1,1,1,1,1,50
+treatment,runtime_context_panel,WARNING,Launch Disallowed Container,busybox:latest,security_engineer,enterprise,saas,aws,pro,2,2,1,1,0.5,67.5
+treatment,runtime_context_panel,WARNING,Mount Launched in Privileged Container,busybox:latest,security_engineer,enterprise,saas,aws,pro,1,1,1,1,1,120
+treatment,runtime_context_panel,WARNING,Redirect STDOUT/STDIN to Network Connection in Container,falcosecurity/event-generator,security_engineer,enterprise,saas,aws,pro,1,1,1,1,1,77
+treatment,runtime_context_panel,WARNING,Outbound or Inbound Traffic not to Authorized Server Process and Port,busybox:latest,security_engineer,enterprise,saas,aws,pro,1,1,0,1,0,85
+treatment,runtime_context_panel,ERROR,Write below monitored dir,busybox:latest,security_engineer,enterprise,saas,aws,pro,1,1,1,1,1,22
+treatment,runtime_context_panel,WARNING,Outbound Connection to C2 Servers,busybox:latest,security_engineer,enterprise,saas,aws,pro,1,1,1,1,1,36
+treatment,runtime_context_panel,WARNING,Search Private Keys or Passwords,busybox:latest,devops_engineer,enterprise,saas,aws,pro,1,1,1,1,1,100
+treatment,runtime_context_panel,CRITICAL,Detect outbound connections to common miner pool ports,busybox:latest,devops_engineer,enterprise,saas,aws,pro,1,0,0,0,0,
+treatment,runtime_context_panel,CRITICAL,Detect crypto miners using the Stratum protocol,busybox:latest,security_engineer,enterprise,saas,aws,pro,1,1,1,1,1,86
+treatment,runtime_context_panel,WARNING,Outbound Connection to C2 Servers,falcosecurity/event-generator,security_engineer,enterprise,saas,aws,pro,1,1,1,1,1,37
+treatment,runtime_context_panel,ERROR,Container Drift Detected (chmod),falcosecurity/event-generator,security_engineer,enterprise,saas,aws,pro,1,1,0,1,0,6
+treatment,runtime_context_panel,ERROR,Write below etc,busybox:latest,security_engineer,enterprise,saas,aws,pro,1,0,0,0,0,
+treatment,runtime_context_panel,WARNING,Clear Log Activities,busybox:latest,security_engineer,enterprise,saas,aws,pro,1,1,0,1,0,56
+treatment,runtime_context_panel,WARNING,Read sensitive file trusted after startup,busybox:latest,security_engineer,enterprise,saas,aws,pro,1,1,1,1,1,47
+treatment,runtime_context_panel,CRITICAL,Detect crypto miners using the Stratum protocol,falcosecurity/event-generator,security_engineer,enterprise,saas,aws,pro,1,1,0,1,0,117
+treatment,runtime_context_panel,ERROR,Container Drift Detected (open+create),busybox:latest,security_engineer,enterprise,saas,aws,pro,2,1,0,0.5,0,117
+treatment,runtime_context_panel,WARNING,Network Connection outside Local Subnet,busybox:latest,security_engineer,enterprise,saas,aws,pro,2,2,1,1,0.5,33
+treatment,runtime_context_panel,WARNING,The docker client is executed in a container,busybox:latest,security_engineer,enterprise,saas,aws,pro,1,1,0,1,0,84
+treatment,runtime_context_panel,CRITICAL,Unprivileged Delegation of Page Faults Handling to a Userspace Process,busybox:latest,security_engineer,enterprise,saas,aws,pro,1,0,0,0,0,
+treatment,runtime_context_panel,ERROR,Write below root,busybox:latest,security_engineer,enterprise,saas,aws,pro,1,1,1,1,1,60
+treatment,runtime_context_panel,WARNING,Read sensitive file untrusted,busybox:latest,platform_engineer,enterprise,saas,aws,pro,1,1,1,1,1,62
+treatment,runtime_context_panel,ERROR,Mkdir binary dirs,busybox:latest,platform_engineer,enterprise,saas,aws,pro,1,0,0,0,0,
+treatment,runtime_context_panel,CRITICAL,Detect crypto miners using the Stratum protocol,busybox:latest,platform_engineer,enterprise,saas,aws,pro,2,1,0,0.5,0,55
+treatment,runtime_context_panel,ERROR,Container Drift Detected (chmod),busybox:latest,platform_engineer,enterprise,saas,aws,pro,1,0,0,0,0,
+treatment,runtime_context_panel,WARNING,Mount Launched in Privileged Container,busybox:latest,platform_engineer,enterprise,saas,aws,pro,1,1,0,1,0,94
+treatment,runtime_context_panel,WARNING,Read Shell Configuration File,busybox:latest,platform_engineer,enterprise,ecommerce,aws,free,2,1,0,0.5,0,101
+treatment,runtime_context_panel,ERROR,Write below etc,busybox:latest,platform_engineer,enterprise,ecommerce,aws,free,2,1,0,0.5,0,117
+treatment,runtime_context_panel,WARNING,Redirect STDOUT/STDIN to Network Connection in Container,busybox:latest,platform_engineer,enterprise,ecommerce,aws,free,2,1,1,0.5,0.5,41
+treatment,runtime_context_panel,ERROR,Container Drift Detected (chmod),busybox:latest,platform_engineer,enterprise,ecommerce,aws,free,2,2,1,1,0.5,83
+treatment,runtime_context_panel,WARNING,Remove Bulk Data from Disk,busybox:latest,platform_engineer,enterprise,ecommerce,aws,free,3,2,1,0.66666666666666663,0.33333333333333331,76
+treatment,runtime_context_panel,CRITICAL,Unprivileged Delegation of Page Faults Handling to a Userspace Process,falcosecurity/event-generator,platform_engineer,enterprise,ecommerce,aws,free,1,1,1,1,1,68
+treatment,runtime_context_panel,ERROR,Write below root,busybox:latest,platform_engineer,enterprise,ecommerce,aws,free,1,1,1,1,1,79
+treatment,runtime_context_panel,WARNING,Netcat Remote Code Execution in Container,busybox:latest,platform_engineer,enterprise,ecommerce,aws,free,2,1,1,0.5,0.5,111
+treatment,runtime_context_panel,WARNING,Clear Log Activities,busybox:latest,platform_engineer,enterprise,ecommerce,aws,free,1,1,1,1,1,106
+treatment,runtime_context_panel,WARNING,Delete or rename shell history,busybox:latest,platform_engineer,enterprise,ecommerce,aws,free,1,1,0,1,0,119
+treatment,runtime_context_panel,WARNING,Remove Bulk Data from Disk,falcosecurity/event-generator,platform_engineer,enterprise,ecommerce,aws,free,1,0,0,0,0,
+treatment,runtime_context_panel,CRITICAL,Detect outbound connections to common miner pool ports,busybox:latest,platform_engineer,enterprise,ecommerce,aws,free,1,1,1,1,1,34
+treatment,runtime_context_panel,WARNING,Outbound Connection to C2 Servers,falcosecurity/event-generator,platform_engineer,enterprise,ecommerce,aws,free,1,0,0,0,0,
+treatment,runtime_context_panel,ERROR,Write below rpm database,busybox:latest,platform_engineer,enterprise,ecommerce,aws,free,2,2,2,1,1,37.5
+treatment,runtime_context_panel,ERROR,Read ssh information,busybox:latest,platform_engineer,enterprise,ecommerce,aws,free,2,2,2,1,1,61
+treatment,runtime_context_panel,WARNING,Delete or rename shell history,falcosecurity/event-generator,platform_engineer,enterprise,ecommerce,aws,free,1,1,1,1,1,24
+treatment,runtime_context_panel,WARNING,Outbound Connection to C2 Servers,falcosecurity/event-generator,devops_engineer,enterprise,ecommerce,aws,free,1,1,1,1,1,37
+treatment,runtime_context_panel,ERROR,Mkdir binary dirs,busybox:latest,devops_engineer,enterprise,ecommerce,aws,free,1,1,1,1,1,112
+treatment,runtime_context_panel,CRITICAL,Sudo Potential Privilege Escalation,busybox:latest,devops_engineer,enterprise,ecommerce,aws,free,1,1,1,1,1,2
+treatment,runtime_context_panel,WARNING,Network Connection outside Local Subnet,busybox:latest,devops_engineer,enterprise,ecommerce,aws,free,2,2,1,1,0.5,71
+treatment,runtime_context_panel,WARNING,Mount Launched in Privileged Container,falcosecurity/event-generator,devops_engineer,enterprise,ecommerce,aws,free,1,1,0,1,0,5
+treatment,runtime_context_panel,CRITICAL,Detect outbound connections to common miner pool ports,busybox:latest,devops_engineer,enterprise,ecommerce,aws,free,1,1,1,1,1,101
+treatment,runtime_context_panel,ERROR,Write below monitored dir,busybox:latest,devops_engineer,enterprise,ecommerce,aws,free,1,1,0,1,0,8
+treatment,runtime_context_panel,WARNING,Read Shell Configuration File,falcosecurity/event-generator,platform_engineer,enterprise,ecommerce,aws,free,1,1,0,1,0,7
+treatment,runtime_context_panel,ERROR,Launch Package Management Process in Container,busybox:latest,platform_engineer,enterprise,ecommerce,aws,free,1,1,1,1,1,92
+treatment,runtime_context_panel,ERROR,Container Drift Detected (open+create),falcosecurity/event-generator,platform_engineer,enterprise,ecommerce,aws,free,1,1,0,1,0,11
+treatment,runtime_context_panel,WARNING,Outbound Connection to C2 Servers,busybox:latest,platform_engineer,enterprise,ecommerce,aws,free,1,1,1,1,1,23
+treatment,runtime_context_panel,WARNING,Delete Bash History,busybox:latest,platform_engineer,enterprise,ecommerce,aws,free,1,1,1,1,1,46
+treatment,runtime_context_panel,CRITICAL,Unprivileged Delegation of Page Faults Handling to a Userspace Process,busybox:latest,platform_engineer,enterprise,ecommerce,aws,free,1,1,0,1,0,64
+treatment,runtime_context_panel,WARNING,The docker client is executed in a container,busybox:latest,platform_engineer,enterprise,ecommerce,aws,free,1,1,0,1,0,45
+treatment,runtime_context_panel,WARNING,Read sensitive file trusted after startup,busybox:latest,devops_engineer,enterprise,saas,gcp,pro,1,0,0,0,0,
+treatment,runtime_context_panel,ERROR,Create files below dev,busybox:latest,devops_engineer,enterprise,saas,gcp,pro,3,3,1,1,0.33333333333333331,55
+treatment,runtime_context_panel,ERROR,Container Drift Detected (chmod),busybox:latest,devops_engineer,enterprise,saas,gcp,pro,1,1,1,1,1,52
+treatment,runtime_context_panel,WARNING,Outbound or Inbound Traffic not to Authorized Server Process and Port,busybox:latest,devops_engineer,enterprise,saas,gcp,pro,1,1,0,1,0,45
+treatment,runtime_context_panel,ERROR,Container Drift Detected (open+create),falcosecurity/event-generator,devops_engineer,enterprise,saas,gcp,pro,1,1,1,1,1,9
+treatment,runtime_context_panel,WARNING,Netcat Remote Code Execution in Container,busybox:latest,devops_engineer,enterprise,saas,gcp,pro,1,0,0,0,0,
+treatment,runtime_context_panel,WARNING,Clear Log Activities,busybox:latest,devops_engineer,enterprise,saas,gcp,pro,1,1,1,1,1,103
+treatment,runtime_context_panel,ERROR,Launch Package Management Process in Container,busybox:latest,security_engineer,enterprise,saas,gcp,pro,1,1,1,1,1,55
+treatment,runtime_context_panel,WARNING,Search Private Keys or Passwords,busybox:latest,security_engineer,enterprise,saas,gcp,pro,1,1,1,1,1,61
+treatment,runtime_context_panel,ERROR,Write below monitored dir,busybox:latest,security_engineer,enterprise,saas,gcp,pro,1,0,0,0,0,
+treatment,runtime_context_panel,WARNING,Read sensitive file trusted after startup,busybox:latest,security_engineer,enterprise,saas,gcp,pro,1,1,1,1,1,80
+treatment,runtime_context_panel,ERROR,Write below rpm database,busybox:latest,security_engineer,enterprise,saas,gcp,pro,2,2,1,1,0.5,87.5
+treatment,runtime_context_panel,WARNING,Netcat Remote Code Execution in Container,busybox:latest,security_engineer,enterprise,saas,gcp,pro,2,2,1,1,0.5,7.5
+treatment,runtime_context_panel,ERROR,Container Drift Detected (open+create),busybox:latest,security_engineer,enterprise,saas,gcp,pro,1,1,1,1,1,85
+treatment,runtime_context_panel,WARNING,Mount Launched in Privileged Container,busybox:latest,security_engineer,enterprise,saas,gcp,pro,1,1,0,1,0,115
+treatment,runtime_context_panel,WARNING,Outbound Connection to C2 Servers,busybox:latest,security_engineer,enterprise,saas,gcp,pro,1,1,0,1,0,91
+treatment,runtime_context_panel,CRITICAL,Detect outbound connections to common miner pool ports,busybox:latest,security_engineer,enterprise,saas,gcp,pro,1,1,0,1,0,108
+treatment,runtime_context_panel,WARNING,Delete Bash History,,security_engineer,enterprise,saas,gcp,pro,1,0,0,0,0,
+treatment,runtime_context_panel,ERROR,Modify binary dirs,busybox:latest,security_engineer,enterprise,saas,gcp,pro,1,1,0,1,0,110
+treatment,runtime_context_panel,ERROR,Write below root,falcosecurity/event-generator,security_engineer,enterprise,saas,gcp,pro,1,1,1,1,1,112
+treatment,runtime_context_panel,ERROR,Write below monitored dir,falcosecurity/event-generator,security_engineer,enterprise,saas,gcp,pro,1,0,0,0,0,
+treatment,runtime_context_panel,WARNING,Remove Bulk Data from Disk,busybox:latest,security_engineer,enterprise,saas,gcp,pro,1,1,0,1,0,78
+treatment,runtime_context_panel,WARNING,Delete Bash History,busybox:latest,platform_engineer,enterprise,saas,gcp,pro,1,1,0,1,0,94
+treatment,runtime_context_panel,WARNING,Search Private Keys or Passwords,busybox:latest,platform_engineer,enterprise,saas,gcp,pro,1,1,1,1,1,44
+treatment,runtime_context_panel,WARNING,Read sensitive file untrusted,busybox:latest,platform_engineer,enterprise,saas,gcp,pro,1,1,1,1,1,57
+treatment,runtime_context_panel,ERROR,Create files below dev,busybox:latest,platform_engineer,enterprise,saas,gcp,pro,1,0,0,0,0,
+treatment,runtime_context_panel,ERROR,Container Drift Detected (open+create),busybox:latest,platform_engineer,enterprise,saas,gcp,pro,1,0,0,0,0,
+treatment,runtime_context_panel,WARNING,Mount Launched in Privileged Container,busybox:latest,platform_engineer,enterprise,saas,gcp,pro,1,1,1,1,1,56
+treatment,runtime_context_panel,ERROR,Write below monitored dir,falcosecurity/event-generator,platform_engineer,enterprise,saas,gcp,pro,1,1,0,1,0,100
+treatment,runtime_context_panel,WARNING,Outbound Connection to C2 Servers,falcosecurity/event-generator,platform_engineer,enterprise,saas,gcp,pro,1,0,0,0,0,
+treatment,runtime_context_panel,WARNING,Delete or rename shell history,busybox:latest,platform_engineer,enterprise,saas,gcp,pro,1,1,1,1,1,18
+treatment,runtime_context_panel,WARNING,Network Connection outside Local Subnet,busybox:latest,devops_engineer,enterprise,saas,gcp,pro,2,1,1,0.5,0.5,105
+treatment,runtime_context_panel,WARNING,Read sensitive file untrusted,busybox:latest,devops_engineer,enterprise,saas,gcp,pro,1,1,0,1,0,30
+treatment,runtime_context_panel,ERROR,Launch Package Management Process in Container,falcosecurity/event-generator,devops_engineer,enterprise,saas,gcp,pro,1,1,1,1,1,40
+treatment,runtime_context_panel,WARNING,Outbound Connection to C2 Servers,busybox:latest,devops_engineer,enterprise,saas,gcp,pro,1,1,0,1,0,49
+treatment,runtime_context_panel,CRITICAL,Sudo Potential Privilege Escalation,<NA>,security_engineer,small,health,gcp,free,1,1,1,1,1,108
+treatment,runtime_context_panel,WARNING,Linux Kernel Module Injection Detected,falcosecurity/event-generator,security_engineer,small,health,gcp,free,1,0,0,0,0,
+treatment,runtime_context_panel,WARNING,Netcat Remote Code Execution in Container,busybox:latest,security_engineer,small,health,gcp,free,2,2,1,1,0.5,85
+treatment,runtime_context_panel,ERROR,Write below root,busybox:latest,security_engineer,small,health,gcp,free,2,0,0,0,0,
+treatment,runtime_context_panel,ERROR,Mkdir binary dirs,busybox:latest,security_engineer,small,health,gcp,free,2,2,2,1,1,65
+treatment,runtime_context_panel,ERROR,Write below monitored dir,busybox:latest,security_engineer,small,health,gcp,free,4,3,2,0.75,0.5,42.333333333333336
+treatment,runtime_context_panel,WARNING,Outbound Connection to C2 Servers,busybox:latest,security_engineer,small,health,gcp,free,1,1,1,1,1,106
+treatment,runtime_context_panel,WARNING,Delete or rename shell history,busybox:latest,security_engineer,small,health,gcp,free,2,2,2,1,1,96
+treatment,runtime_context_panel,ERROR,Container Drift Detected (open+create),falcosecurity/event-generator,security_engineer,small,health,gcp,free,1,1,1,1,1,61
+treatment,runtime_context_panel,ERROR,Write below rpm database,busybox:latest,security_engineer,small,health,gcp,free,1,1,0,1,0,73
+treatment,runtime_context_panel,CRITICAL,Detect crypto miners using the Stratum protocol,busybox:latest,security_engineer,small,health,gcp,free,3,3,1,1,0.33333333333333331,72.333333333333329
+treatment,runtime_context_panel,WARNING,The docker client is executed in a container,busybox:latest,security_engineer,small,health,gcp,free,1,1,0,1,0,7
+treatment,runtime_context_panel,ERROR,Create files below dev,busybox:latest,security_engineer,small,health,gcp,free,3,3,1,1,0.33333333333333331,45.333333333333329
+treatment,runtime_context_panel,ERROR,Container Drift Detected (open+create),busybox:latest,security_engineer,small,health,gcp,free,1,1,0,1,0,27
+treatment,runtime_context_panel,WARNING,Redirect STDOUT/STDIN to Network Connection in Container,busybox:latest,security_engineer,small,health,gcp,free,2,2,2,1,1,72.5
+treatment,runtime_context_panel,WARNING,Debugfs Launched in Privileged Container,busybox:latest,security_engineer,small,health,gcp,free,1,0,0,0,0,
+treatment,runtime_context_panel,ERROR,Write below root,,security_engineer,small,health,gcp,free,1,0,0,0,0,
+treatment,runtime_context_panel,WARNING,Redirect STDOUT/STDIN to Network Connection in Container,falcosecurity/event-generator,security_engineer,small,health,gcp,free,1,1,0,1,0,54
+treatment,runtime_context_panel,WARNING,Outbound or Inbound Traffic not to Authorized Server Process and Port,busybox:latest,security_engineer,small,health,gcp,free,1,1,1,1,1,47
+treatment,runtime_context_panel,WARNING,Search Private Keys or Passwords,busybox:latest,security_engineer,small,health,gcp,free,3,3,1,1,0.33333333333333331,38.333333333333329
+treatment,runtime_context_panel,CRITICAL,Detect outbound connections to common miner pool ports,busybox:latest,security_engineer,small,health,gcp,free,7,2,1,0.2857142857142857,0.14285714285714285,44.5
+treatment,runtime_context_panel,ERROR,Create files below dev,falcosecurity/event-generator,security_engineer,small,health,gcp,free,1,1,1,1,1,102
+treatment,runtime_context_panel,CRITICAL,Sudo Potential Privilege Escalation,busybox:latest,security_engineer,small,health,gcp,free,1,1,1,1,1,52
+treatment,runtime_context_panel,ERROR,Write below binary dir,busybox:latest,security_engineer,small,health,gcp,free,1,0,0,0,0,
+treatment,runtime_context_panel,WARNING,Linux Kernel Module Injection Detected,busybox:latest,security_engineer,small,health,gcp,free,3,2,1,0.66666666666666663,0.33333333333333331,63
+treatment,runtime_context_panel,WARNING,Read sensitive file untrusted,busybox:latest,security_engineer,small,health,gcp,free,1,1,1,1,1,106
+treatment,runtime_context_panel,WARNING,Delete Bash History,busybox:latest,security_engineer,small,health,gcp,free,1,0,0,0,0,
+treatment,runtime_context_panel,WARNING,Delete or rename shell history,busybox:latest,platform_engineer,small,saas,aws,pro,1,1,1,1,1,28
+treatment,runtime_context_panel,WARNING,Search Private Keys or Passwords,busybox:latest,platform_engineer,small,saas,aws,pro,1,1,0,1,0,117
+treatment,runtime_context_panel,CRITICAL,Sudo Potential Privilege Escalation,busybox:latest,platform_engineer,small,saas,aws,pro,1,1,0,1,0,105
+treatment,runtime_context_panel,ERROR,Container Drift Detected (open+create),falcosecurity/event-generator,platform_engineer,small,saas,aws,pro,1,1,0,1,0,92
+treatment,runtime_context_panel,WARNING,Clear Log Activities,busybox:latest,platform_engineer,small,saas,aws,pro,1,1,0,1,0,88
+treatment,runtime_context_panel,CRITICAL,Unprivileged Delegation of Page Faults Handling to a Userspace Process,falcosecurity/event-generator,platform_engineer,small,saas,aws,pro,1,1,1,1,1,82
+treatment,runtime_context_panel,CRITICAL,Detect crypto miners using the Stratum protocol,falcosecurity/event-generator,platform_engineer,small,saas,aws,pro,1,1,0,1,0,41
+treatment,runtime_context_panel,ERROR,Mkdir binary dirs,busybox:latest,platform_engineer,small,saas,aws,pro,1,0,0,0,0,
+treatment,runtime_context_panel,WARNING,Linux Kernel Module Injection Detected,busybox:latest,platform_engineer,small,saas,aws,pro,1,1,1,1,1,78
+treatment,runtime_context_panel,ERROR,Write below rpm database,busybox:latest,platform_engineer,small,saas,aws,pro,1,1,1,1,1,14
+treatment,runtime_context_panel,WARNING,Delete Bash History,busybox:latest,platform_engineer,small,saas,aws,pro,1,0,0,0,0,
+treatment,runtime_context_panel,ERROR,Mkdir binary dirs,busybox:latest,security_engineer,small,saas,aws,pro,1,1,1,1,1,52
+treatment,runtime_context_panel,WARNING,Netcat Remote Code Execution in Container,falcosecurity/event-generator,security_engineer,small,saas,aws,pro,1,0,0,0,0,
+treatment,runtime_context_panel,WARNING,Mount Launched in Privileged Container,busybox:latest,security_engineer,small,saas,aws,pro,1,1,0,1,0,52
+treatment,runtime_context_panel,ERROR,Container Drift Detected (open+create),busybox:latest,security_engineer,small,saas,aws,pro,2,1,1,0.5,0.5,12
+treatment,runtime_context_panel,CRITICAL,Sudo Potential Privilege Escalation,busybox:latest,security_engineer,small,saas,aws,pro,1,1,1,1,1,26
+treatment,runtime_context_panel,ERROR,Write below binary dir,falcosecurity/event-generator,security_engineer,small,saas,aws,pro,1,1,0,1,0,111
+treatment,runtime_context_panel,WARNING,Read sensitive file untrusted,falcosecurity/event-generator,security_engineer,small,saas,aws,pro,1,1,1,1,1,97
+treatment,runtime_context_panel,WARNING,Mount Launched in Privileged Container,falcosecurity/event-generator,security_engineer,small,saas,aws,pro,1,0,0,0,0,
+treatment,runtime_context_panel,WARNING,The docker client is executed in a container,busybox:latest,security_engineer,small,saas,aws,pro,1,0,0,0,0,
+treatment,runtime_context_panel,WARNING,Launch Disallowed Container,busybox:latest,security_engineer,small,saas,aws,pro,1,0,0,0,0,
+treatment,runtime_context_panel,WARNING,Clear Log Activities,busybox:latest,security_engineer,small,saas,aws,pro,1,1,0,1,0,96
+treatment,runtime_context_panel,WARNING,Network Connection outside Local Subnet,busybox:latest,security_engineer,small,saas,aws,pro,1,0,0,0,0,
+treatment,runtime_context_panel,ERROR,Container Drift Detected (chmod),busybox:latest,security_engineer,small,saas,aws,pro,1,0,0,0,0,
+treatment,runtime_context_panel,ERROR,Write below etc,busybox:latest,security_engineer,small,saas,aws,pro,1,0,0,0,0,
+treatment,runtime_context_panel,WARNING,Outbound or Inbound Traffic not to Authorized Server Process and Port,busybox:latest,platform_engineer,small,saas,aws,pro,1,1,0,1,0,107
+treatment,runtime_context_panel,WARNING,Network Connection outside Local Subnet,falcosecurity/event-generator,platform_engineer,small,saas,aws,pro,1,1,1,1,1,54
+treatment,runtime_context_panel,ERROR,Write below etc,busybox:latest,platform_engineer,small,saas,aws,pro,1,1,1,1,1,21
+treatment,runtime_context_panel,WARNING,Outbound Connection to C2 Servers,busybox:latest,platform_engineer,small,saas,aws,pro,1,1,0,1,0,56
+treatment,runtime_context_panel,CRITICAL,Unprivileged Delegation of Page Faults Handling to a Userspace Process,busybox:latest,platform_engineer,small,saas,aws,pro,1,1,1,1,1,47
+treatment,runtime_context_panel,ERROR,Container Drift Detected (chmod),falcosecurity/event-generator,platform_engineer,small,saas,aws,pro,1,1,1,1,1,83
+treatment,runtime_context_panel,WARNING,Read Shell Configuration File,busybox:latest,platform_engineer,small,saas,aws,pro,1,0,0,0,0,
+treatment,runtime_context_panel,WARNING,Read sensitive file trusted after startup,busybox:latest,platform_engineer,small,saas,aws,pro,1,1,1,1,1,38
+treatment,runtime_context_panel,ERROR,Create files below dev,falcosecurity/event-generator,platform_engineer,small,saas,aws,pro,1,1,1,1,1,85
+treatment,runtime_context_panel,WARNING,Delete or rename shell history,falcosecurity/event-generator,platform_engineer,small,saas,aws,pro,1,1,1,1,1,14
+treatment,runtime_context_panel,ERROR,Write below monitored dir,busybox:latest,platform_engineer,small,saas,aws,pro,1,1,0,1,0,104
+treatment,runtime_context_panel,ERROR,Read ssh information,busybox:latest,platform_engineer,medium,ecommerce,aws,enterprise,1,0,0,0,0,
+treatment,runtime_context_panel,CRITICAL,Detect outbound connections to common miner pool ports,busybox:latest,platform_engineer,medium,ecommerce,aws,enterprise,1,1,0,1,0,108
+treatment,runtime_context_panel,ERROR,Write below root,busybox:latest,platform_engineer,medium,ecommerce,aws,enterprise,1,0,0,0,0,
+treatment,runtime_context_panel,ERROR,Modify binary dirs,busybox:latest,platform_engineer,medium,ecommerce,aws,enterprise,1,0,0,0,0,
+treatment,runtime_context_panel,ERROR,Write below rpm database,falcosecurity/event-generator,platform_engineer,medium,ecommerce,aws,enterprise,1,1,1,1,1,48
+treatment,runtime_context_panel,WARNING,Delete Bash History,busybox:latest,platform_engineer,medium,ecommerce,aws,enterprise,1,0,0,0,0,
+treatment,runtime_context_panel,ERROR,Mkdir binary dirs,busybox:latest,platform_engineer,medium,ecommerce,aws,enterprise,2,2,1,1,0.5,52.5
+treatment,runtime_context_panel,WARNING,Read sensitive file trusted after startup,busybox:latest,security_engineer,medium,ecommerce,aws,enterprise,1,1,1,1,1,5
+treatment,runtime_context_panel,ERROR,Write below etc,falcosecurity/event-generator,security_engineer,medium,ecommerce,aws,enterprise,1,1,1,1,1,21
+treatment,runtime_context_panel,WARNING,Redirect STDOUT/STDIN to Network Connection in Container,busybox:latest,security_engineer,medium,ecommerce,aws,enterprise,1,1,0,1,0,51
+treatment,runtime_context_panel,WARNING,Read sensitive file untrusted,busybox:latest,security_engineer,medium,ecommerce,aws,enterprise,1,1,0,1,0,98
+treatment,runtime_context_panel,ERROR,Container Drift Detected (open+create),busybox:latest,security_engineer,medium,ecommerce,aws,enterprise,1,0,0,0,0,
+treatment,runtime_context_panel,WARNING,Network Connection outside Local Subnet,falcosecurity/event-generator,devops_engineer,medium,ecommerce,aws,enterprise,1,0,0,0,0,
+treatment,runtime_context_panel,CRITICAL,Detect crypto miners using the Stratum protocol,busybox:latest,devops_engineer,medium,ecommerce,aws,enterprise,1,1,1,1,1,100
+treatment,runtime_context_panel,ERROR,Write below etc,busybox:latest,devops_engineer,medium,ecommerce,aws,enterprise,1,1,0,1,0,16
+treatment,runtime_context_panel,ERROR,Mkdir binary dirs,busybox:latest,devops_engineer,medium,ecommerce,aws,enterprise,1,1,0,1,0,41
+treatment,runtime_context_panel,CRITICAL,Detect outbound connections to common miner pool ports,busybox:latest,devops_engineer,medium,ecommerce,aws,enterprise,1,0,0,0,0,
+treatment,runtime_context_panel,WARNING,Debugfs Launched in Privileged Container,busybox:latest,devops_engineer,medium,ecommerce,aws,enterprise,2,1,1,0.5,0.5,4
+treatment,runtime_context_panel,WARNING,Read sensitive file untrusted,busybox:latest,devops_engineer,medium,ecommerce,aws,enterprise,2,2,2,1,1,72.5
+treatment,runtime_context_panel,ERROR,Write below monitored dir,busybox:latest,devops_engineer,medium,ecommerce,aws,enterprise,1,1,1,1,1,32
+treatment,runtime_context_panel,WARNING,The docker client is executed in a container,busybox:latest,devops_engineer,medium,ecommerce,aws,enterprise,1,1,1,1,1,53
+treatment,runtime_context_panel,WARNING,Clear Log Activities,busybox:latest,devops_engineer,medium,ecommerce,aws,enterprise,2,1,1,0.5,0.5,96
+treatment,runtime_context_panel,WARNING,Read sensitive file trusted after startup,falcosecurity/event-generator,devops_engineer,medium,ecommerce,aws,enterprise,2,2,0,1,0,76
+treatment,runtime_context_panel,WARNING,Remove Bulk Data from Disk,falcosecurity/event-generator,devops_engineer,medium,ecommerce,aws,enterprise,1,1,1,1,1,14
+treatment,runtime_context_panel,WARNING,Redirect STDOUT/STDIN to Network Connection in Container,busybox:latest,devops_engineer,medium,ecommerce,aws,enterprise,1,0,0,0,0,
+treatment,runtime_context_panel,ERROR,Container Drift Detected (open+create),busybox:latest,devops_engineer,medium,ecommerce,aws,enterprise,1,0,0,0,0,
+treatment,runtime_context_panel,ERROR,Create files below dev,falcosecurity/event-generator,devops_engineer,medium,ecommerce,aws,enterprise,1,1,1,1,1,101
+treatment,runtime_context_panel,ERROR,Modify binary dirs,falcosecurity/event-generator,devops_engineer,medium,ecommerce,aws,enterprise,1,0,0,0,0,
+treatment,runtime_context_panel,WARNING,Read sensitive file untrusted,busybox:latest,platform_engineer,medium,ecommerce,aws,enterprise,1,0,0,0,0,
+treatment,runtime_context_panel,WARNING,Linux Kernel Module Injection Detected,busybox:latest,platform_engineer,medium,ecommerce,aws,enterprise,1,0,0,0,0,
+treatment,runtime_context_panel,WARNING,Search Private Keys or Passwords,busybox:latest,platform_engineer,medium,ecommerce,aws,enterprise,1,1,1,1,1,24
+treatment,runtime_context_panel,CRITICAL,Detect crypto miners using the Stratum protocol,busybox:latest,platform_engineer,medium,fintech,gcp,free,2,1,0,0.5,0,90
+treatment,runtime_context_panel,WARNING,Redirect STDOUT/STDIN to Network Connection in Container,busybox:latest,platform_engineer,medium,fintech,gcp,free,1,1,0,1,0,92
+treatment,runtime_context_panel,WARNING,Linux Kernel Module Injection Detected,busybox:latest,platform_engineer,medium,fintech,gcp,free,1,1,1,1,1,100
+treatment,runtime_context_panel,ERROR,Modify binary dirs,falcosecurity/event-generator,devops_engineer,medium,fintech,gcp,free,1,0,0,0,0,
+treatment,runtime_context_panel,WARNING,Delete or rename shell history,falcosecurity/event-generator,devops_engineer,medium,fintech,gcp,free,1,0,0,0,0,
+treatment,runtime_context_panel,WARNING,Debugfs Launched in Privileged Container,busybox:latest,devops_engineer,medium,fintech,gcp,free,1,1,1,1,1,7
+treatment,runtime_context_panel,WARNING,Network Connection outside Local Subnet,busybox:latest,devops_engineer,medium,fintech,gcp,free,1,1,0,1,0,91
+treatment,runtime_context_panel,WARNING,Outbound Connection to C2 Servers,busybox:latest,devops_engineer,medium,fintech,gcp,free,1,1,0,1,0,69
+treatment,runtime_context_panel,WARNING,Linux Kernel Module Injection Detected,busybox:latest,devops_engineer,medium,fintech,gcp,free,1,1,0,1,0,33
+treatment,runtime_context_panel,WARNING,Outbound or Inbound Traffic not to Authorized Server Process and Port,busybox:latest,platform_engineer,medium,fintech,gcp,free,1,0,0,0,0,
+treatment,runtime_context_panel,ERROR,Mkdir binary dirs,busybox:latest,platform_engineer,medium,fintech,gcp,free,1,1,1,1,1,13
+treatment,runtime_context_panel,ERROR,Read ssh information,busybox:latest,platform_engineer,medium,fintech,gcp,free,1,1,0,1,0,18
+treatment,runtime_context_panel,WARNING,Read Shell Configuration File,busybox:latest,platform_engineer,medium,fintech,gcp,free,1,1,0,1,0,94
+treatment,runtime_context_panel,ERROR,Write below monitored dir,falcosecurity/event-generator,platform_engineer,medium,fintech,gcp,free,1,0,0,0,0,
+treatment,runtime_context_panel,WARNING,Delete or rename shell history,busybox:latest,platform_engineer,medium,fintech,gcp,free,1,0,0,0,0,
+treatment,runtime_context_panel,WARNING,Launch Disallowed Container,busybox:latest,security_engineer,medium,fintech,gcp,free,1,1,1,1,1,76
+treatment,runtime_context_panel,ERROR,Write below etc,busybox:latest,security_engineer,medium,fintech,gcp,free,2,2,0,1,0,78.5
+treatment,runtime_context_panel,ERROR,Container Drift Detected (open+create),busybox:latest,security_engineer,medium,fintech,gcp,free,1,1,0,1,0,49
+treatment,runtime_context_panel,ERROR,Write below rpm database,busybox:latest,security_engineer,medium,fintech,gcp,free,1,1,1,1,1,70
+treatment,runtime_context_panel,ERROR,Write below monitored dir,busybox:latest,security_engineer,medium,fintech,gcp,free,1,0,0,0,0,
+treatment,runtime_context_panel,WARNING,Delete or rename shell history,falcosecurity/event-generator,security_engineer,medium,fintech,gcp,free,1,1,0,1,0,81
+treatment,runtime_context_panel,ERROR,Launch Package Management Process in Container,busybox:latest,security_engineer,medium,fintech,gcp,free,1,1,1,1,1,41
+treatment,runtime_context_panel,ERROR,Modify binary dirs,falcosecurity/event-generator,platform_engineer,medium,fintech,gcp,free,1,0,0,0,0,
+treatment,runtime_context_panel,WARNING,Netcat Remote Code Execution in Container,falcosecurity/event-generator,platform_engineer,medium,fintech,gcp,free,1,1,0,1,0,39
+treatment,runtime_context_panel,WARNING,Delete Bash History,falcosecurity/event-generator,platform_engineer,medium,fintech,gcp,free,1,1,1,1,1,52
+treatment,runtime_context_panel,WARNING,Delete Bash History,busybox:latest,platform_engineer,medium,fintech,gcp,free,1,1,0,1,0,110
+treatment,runtime_context_panel,CRITICAL,Sudo Potential Privilege Escalation,busybox:latest,platform_engineer,medium,fintech,gcp,free,1,1,0,1,0,99
+treatment,runtime_context_panel,WARNING,Launch Disallowed Container,busybox:latest,platform_engineer,medium,fintech,gcp,free,1,1,0,1,0,93
+treatment,runtime_context_panel,ERROR,Container Drift Detected (open+create),busybox:latest,platform_engineer,enterprise,ecommerce,azure,enterprise,3,2,1,0.66666666666666663,0.33333333333333331,83.5
+treatment,runtime_context_panel,CRITICAL,Unprivileged Delegation of Page Faults Handling to a Userspace Process,busybox:latest,platform_engineer,enterprise,ecommerce,azure,enterprise,2,1,1,0.5,0.5,81
+treatment,runtime_context_panel,WARNING,Clear Log Activities,falcosecurity/event-generator,platform_engineer,enterprise,ecommerce,azure,enterprise,1,1,0,1,0,33
+treatment,runtime_context_panel,WARNING,Read sensitive file trusted after startup,falcosecurity/event-generator,platform_engineer,enterprise,ecommerce,azure,enterprise,1,1,1,1,1,46
+treatment,runtime_context_panel,ERROR,Write below monitored dir,busybox:latest,platform_engineer,enterprise,ecommerce,azure,enterprise,1,1,0,1,0,13
+treatment,runtime_context_panel,ERROR,Container Drift Detected (chmod),busybox:latest,platform_engineer,enterprise,ecommerce,azure,enterprise,1,1,1,1,1,10
+treatment,runtime_context_panel,WARNING,Read Shell Configuration File,busybox:latest,platform_engineer,enterprise,ecommerce,azure,enterprise,1,0,0,0,0,
+treatment,runtime_context_panel,WARNING,Delete Bash History,falcosecurity/event-generator,platform_engineer,enterprise,ecommerce,azure,enterprise,1,0,0,0,0,
+treatment,runtime_context_panel,WARNING,Read sensitive file untrusted,busybox:latest,platform_engineer,enterprise,ecommerce,azure,enterprise,1,1,1,1,1,22
+treatment,runtime_context_panel,WARNING,Debugfs Launched in Privileged Container,busybox:latest,platform_engineer,enterprise,ecommerce,azure,enterprise,2,1,1,0.5,0.5,22
+treatment,runtime_context_panel,WARNING,The docker client is executed in a container,falcosecurity/event-generator,platform_engineer,enterprise,ecommerce,azure,enterprise,1,0,0,0,0,
+treatment,runtime_context_panel,CRITICAL,Detect crypto miners using the Stratum protocol,busybox:latest,platform_engineer,enterprise,ecommerce,azure,enterprise,3,2,1,0.66666666666666663,0.33333333333333331,77.5
+treatment,runtime_context_panel,WARNING,Clear Log Activities,busybox:latest,platform_engineer,enterprise,ecommerce,azure,enterprise,2,1,1,0.5,0.5,63
+treatment,runtime_context_panel,WARNING,The docker client is executed in a container,busybox:latest,platform_engineer,enterprise,ecommerce,azure,enterprise,1,1,1,1,1,118
+treatment,runtime_context_panel,WARNING,Outbound or Inbound Traffic not to Authorized Server Process and Port,busybox:latest,platform_engineer,enterprise,ecommerce,azure,enterprise,2,2,1,1,0.5,48
+treatment,runtime_context_panel,WARNING,Redirect STDOUT/STDIN to Network Connection in Container,busybox:latest,platform_engineer,enterprise,ecommerce,azure,enterprise,1,1,0,1,0,28
+treatment,runtime_context_panel,ERROR,Read ssh information,busybox:latest,platform_engineer,enterprise,ecommerce,azure,enterprise,1,0,0,0,0,
+treatment,runtime_context_panel,CRITICAL,Detect outbound connections to common miner pool ports,falcosecurity/event-generator,platform_engineer,enterprise,ecommerce,azure,enterprise,1,1,1,1,1,94
+treatment,runtime_context_panel,ERROR,Create files below dev,busybox:latest,platform_engineer,enterprise,ecommerce,azure,enterprise,1,1,1,1,1,79
+treatment,runtime_context_panel,CRITICAL,Sudo Potential Privilege Escalation,busybox:latest,platform_engineer,enterprise,ecommerce,azure,enterprise,1,0,0,0,0,
+treatment,runtime_context_panel,WARNING,Linux Kernel Module Injection Detected,busybox:latest,platform_engineer,enterprise,ecommerce,azure,enterprise,1,1,1,1,1,104
+treatment,runtime_context_panel,CRITICAL,Detect crypto miners using the Stratum protocol,falcosecurity/event-generator,platform_engineer,enterprise,ecommerce,azure,enterprise,1,1,1,1,1,13
+treatment,runtime_context_panel,ERROR,Write below rpm database,falcosecurity/event-generator,platform_engineer,enterprise,ecommerce,azure,enterprise,1,0,0,0,0,
+treatment,runtime_context_panel,ERROR,Launch Package Management Process in Container,busybox:latest,platform_engineer,enterprise,ecommerce,azure,enterprise,1,1,1,1,1,82
+treatment,runtime_context_panel,WARNING,Outbound Connection to C2 Servers,busybox:latest,platform_engineer,enterprise,ecommerce,azure,enterprise,1,1,1,1,1,103
+treatment,runtime_context_panel,ERROR,Modify binary dirs,busybox:latest,platform_engineer,enterprise,ecommerce,azure,enterprise,1,0,0,0,0,
+treatment,runtime_context_panel,WARNING,Mount Launched in Privileged Container,busybox:latest,platform_engineer,enterprise,ecommerce,azure,enterprise,1,1,0,1,0,24
+treatment,runtime_context_panel,ERROR,Write below rpm database,busybox:latest,platform_engineer,enterprise,ecommerce,azure,enterprise,1,0,0,0,0,
+treatment,runtime_context_panel,ERROR,Write below binary dir,busybox:latest,platform_engineer,medium,health,azure,free,1,1,1,1,1,3
+treatment,runtime_context_panel,ERROR,Modify binary dirs,busybox:latest,platform_engineer,medium,health,azure,free,1,1,1,1,1,20
+treatment,runtime_context_panel,WARNING,Delete Bash History,busybox:latest,platform_engineer,medium,health,azure,free,1,1,1,1,1,101
+treatment,runtime_context_panel,CRITICAL,Detect outbound connections to common miner pool ports,falcosecurity/event-generator,platform_engineer,medium,health,azure,free,1,1,0,1,0,19
+treatment,runtime_context_panel,WARNING,Mount Launched in Privileged Container,busybox:latest,platform_engineer,medium,health,azure,free,1,0,0,0,0,
+treatment,runtime_context_panel,ERROR,Launch Package Management Process in Container,falcosecurity/event-generator,devops_engineer,medium,health,azure,free,2,1,1,0.5,0.5,18
+treatment,runtime_context_panel,CRITICAL,Detect crypto miners using the Stratum protocol,busybox:latest,devops_engineer,medium,health,azure,free,2,2,1,1,0.5,27
+treatment,runtime_context_panel,WARNING,Netcat Remote Code Execution in Container,busybox:latest,devops_engineer,medium,health,azure,free,2,2,1,1,0.5,76.5
+treatment,runtime_context_panel,WARNING,Remove Bulk Data from Disk,busybox:latest,devops_engineer,medium,health,azure,free,1,0,0,0,0,
+treatment,runtime_context_panel,ERROR,Modify binary dirs,busybox:latest,devops_engineer,medium,health,azure,free,1,1,0,1,0,95
+treatment,runtime_context_panel,WARNING,Outbound or Inbound Traffic not to Authorized Server Process and Port,busybox:latest,devops_engineer,medium,health,azure,free,2,1,0,0.5,0,67
+treatment,runtime_context_panel,WARNING,Read sensitive file untrusted,busybox:latest,devops_engineer,medium,health,azure,free,1,1,0,1,0,32
+treatment,runtime_context_panel,WARNING,Outbound Connection to C2 Servers,busybox:latest,security_engineer,medium,health,azure,free,1,1,0,1,0,6
+treatment,runtime_context_panel,CRITICAL,Sudo Potential Privilege Escalation,busybox:latest,security_engineer,medium,health,azure,free,1,1,0,1,0,91
+treatment,runtime_context_panel,WARNING,Remove Bulk Data from Disk,busybox:latest,security_engineer,medium,health,azure,free,1,1,1,1,1,3
+treatment,runtime_context_panel,WARNING,Launch Disallowed Container,busybox:latest,security_engineer,medium,health,azure,free,1,1,1,1,1,53
+treatment,runtime_context_panel,CRITICAL,Detect outbound connections to common miner pool ports,busybox:latest,security_engineer,medium,health,azure,free,1,1,1,1,1,55
+treatment,runtime_context_panel,ERROR,Read ssh information,<NA>,devops_engineer,medium,health,azure,free,1,1,0,1,0,70
+treatment,runtime_context_panel,CRITICAL,Detect outbound connections to common miner pool ports,busybox:latest,devops_engineer,medium,health,azure,free,1,1,0,1,0,6
+treatment,runtime_context_panel,WARNING,Delete Bash History,busybox:latest,devops_engineer,medium,health,azure,free,1,1,0,1,0,89
+treatment,runtime_context_panel,WARNING,Debugfs Launched in Privileged Container,falcosecurity/event-generator,devops_engineer,medium,health,azure,free,2,1,0,0.5,0,3
+treatment,runtime_context_panel,ERROR,Write below monitored dir,busybox:latest,devops_engineer,medium,health,azure,free,1,0,0,0,0,
+treatment,runtime_context_panel,ERROR,Create files below dev,falcosecurity/event-generator,devops_engineer,medium,health,azure,free,1,1,1,1,1,46
+treatment,runtime_context_panel,WARNING,Read Shell Configuration File,busybox:latest,security_engineer,small,health,gcp,free,2,1,0,0.5,0,42
+treatment,runtime_context_panel,ERROR,Write below binary dir,falcosecurity/event-generator,security_engineer,small,health,gcp,free,2,1,0,0.5,0,55
+treatment,runtime_context_panel,WARNING,Remove Bulk Data from Disk,falcosecurity/event-generator,security_engineer,small,health,gcp,free,1,1,0,1,0,63
+treatment,runtime_context_panel,WARNING,Launch Disallowed Container,busybox:latest,security_engineer,small,health,gcp,free,1,1,1,1,1,11
+treatment,runtime_context_panel,WARNING,Network Connection outside Local Subnet,busybox:latest,security_engineer,small,health,gcp,free,1,1,0,1,0,20
+treatment,runtime_context_panel,WARNING,The docker client is executed in a container,busybox:latest,devops_engineer,small,health,gcp,free,1,1,1,1,1,8
+treatment,runtime_context_panel,WARNING,Mount Launched in Privileged Container,busybox:latest,devops_engineer,small,health,gcp,free,2,1,1,0.5,0.5,43
+treatment,runtime_context_panel,WARNING,Delete or rename shell history,busybox:latest,devops_engineer,small,health,gcp,free,1,1,1,1,1,97
+treatment,runtime_context_panel,CRITICAL,Unprivileged Delegation of Page Faults Handling to a Userspace Process,busybox:latest,devops_engineer,small,health,gcp,free,1,1,1,1,1,48
+treatment,runtime_context_panel,ERROR,Write below root,busybox:latest,devops_engineer,small,health,gcp,free,2,1,0,0.5,0,57
+treatment,runtime_context_panel,WARNING,Search Private Keys or Passwords,falcosecurity/event-generator,devops_engineer,small,health,gcp,free,1,0,0,0,0,
+treatment,runtime_context_panel,WARNING,Delete or rename shell history,falcosecurity/event-generator,devops_engineer,small,health,gcp,free,1,1,1,1,1,65
+treatment,runtime_context_panel,WARNING,Clear Log Activities,falcosecurity/event-generator,security_engineer,small,health,gcp,free,1,0,0,0,0,
+treatment,runtime_context_panel,CRITICAL,Unprivileged Delegation of Page Faults Handling to a Userspace Process,falcosecurity/event-generator,security_engineer,small,health,gcp,free,1,1,1,1,1,6
+treatment,runtime_context_panel,CRITICAL,Sudo Potential Privilege Escalation,busybox:latest,platform_engineer,small,health,gcp,free,2,2,1,1,0.5,56.5
+treatment,runtime_context_panel,WARNING,Launch Disallowed Container,falcosecurity/event-generator,platform_engineer,small,health,gcp,free,1,1,1,1,1,14
+treatment,runtime_context_panel,WARNING,Linux Kernel Module Injection Detected,busybox:latest,platform_engineer,small,health,gcp,free,2,2,1,1,0.5,97.5
+treatment,runtime_context_panel,ERROR,Read ssh information,busybox:latest,platform_engineer,small,health,gcp,free,2,2,1,1,0.5,81
+treatment,runtime_context_panel,WARNING,Delete or rename shell history,busybox:latest,platform_engineer,small,health,gcp,free,1,1,1,1,1,36
+treatment,runtime_context_panel,ERROR,Write below rpm database,falcosecurity/event-generator,platform_engineer,small,health,gcp,free,1,1,1,1,1,18
+treatment,runtime_context_panel,ERROR,Container Drift Detected (chmod),busybox:latest,platform_engineer,small,health,gcp,free,1,1,0,1,0,1
+treatment,runtime_context_panel,WARNING,Linux Kernel Module Injection Detected,falcosecurity/event-generator,platform_engineer,small,health,gcp,free,1,1,0,1,0,26
+treatment,runtime_context_panel,WARNING,Outbound or Inbound Traffic not to Authorized Server Process and Port,busybox:latest,platform_engineer,small,health,gcp,free,2,2,2,1,1,105.5
+treatment,runtime_context_panel,ERROR,Write below etc,busybox:latest,platform_engineer,small,health,gcp,free,3,2,1,0.66666666666666663,0.33333333333333331,67
+treatment,runtime_context_panel,ERROR,Mkdir binary dirs,busybox:latest,platform_engineer,small,health,gcp,free,1,1,1,1,1,2
+treatment,runtime_context_panel,ERROR,Write below binary dir,busybox:latest,platform_engineer,small,health,gcp,free,1,1,1,1,1,88
+treatment,runtime_context_panel,WARNING,Outbound Connection to C2 Servers,falcosecurity/event-generator,platform_engineer,small,health,gcp,free,1,1,1,1,1,29
+treatment,runtime_context_panel,WARNING,Outbound Connection to C2 Servers,busybox:latest,platform_engineer,small,fintech,gcp,pro,2,1,1,0.5,0.5,11
+treatment,runtime_context_panel,ERROR,Modify binary dirs,falcosecurity/event-generator,platform_engineer,small,fintech,gcp,pro,2,2,1,1,0.5,14.5
+treatment,runtime_context_panel,WARNING,Remove Bulk Data from Disk,falcosecurity/event-generator,platform_engineer,small,fintech,gcp,pro,2,0,0,0,0,
+treatment,runtime_context_panel,CRITICAL,Sudo Potential Privilege Escalation,busybox:latest,platform_engineer,small,fintech,gcp,pro,3,2,2,0.66666666666666663,0.66666666666666663,63.5
+treatment,runtime_context_panel,WARNING,Outbound or Inbound Traffic not to Authorized Server Process and Port,busybox:latest,platform_engineer,small,fintech,gcp,pro,1,1,0,1,0,116
+treatment,runtime_context_panel,WARNING,Netcat Remote Code Execution in Container,busybox:latest,platform_engineer,small,fintech,gcp,pro,2,2,2,1,1,87
+treatment,runtime_context_panel,CRITICAL,Detect outbound connections to common miner pool ports,busybox:latest,platform_engineer,small,fintech,gcp,pro,1,1,1,1,1,103
+treatment,runtime_context_panel,WARNING,Linux Kernel Module Injection Detected,busybox:latest,platform_engineer,small,fintech,gcp,pro,1,1,1,1,1,12
+treatment,runtime_context_panel,WARNING,Mount Launched in Privileged Container,busybox:latest,platform_engineer,small,fintech,gcp,pro,2,2,1,1,0.5,98.5
+treatment,runtime_context_panel,WARNING,Read sensitive file untrusted,falcosecurity/event-generator,platform_engineer,small,fintech,gcp,pro,1,0,0,0,0,
+treatment,runtime_context_panel,WARNING,Redirect STDOUT/STDIN to Network Connection in Container,busybox:latest,platform_engineer,small,fintech,gcp,pro,1,1,0,1,0,28
+treatment,runtime_context_panel,ERROR,Create files below dev,busybox:latest,platform_engineer,small,fintech,gcp,pro,1,0,0,0,0,
+treatment,runtime_context_panel,ERROR,Read ssh information,busybox:latest,platform_engineer,small,fintech,gcp,pro,1,1,0,1,0,17
+treatment,runtime_context_panel,WARNING,Network Connection outside Local Subnet,busybox:latest,platform_engineer,small,fintech,gcp,pro,1,1,1,1,1,59
+treatment,runtime_context_panel,WARNING,Clear Log Activities,busybox:latest,platform_engineer,small,fintech,gcp,pro,1,0,0,0,0,
+treatment,runtime_context_panel,ERROR,Container Drift Detected (chmod),busybox:latest,security_engineer,small,fintech,gcp,pro,1,1,0,1,0,86
+treatment,runtime_context_panel,CRITICAL,Detect crypto miners using the Stratum protocol,busybox:latest,security_engineer,small,fintech,gcp,pro,3,2,1,0.66666666666666663,0.33333333333333331,78.5
+treatment,runtime_context_panel,CRITICAL,Sudo Potential Privilege Escalation,falcosecurity/event-generator,security_engineer,small,fintech,gcp,pro,1,1,1,1,1,79
+treatment,runtime_context_panel,ERROR,Write below rpm database,falcosecurity/event-generator,security_engineer,small,fintech,gcp,pro,1,1,0,1,0,72
+treatment,runtime_context_panel,WARNING,Clear Log Activities,falcosecurity/event-generator,security_engineer,small,fintech,gcp,pro,1,1,0,1,0,2
+treatment,runtime_context_panel,ERROR,Container Drift Detected (open+create),busybox:latest,security_engineer,small,fintech,gcp,pro,1,0,0,0,0,
+treatment,runtime_context_panel,WARNING,Netcat Remote Code Execution in Container,busybox:latest,security_engineer,small,fintech,gcp,pro,1,1,1,1,1,17
+treatment,runtime_context_panel,ERROR,Write below monitored dir,busybox:latest,platform_engineer,small,fintech,gcp,pro,2,2,1,1,0.5,32.5
+treatment,runtime_context_panel,CRITICAL,Unprivileged Delegation of Page Faults Handling to a Userspace Process,busybox:latest,platform_engineer,small,fintech,gcp,pro,1,1,1,1,1,24
+treatment,runtime_context_panel,WARNING,Remove Bulk Data from Disk,busybox:latest,platform_engineer,small,fintech,gcp,pro,1,1,0,1,0,100
+treatment,runtime_context_panel,ERROR,Launch Package Management Process in Container,busybox:latest,platform_engineer,small,fintech,gcp,pro,1,1,0,1,0,73
+treatment,runtime_context_panel,WARNING,Read sensitive file untrusted,busybox:latest,platform_engineer,small,fintech,gcp,pro,1,0,0,0,0,
+treatment,runtime_context_panel,ERROR,Write below rpm database,busybox:latest,platform_engineer,small,fintech,gcp,pro,1,1,1,1,1,105
+treatment,runtime_context_panel,WARNING,Linux Kernel Module Injection Detected,busybox:latest,security_engineer,small,fintech,gcp,pro,1,1,1,1,1,96
+treatment,runtime_context_panel,WARNING,Launch Disallowed Container,falcosecurity/event-generator,security_engineer,small,fintech,gcp,pro,2,1,1,0.5,0.5,31
+treatment,runtime_context_panel,ERROR,Write below monitored dir,busybox:latest,security_engineer,small,fintech,gcp,pro,1,1,0,1,0,78
+treatment,runtime_context_panel,ERROR,Write below rpm database,busybox:latest,security_engineer,small,fintech,gcp,pro,1,1,1,1,1,85
+treatment,runtime_context_panel,ERROR,Create files below dev,busybox:latest,security_engineer,small,fintech,gcp,pro,1,1,1,1,1,29
+treatment,runtime_context_panel,WARNING,Read sensitive file trusted after startup,busybox:latest,platform_engineer,medium,ecommerce,aws,pro,2,2,1,1,0.5,50.5
+treatment,runtime_context_panel,WARNING,Debugfs Launched in Privileged Container,busybox:latest,platform_engineer,medium,ecommerce,aws,pro,2,2,1,1,0.5,37
+treatment,runtime_context_panel,WARNING,Delete or rename shell history,falcosecurity/event-generator,platform_engineer,medium,ecommerce,aws,pro,1,0,0,0,0,
+treatment,runtime_context_panel,WARNING,Network Connection outside Local Subnet,busybox:latest,platform_engineer,medium,ecommerce,aws,pro,1,1,1,1,1,89
+treatment,runtime_context_panel,WARNING,Delete Bash History,busybox:latest,platform_engineer,medium,ecommerce,aws,pro,2,1,1,0.5,0.5,12
+treatment,runtime_context_panel,ERROR,Write below binary dir,falcosecurity/event-generator,platform_engineer,medium,ecommerce,aws,pro,1,1,1,1,1,61
+treatment,runtime_context_panel,WARNING,Remove Bulk Data from Disk,busybox:latest,platform_engineer,medium,ecommerce,aws,pro,2,2,1,1,0.5,73
+treatment,runtime_context_panel,CRITICAL,Sudo Potential Privilege Escalation,busybox:latest,platform_engineer,medium,ecommerce,aws,pro,1,1,1,1,1,80
+treatment,runtime_context_panel,ERROR,Read ssh information,busybox:latest,platform_engineer,medium,ecommerce,aws,pro,2,1,1,0.5,0.5,57
+treatment,runtime_context_panel,ERROR,Modify binary dirs,busybox:latest,platform_engineer,medium,ecommerce,aws,pro,1,1,1,1,1,86
+treatment,runtime_context_panel,CRITICAL,Unprivileged Delegation of Page Faults Handling to a Userspace Process,busybox:latest,platform_engineer,medium,ecommerce,aws,pro,1,0,0,0,0,
+treatment,runtime_context_panel,WARNING,Search Private Keys or Passwords,falcosecurity/event-generator,platform_engineer,medium,ecommerce,aws,pro,1,1,1,1,1,69
+treatment,runtime_context_panel,ERROR,Create files below dev,falcosecurity/event-generator,platform_engineer,medium,ecommerce,aws,pro,1,0,0,0,0,
+treatment,runtime_context_panel,CRITICAL,Sudo Potential Privilege Escalation,falcosecurity/event-generator,platform_engineer,medium,ecommerce,aws,pro,1,1,1,1,1,101
+treatment,runtime_context_panel,WARNING,The docker client is executed in a container,busybox:latest,platform_engineer,medium,ecommerce,aws,pro,1,1,0,1,0,87
+treatment,runtime_context_panel,ERROR,Container Drift Detected (open+create),busybox:latest,platform_engineer,medium,ecommerce,aws,pro,1,1,1,1,1,58
+treatment,runtime_context_panel,ERROR,Modify binary dirs,falcosecurity/event-generator,platform_engineer,medium,ecommerce,aws,pro,1,1,0,1,0,80
+treatment,runtime_context_panel,WARNING,Outbound Connection to C2 Servers,busybox:latest,platform_engineer,medium,ecommerce,aws,pro,1,1,0,1,0,78
+treatment,runtime_context_panel,WARNING,Clear Log Activities,busybox:latest,platform_engineer,medium,ecommerce,aws,pro,2,2,0,1,0,69.5
+treatment,runtime_context_panel,WARNING,Linux Kernel Module Injection Detected,busybox:latest,platform_engineer,medium,ecommerce,aws,pro,2,2,2,1,1,51
+treatment,runtime_context_panel,ERROR,Write below root,falcosecurity/event-generator,platform_engineer,medium,ecommerce,aws,pro,1,0,0,0,0,
+treatment,runtime_context_panel,ERROR,Write below binary dir,busybox:latest,platform_engineer,medium,ecommerce,aws,pro,1,1,1,1,1,92
+treatment,runtime_context_panel,WARNING,The docker client is executed in a container,falcosecurity/event-generator,security_engineer,medium,ecommerce,aws,pro,1,1,1,1,1,16
+treatment,runtime_context_panel,WARNING,Read sensitive file untrusted,busybox:latest,security_engineer,medium,ecommerce,aws,pro,1,1,0,1,0,3
+treatment,runtime_context_panel,CRITICAL,Detect crypto miners using the Stratum protocol,falcosecurity/event-generator,security_engineer,medium,ecommerce,aws,pro,1,0,0,0,0,
+treatment,runtime_context_panel,WARNING,Read Shell Configuration File,falcosecurity/event-generator,security_engineer,medium,ecommerce,aws,pro,1,1,1,1,1,18
+treatment,runtime_context_panel,WARNING,Network Connection outside Local Subnet,busybox:latest,security_engineer,medium,ecommerce,aws,pro,1,1,1,1,1,108
+treatment,runtime_context_panel,WARNING,Redirect STDOUT/STDIN to Network Connection in Container,busybox:latest,security_engineer,medium,ecommerce,aws,pro,2,2,2,1,1,82.5
+treatment,runtime_context_panel,ERROR,Container Drift Detected (chmod),busybox:latest,security_engineer,medium,ecommerce,aws,pro,1,1,0,1,0,32
+treatment,runtime_context_panel,CRITICAL,Detect crypto miners using the Stratum protocol,busybox:latest,security_engineer,medium,ecommerce,aws,pro,2,1,1,0.5,0.5,115
+treatment,runtime_context_panel,ERROR,Mkdir binary dirs,falcosecurity/event-generator,security_engineer,medium,ecommerce,aws,pro,1,1,1,1,1,105
+treatment,runtime_context_panel,WARNING,Search Private Keys or Passwords,busybox:latest,security_engineer,medium,ecommerce,aws,pro,1,1,1,1,1,45
+treatment,runtime_context_panel,WARNING,Delete Bash History,busybox:latest,devops_engineer,medium,health,azure,pro,2,1,0,0.5,0,32
+treatment,runtime_context_panel,ERROR,Launch Package Management Process in Container,busybox:latest,devops_engineer,medium,health,azure,pro,1,0,0,0,0,
+treatment,runtime_context_panel,WARNING,The docker client is executed in a container,busybox:latest,devops_engineer,medium,health,azure,pro,2,0,0,0,0,
+treatment,runtime_context_panel,WARNING,Network Connection outside Local Subnet,busybox:latest,devops_engineer,medium,health,azure,pro,1,1,1,1,1,104
+treatment,runtime_context_panel,ERROR,Create files below dev,falcosecurity/event-generator,devops_engineer,medium,health,azure,pro,1,1,0,1,0,52
+treatment,runtime_context_panel,WARNING,Read Shell Configuration File,busybox:latest,devops_engineer,medium,health,azure,pro,1,1,1,1,1,70
+treatment,runtime_context_panel,WARNING,Debugfs Launched in Privileged Container,busybox:latest,devops_engineer,medium,health,azure,pro,1,0,0,0,0,
+treatment,runtime_context_panel,ERROR,Container Drift Detected (chmod),busybox:latest,security_engineer,medium,health,azure,pro,1,1,1,1,1,59
+treatment,runtime_context_panel,CRITICAL,Detect crypto miners using the Stratum protocol,busybox:latest,security_engineer,medium,health,azure,pro,1,1,1,1,1,88
+treatment,runtime_context_panel,ERROR,Container Drift Detected (open+create),busybox:latest,security_engineer,medium,health,azure,pro,1,0,0,0,0,
+treatment,runtime_context_panel,WARNING,Read Shell Configuration File,busybox:latest,security_engineer,medium,health,azure,pro,1,1,0,1,0,95
+treatment,runtime_context_panel,CRITICAL,Unprivileged Delegation of Page Faults Handling to a Userspace Process,busybox:latest,security_engineer,medium,health,azure,pro,1,0,0,0,0,
+treatment,runtime_context_panel,ERROR,Write below root,busybox:latest,security_engineer,medium,health,azure,pro,1,1,1,1,1,55
+treatment,runtime_context_panel,WARNING,Delete Bash History,busybox:latest,security_engineer,medium,health,azure,pro,1,1,1,1,1,44
+treatment,runtime_context_panel,ERROR,Write below binary dir,busybox:latest,security_engineer,medium,health,azure,pro,1,1,1,1,1,27
+treatment,runtime_context_panel,WARNING,Search Private Keys or Passwords,falcosecurity/event-generator,security_engineer,medium,health,azure,pro,1,0,0,0,0,
+treatment,runtime_context_panel,WARNING,Debugfs Launched in Privileged Container,busybox:latest,platform_engineer,medium,health,azure,pro,1,1,0,1,0,46
+treatment,runtime_context_panel,ERROR,Container Drift Detected (chmod),busybox:latest,platform_engineer,medium,health,azure,pro,1,0,0,0,0,
+treatment,runtime_context_panel,WARNING,Linux Kernel Module Injection Detected,falcosecurity/event-generator,platform_engineer,medium,health,azure,pro,1,1,0,1,0,40
+treatment,runtime_context_panel,WARNING,Netcat Remote Code Execution in Container,busybox:latest,platform_engineer,medium,health,azure,pro,1,1,1,1,1,23
+treatment,runtime_context_panel,WARNING,Outbound or Inbound Traffic not to Authorized Server Process and Port,busybox:latest,platform_engineer,medium,health,azure,pro,1,1,1,1,1,87
+treatment,runtime_context_panel,WARNING,Launch Disallowed Container,busybox:latest,platform_engineer,medium,health,azure,pro,1,1,0,1,0,15
+treatment,runtime_context_panel,CRITICAL,Detect crypto miners using the Stratum protocol,busybox:latest,platform_engineer,medium,health,azure,pro,1,1,1,1,1,90
+treatment,runtime_context_panel,ERROR,Container Drift Detected (chmod),falcosecurity/event-generator,platform_engineer,medium,health,azure,pro,1,1,1,1,1,16
+treatment,runtime_context_panel,WARNING,Linux Kernel Module Injection Detected,busybox:latest,platform_engineer,medium,health,azure,pro,1,0,0,0,0,
+treatment,runtime_context_panel,WARNING,Netcat Remote Code Execution in Container,falcosecurity/event-generator,platform_engineer,medium,health,azure,pro,1,1,1,1,1,98
+treatment,runtime_context_panel,ERROR,Write below monitored dir,busybox:latest,platform_engineer,medium,health,azure,pro,1,1,0,1,0,92
+treatment,runtime_context_panel,WARNING,Mount Launched in Privileged Container,busybox:latest,platform_engineer,enterprise,fintech,azure,enterprise,1,1,1,1,1,17
+treatment,runtime_context_panel,WARNING,Linux Kernel Module Injection Detected,falcosecurity/event-generator,platform_engineer,enterprise,fintech,azure,enterprise,1,1,0,1,0,35
+treatment,runtime_context_panel,ERROR,Write below rpm database,falcosecurity/event-generator,platform_engineer,enterprise,fintech,azure,enterprise,1,1,0,1,0,24
+treatment,runtime_context_panel,WARNING,Delete Bash History,busybox:latest,platform_engineer,enterprise,fintech,azure,enterprise,3,3,2,1,0.66666666666666663,48.333333333333329
+treatment,runtime_context_panel,WARNING,Network Connection outside Local Subnet,busybox:latest,platform_engineer,enterprise,fintech,azure,enterprise,1,1,0,1,0,64
+treatment,runtime_context_panel,WARNING,Mount Launched in Privileged Container,falcosecurity/event-generator,platform_engineer,enterprise,fintech,azure,enterprise,1,1,1,1,1,92
+treatment,runtime_context_panel,WARNING,Read sensitive file untrusted,falcosecurity/event-generator,platform_engineer,enterprise,fintech,azure,enterprise,1,1,0,1,0,40
+treatment,runtime_context_panel,WARNING,Outbound or Inbound Traffic not to Authorized Server Process and Port,busybox:latest,platform_engineer,enterprise,fintech,azure,enterprise,1,0,0,0,0,
+treatment,runtime_context_panel,CRITICAL,Detect outbound connections to common miner pool ports,busybox:latest,platform_engineer,enterprise,fintech,azure,enterprise,1,1,0,1,0,27
+treatment,runtime_context_panel,WARNING,Launch Disallowed Container,busybox:latest,platform_engineer,enterprise,fintech,azure,enterprise,1,1,0,1,0,55
+treatment,runtime_context_panel,ERROR,Write below binary dir,falcosecurity/event-generator,platform_engineer,enterprise,fintech,azure,enterprise,1,0,0,0,0,
+treatment,runtime_context_panel,WARNING,Delete or rename shell history,falcosecurity/event-generator,devops_engineer,enterprise,fintech,azure,enterprise,1,1,1,1,1,109
+treatment,runtime_context_panel,WARNING,The docker client is executed in a container,falcosecurity/event-generator,devops_engineer,enterprise,fintech,azure,enterprise,1,1,0,1,0,9
+treatment,runtime_context_panel,WARNING,Launch Disallowed Container,busybox:latest,devops_engineer,enterprise,fintech,azure,enterprise,3,2,2,0.66666666666666663,0.66666666666666663,72.5
+treatment,runtime_context_panel,ERROR,Create files below dev,busybox:latest,devops_engineer,enterprise,fintech,azure,enterprise,2,2,2,1,1,81.5
+treatment,runtime_context_panel,WARNING,Linux Kernel Module Injection Detected,busybox:latest,devops_engineer,enterprise,fintech,azure,enterprise,1,0,0,0,0,
+treatment,runtime_context_panel,ERROR,Mkdir binary dirs,falcosecurity/event-generator,devops_engineer,enterprise,fintech,azure,enterprise,1,1,1,1,1,112

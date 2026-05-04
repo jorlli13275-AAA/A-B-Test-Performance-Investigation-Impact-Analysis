@@ -1,0 +1,2021 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20261.26.0226.1626                               -->
+<workbook original-version='18.1' source-build='2026.1.0 (20261.26.0226.1626)' source-platform='win' version='18.1' xml:base='https://public.tableau.com' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <AccessibleZoneTabOrder />
+    <AnimationOnByDefault />
+    <AutoCreateAndUpdateDSDPhoneLayouts />
+    <IntuitiveSorting />
+    <IntuitiveSorting_SP2 />
+    <MarkAnimation />
+    <ObjectModelEncapsulateLegacy />
+    <ObjectModelExtractV2 />
+    <ObjectModelTableType />
+    <SchemaViewerObjectModel />
+    <SetMembershipControl />
+    <SheetIdentifierTracking />
+    <SingleValuePerNestSorting />
+    <_.fcp.VConnDownstreamExtractsWithWarnings.true...VConnDownstreamExtractsWithWarnings />
+    <WindowsPersistSimpleIdentifiers />
+    <WorksheetBackgroundTransparency />
+  </document-format-change-manifest>
+  <repository-location id='ABtestperformance' path='/workbooks' revision='1.2' />
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='bq-results-20260504-063629-1777876594472' inline='true' name='federated.02p1pwv0tywrdi17t1pnu0cg4pex' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='bq-results-20260504-063629-1777876594472' name='textscan.09qttq50rlqcse1603wym18logmh'>
+            <connection class='textscan' directory='C:/Users/Jorll/Documents/sysdig_falco_project/dashboard' filename='bq-results-20260504-063629-1777876594472.csv' password='' server='' workgroup-auth-mode='as-is' />
+          </named-connection>
+        </named-connections>
+        <relation connection='textscan.09qttq50rlqcse1603wym18logmh' name='bq-results-20260504-063629-1777876594472.csv' table='[bq-results-20260504-063629-1777876594472#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='string' name='experiment_group' ordinal='0' />
+            <column datatype='integer' name='alerts_viewed' ordinal='1' />
+            <column datatype='integer' name='investigations' ordinal='2' />
+            <column datatype='integer' name='remediations' ordinal='3' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[bq-results-20260504-063629-1777876594472.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>experiment_group</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[experiment_group]</local-name>
+            <parent-name>[bq-results-20260504-063629-1777876594472.csv]</parent-name>
+            <remote-alias>experiment_group</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[bq-results-20260504-063629-1777876594472.csv_F71B6B492BAD4616903E16B11891E5D4]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>alerts_viewed</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[alerts_viewed]</local-name>
+            <parent-name>[bq-results-20260504-063629-1777876594472.csv]</parent-name>
+            <remote-alias>alerts_viewed</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[bq-results-20260504-063629-1777876594472.csv_F71B6B492BAD4616903E16B11891E5D4]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>investigations</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[investigations]</local-name>
+            <parent-name>[bq-results-20260504-063629-1777876594472.csv]</parent-name>
+            <remote-alias>investigations</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[bq-results-20260504-063629-1777876594472.csv_F71B6B492BAD4616903E16B11891E5D4]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>remediations</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[remediations]</local-name>
+            <parent-name>[bq-results-20260504-063629-1777876594472.csv]</parent-name>
+            <remote-alias>remediations</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[bq-results-20260504-063629-1777876594472.csv_F71B6B492BAD4616903E16B11891E5D4]</object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='bq-results-20260504-063629-1777876594472.csv' datatype='table' name='[__tableau_internal_object_id__].[bq-results-20260504-063629-1777876594472.csv_F71B6B492BAD4616903E16B11891E5D4]' role='measure' type='quantitative' />
+      <column caption='Alerts Viewed' datatype='integer' name='[alerts_viewed]' role='measure' type='quantitative' />
+      <column caption='Experiment Group' datatype='string' name='[experiment_group]' role='dimension' type='nominal' />
+      <column caption='Investigations' datatype='integer' name='[investigations]' role='measure' type='quantitative' />
+      <column caption='Remediations' datatype='integer' name='[remediations]' role='measure' type='quantitative' />
+      <extract _.fcp.VConnDownstreamExtractsWithWarnings.true...user-specific='false' count='-1' enabled='true' object-id='' units='records'>
+        <connection access_mode='readonly' author-locale='en_US' class='hyper' dbname='Data/TableauTemp/#TableauTemp_0of62pj0vmnayt1fa9y001kv6p10.hyper' default-settings='hyper' schema='Extract' sslmode='' tablename='Extract' update-time='' username='tableau_internal_user'>
+          <relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>experiment_group</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[experiment_group]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>experiment_group</remote-alias>
+              <ordinal>0</ordinal>
+              <family>bq-results-20260504-063629-1777876594472.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>alerts_viewed</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[alerts_viewed]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>alerts_viewed</remote-alias>
+              <ordinal>1</ordinal>
+              <family>bq-results-20260504-063629-1777876594472.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>investigations</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[investigations]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>investigations</remote-alias>
+              <ordinal>2</ordinal>
+              <family>bq-results-20260504-063629-1777876594472.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>remediations</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[remediations]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>remediations</remote-alias>
+              <ordinal>3</ordinal>
+              <family>bq-results-20260504-063629-1777876594472.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <object-graph>
+        <objects>
+          <object caption='bq-results-20260504-063629-1777876594472.csv' id='bq-results-20260504-063629-1777876594472.csv_F71B6B492BAD4616903E16B11891E5D4'>
+            <properties context=''>
+              <relation connection='textscan.09qttq50rlqcse1603wym18logmh' name='bq-results-20260504-063629-1777876594472.csv' table='[bq-results-20260504-063629-1777876594472#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+                  <column datatype='string' name='experiment_group' ordinal='0' />
+                  <column datatype='integer' name='alerts_viewed' ordinal='1' />
+                  <column datatype='integer' name='investigations' ordinal='2' />
+                  <column datatype='integer' name='remediations' ordinal='3' />
+                </columns>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='Extract' table='[Extract].[Extract]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </object-graph>
+    </datasource>
+    <datasource caption='bq-results-20260504-063725-1777876651939' inline='true' name='federated.0n4sncm0a3w9gc13rnw5t153n5hm' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='bq-results-20260504-063725-1777876651939' name='textscan.0lp600n03rwv89171cooo1feekyr'>
+            <connection class='textscan' directory='C:/Users/Jorll/Documents/sysdig_falco_project/dashboard' filename='bq-results-20260504-063725-1777876651939.csv' password='' server='' workgroup-auth-mode='as-is' />
+          </named-connection>
+        </named-connections>
+        <relation connection='textscan.0lp600n03rwv89171cooo1feekyr' name='bq-results-20260504-063725-1777876651939.csv' table='[bq-results-20260504-063725-1777876651939#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='string' name='experiment_group' ordinal='0' />
+            <column datatype='string' name='workflow_version' ordinal='1' />
+            <column datatype='string' name='priority' ordinal='2' />
+            <column datatype='string' name='rule_name' ordinal='3' />
+            <column datatype='string' name='image_name' ordinal='4' />
+            <column datatype='string' name='user_role' ordinal='5' />
+            <column datatype='string' name='company_size' ordinal='6' />
+            <column datatype='string' name='industry' ordinal='7' />
+            <column datatype='string' name='cloud_provider' ordinal='8' />
+            <column datatype='string' name='plan_type' ordinal='9' />
+            <column datatype='integer' name='total_alert_views' ordinal='10' />
+            <column datatype='integer' name='total_investigations' ordinal='11' />
+            <column datatype='integer' name='total_remediations' ordinal='12' />
+            <column datatype='real' name='investigation_rate' ordinal='13' />
+            <column datatype='real' name='remediation_rate' ordinal='14' />
+            <column datatype='real' name='avg_time_to_investigate_minutes' ordinal='15' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[bq-results-20260504-063725-1777876651939.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>experiment_group</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[experiment_group]</local-name>
+            <parent-name>[bq-results-20260504-063725-1777876651939.csv]</parent-name>
+            <remote-alias>experiment_group</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[bq-results-20260504-063725-1777876651939.csv_7692E0D6850844B78C13D397E4DC1A53]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>workflow_version</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[workflow_version]</local-name>
+            <parent-name>[bq-results-20260504-063725-1777876651939.csv]</parent-name>
+            <remote-alias>workflow_version</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[bq-results-20260504-063725-1777876651939.csv_7692E0D6850844B78C13D397E4DC1A53]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>priority</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[priority]</local-name>
+            <parent-name>[bq-results-20260504-063725-1777876651939.csv]</parent-name>
+            <remote-alias>priority</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[bq-results-20260504-063725-1777876651939.csv_7692E0D6850844B78C13D397E4DC1A53]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>rule_name</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[rule_name]</local-name>
+            <parent-name>[bq-results-20260504-063725-1777876651939.csv]</parent-name>
+            <remote-alias>rule_name</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[bq-results-20260504-063725-1777876651939.csv_7692E0D6850844B78C13D397E4DC1A53]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>image_name</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[image_name]</local-name>
+            <parent-name>[bq-results-20260504-063725-1777876651939.csv]</parent-name>
+            <remote-alias>image_name</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[bq-results-20260504-063725-1777876651939.csv_7692E0D6850844B78C13D397E4DC1A53]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>user_role</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[user_role]</local-name>
+            <parent-name>[bq-results-20260504-063725-1777876651939.csv]</parent-name>
+            <remote-alias>user_role</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[bq-results-20260504-063725-1777876651939.csv_7692E0D6850844B78C13D397E4DC1A53]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>company_size</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[company_size]</local-name>
+            <parent-name>[bq-results-20260504-063725-1777876651939.csv]</parent-name>
+            <remote-alias>company_size</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[bq-results-20260504-063725-1777876651939.csv_7692E0D6850844B78C13D397E4DC1A53]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>industry</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[industry]</local-name>
+            <parent-name>[bq-results-20260504-063725-1777876651939.csv]</parent-name>
+            <remote-alias>industry</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[bq-results-20260504-063725-1777876651939.csv_7692E0D6850844B78C13D397E4DC1A53]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>cloud_provider</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[cloud_provider]</local-name>
+            <parent-name>[bq-results-20260504-063725-1777876651939.csv]</parent-name>
+            <remote-alias>cloud_provider</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[bq-results-20260504-063725-1777876651939.csv_7692E0D6850844B78C13D397E4DC1A53]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>plan_type</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[plan_type]</local-name>
+            <parent-name>[bq-results-20260504-063725-1777876651939.csv]</parent-name>
+            <remote-alias>plan_type</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[bq-results-20260504-063725-1777876651939.csv_7692E0D6850844B78C13D397E4DC1A53]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>total_alert_views</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[total_alert_views]</local-name>
+            <parent-name>[bq-results-20260504-063725-1777876651939.csv]</parent-name>
+            <remote-alias>total_alert_views</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[bq-results-20260504-063725-1777876651939.csv_7692E0D6850844B78C13D397E4DC1A53]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>total_investigations</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[total_investigations]</local-name>
+            <parent-name>[bq-results-20260504-063725-1777876651939.csv]</parent-name>
+            <remote-alias>total_investigations</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[bq-results-20260504-063725-1777876651939.csv_7692E0D6850844B78C13D397E4DC1A53]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>total_remediations</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[total_remediations]</local-name>
+            <parent-name>[bq-results-20260504-063725-1777876651939.csv]</parent-name>
+            <remote-alias>total_remediations</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[bq-results-20260504-063725-1777876651939.csv_7692E0D6850844B78C13D397E4DC1A53]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>investigation_rate</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[investigation_rate]</local-name>
+            <parent-name>[bq-results-20260504-063725-1777876651939.csv]</parent-name>
+            <remote-alias>investigation_rate</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[bq-results-20260504-063725-1777876651939.csv_7692E0D6850844B78C13D397E4DC1A53]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>remediation_rate</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[remediation_rate]</local-name>
+            <parent-name>[bq-results-20260504-063725-1777876651939.csv]</parent-name>
+            <remote-alias>remediation_rate</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[bq-results-20260504-063725-1777876651939.csv_7692E0D6850844B78C13D397E4DC1A53]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>avg_time_to_investigate_minutes</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[avg_time_to_investigate_minutes]</local-name>
+            <parent-name>[bq-results-20260504-063725-1777876651939.csv]</parent-name>
+            <remote-alias>avg_time_to_investigate_minutes</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[bq-results-20260504-063725-1777876651939.csv_7692E0D6850844B78C13D397E4DC1A53]</object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='bq-results-20260504-063725-1777876651939.csv' datatype='table' name='[__tableau_internal_object_id__].[bq-results-20260504-063725-1777876651939.csv_7692E0D6850844B78C13D397E4DC1A53]' role='measure' type='quantitative' />
+      <column caption='Avg Time To Investigate Minutes' datatype='real' name='[avg_time_to_investigate_minutes]' role='measure' type='quantitative' />
+      <column caption='Cloud Provider' datatype='string' name='[cloud_provider]' role='dimension' type='nominal' />
+      <column caption='Company Size' datatype='string' name='[company_size]' role='dimension' type='nominal' />
+      <column caption='Experiment Group' datatype='string' name='[experiment_group]' role='dimension' type='nominal' />
+      <column caption='Image Name' datatype='string' name='[image_name]' role='dimension' type='nominal' />
+      <column caption='Industry' datatype='string' name='[industry]' role='dimension' type='nominal' />
+      <column caption='Investigation Rate' datatype='real' name='[investigation_rate]' role='measure' type='quantitative' />
+      <column caption='Plan Type' datatype='string' name='[plan_type]' role='dimension' type='nominal' />
+      <column caption='Priority' datatype='string' name='[priority]' role='dimension' type='nominal' />
+      <column caption='Remediation Rate' datatype='real' name='[remediation_rate]' role='measure' type='quantitative' />
+      <column caption='Rule Name' datatype='string' name='[rule_name]' role='dimension' type='nominal' />
+      <column caption='Total Alert Views' datatype='integer' name='[total_alert_views]' role='measure' type='quantitative' />
+      <column caption='Total Investigations' datatype='integer' name='[total_investigations]' role='measure' type='quantitative' />
+      <column caption='Total Remediations' datatype='integer' name='[total_remediations]' role='measure' type='quantitative' />
+      <column caption='User Role' datatype='string' name='[user_role]' role='dimension' type='nominal' />
+      <column caption='Workflow Version' datatype='string' name='[workflow_version]' role='dimension' type='nominal' />
+      <column-instance column='[experiment_group]' derivation='None' name='[none:experiment_group:nk]' pivot='key' type='nominal' />
+      <column-instance column='[rule_name]' derivation='None' name='[none:rule_name:nk]' pivot='key' type='nominal' />
+      <extract _.fcp.VConnDownstreamExtractsWithWarnings.true...user-specific='false' count='-1' enabled='true' object-id='' units='records'>
+        <connection access_mode='readonly' author-locale='en_US' class='hyper' dbname='Data/TableauTemp/#TableauTemp_0sprtgl1ts48f51cp4zdi0sy5d6d.hyper' default-settings='hyper' schema='Extract' sslmode='' tablename='Extract' update-time='' username='tableau_internal_user'>
+          <relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>experiment_group</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[experiment_group]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>experiment_group</remote-alias>
+              <ordinal>0</ordinal>
+              <family>bq-results-20260504-063725-1777876651939.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>workflow_version</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[workflow_version]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>workflow_version</remote-alias>
+              <ordinal>1</ordinal>
+              <family>bq-results-20260504-063725-1777876651939.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>priority</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[priority]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>priority</remote-alias>
+              <ordinal>2</ordinal>
+              <family>bq-results-20260504-063725-1777876651939.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>rule_name</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[rule_name]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>rule_name</remote-alias>
+              <ordinal>3</ordinal>
+              <family>bq-results-20260504-063725-1777876651939.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>34</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>image_name</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[image_name]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>image_name</remote-alias>
+              <ordinal>4</ordinal>
+              <family>bq-results-20260504-063725-1777876651939.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>5</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>user_role</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[user_role]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>user_role</remote-alias>
+              <ordinal>5</ordinal>
+              <family>bq-results-20260504-063725-1777876651939.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>company_size</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[company_size]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>company_size</remote-alias>
+              <ordinal>6</ordinal>
+              <family>bq-results-20260504-063725-1777876651939.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>industry</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[industry]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>industry</remote-alias>
+              <ordinal>7</ordinal>
+              <family>bq-results-20260504-063725-1777876651939.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>4</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>cloud_provider</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[cloud_provider]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>cloud_provider</remote-alias>
+              <ordinal>8</ordinal>
+              <family>bq-results-20260504-063725-1777876651939.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>plan_type</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[plan_type]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>plan_type</remote-alias>
+              <ordinal>9</ordinal>
+              <family>bq-results-20260504-063725-1777876651939.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>total_alert_views</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[total_alert_views]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>total_alert_views</remote-alias>
+              <ordinal>10</ordinal>
+              <family>bq-results-20260504-063725-1777876651939.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>5</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>total_investigations</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[total_investigations]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>total_investigations</remote-alias>
+              <ordinal>11</ordinal>
+              <family>bq-results-20260504-063725-1777876651939.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>4</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>total_remediations</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[total_remediations]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>total_remediations</remote-alias>
+              <ordinal>12</ordinal>
+              <family>bq-results-20260504-063725-1777876651939.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>4</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>investigation_rate</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[investigation_rate]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>investigation_rate</remote-alias>
+              <ordinal>13</ordinal>
+              <family>bq-results-20260504-063725-1777876651939.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>8</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>remediation_rate</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[remediation_rate]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>remediation_rate</remote-alias>
+              <ordinal>14</ordinal>
+              <family>bq-results-20260504-063725-1777876651939.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>8</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>avg_time_to_investigate_minutes</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[avg_time_to_investigate_minutes]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>avg_time_to_investigate_minutes</remote-alias>
+              <ordinal>15</ordinal>
+              <family>bq-results-20260504-063725-1777876651939.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>172</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[none:rule_name:nk]' palette='blue_10_0' type='palette'>
+            <map to='#2a5783'>
+              <bucket>&quot;Write below rpm database&quot;</bucket>
+            </map>
+            <map to='#386592'>
+              <bucket>&quot;Write below etc&quot;</bucket>
+            </map>
+            <map to='#4472a0'>
+              <bucket>&quot;The docker client is executed in a container&quot;</bucket>
+            </map>
+            <map to='#5081ae'>
+              <bucket>&quot;Outbound or Inbound Traffic not to Authorized Server Process and Port&quot;</bucket>
+            </map>
+            <map to='#5f90ba'>
+              <bucket>&quot;Outbound Connection to C2 Servers&quot;</bucket>
+            </map>
+            <map to='#6e9fc7'>
+              <bucket>&quot;Linux Kernel Module Injection Detected&quot;</bucket>
+            </map>
+            <map to='#7eaed3'>
+              <bucket>&quot;Launch Disallowed Container&quot;</bucket>
+            </map>
+            <map to='#90bede'>
+              <bucket>&quot;Detect crypto miners using the Stratum protocol&quot;</bucket>
+            </map>
+            <map to='#a4cee9'>
+              <bucket>&quot;Delete Bash History&quot;</bucket>
+            </map>
+            <map to='#b9ddf1'>
+              <bucket>&quot;Create files below dev&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:experiment_group:nk]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;control&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;treatment&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <object-graph>
+        <objects>
+          <object caption='bq-results-20260504-063725-1777876651939.csv' id='bq-results-20260504-063725-1777876651939.csv_7692E0D6850844B78C13D397E4DC1A53'>
+            <properties context=''>
+              <relation connection='textscan.0lp600n03rwv89171cooo1feekyr' name='bq-results-20260504-063725-1777876651939.csv' table='[bq-results-20260504-063725-1777876651939#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+                  <column datatype='string' name='experiment_group' ordinal='0' />
+                  <column datatype='string' name='workflow_version' ordinal='1' />
+                  <column datatype='string' name='priority' ordinal='2' />
+                  <column datatype='string' name='rule_name' ordinal='3' />
+                  <column datatype='string' name='image_name' ordinal='4' />
+                  <column datatype='string' name='user_role' ordinal='5' />
+                  <column datatype='string' name='company_size' ordinal='6' />
+                  <column datatype='string' name='industry' ordinal='7' />
+                  <column datatype='string' name='cloud_provider' ordinal='8' />
+                  <column datatype='string' name='plan_type' ordinal='9' />
+                  <column datatype='integer' name='total_alert_views' ordinal='10' />
+                  <column datatype='integer' name='total_investigations' ordinal='11' />
+                  <column datatype='integer' name='total_remediations' ordinal='12' />
+                  <column datatype='real' name='investigation_rate' ordinal='13' />
+                  <column datatype='real' name='remediation_rate' ordinal='14' />
+                  <column datatype='real' name='avg_time_to_investigate_minutes' ordinal='15' />
+                </columns>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='Extract' table='[Extract].[Extract]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </object-graph>
+    </datasource>
+    <datasource caption='bq-results-20260504-063603-1777876570012' inline='true' name='federated.0ryng4o168wtf417lxxuf0jflajg' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='bq-results-20260504-063603-1777876570012' name='textscan.0w7bo4e1k5d07w1f1v4kc1ayax3f'>
+            <connection class='textscan' directory='C:/Users/Jorll/Documents/sysdig_falco_project/dashboard' filename='bq-results-20260504-063603-1777876570012.csv' password='' server='' workgroup-auth-mode='as-is' />
+          </named-connection>
+        </named-connections>
+        <relation connection='textscan.0w7bo4e1k5d07w1f1v4kc1ayax3f' name='bq-results-20260504-063603-1777876570012.csv' table='[bq-results-20260504-063603-1777876570012#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='string' name='priority' ordinal='0' />
+            <column datatype='string' name='rule_name' ordinal='1' />
+            <column datatype='string' name='image_name' ordinal='2' />
+            <column datatype='string' name='pod_name' ordinal='3' />
+            <column datatype='integer' name='total_alerts' ordinal='4' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[bq-results-20260504-063603-1777876570012.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>priority</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[priority]</local-name>
+            <parent-name>[bq-results-20260504-063603-1777876570012.csv]</parent-name>
+            <remote-alias>priority</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[bq-results-20260504-063603-1777876570012.csv_B5A2A145A164462499EF631728C79E9E]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>rule_name</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[rule_name]</local-name>
+            <parent-name>[bq-results-20260504-063603-1777876570012.csv]</parent-name>
+            <remote-alias>rule_name</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[bq-results-20260504-063603-1777876570012.csv_B5A2A145A164462499EF631728C79E9E]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>image_name</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[image_name]</local-name>
+            <parent-name>[bq-results-20260504-063603-1777876570012.csv]</parent-name>
+            <remote-alias>image_name</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[bq-results-20260504-063603-1777876570012.csv_B5A2A145A164462499EF631728C79E9E]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>pod_name</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[pod_name]</local-name>
+            <parent-name>[bq-results-20260504-063603-1777876570012.csv]</parent-name>
+            <remote-alias>pod_name</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[bq-results-20260504-063603-1777876570012.csv_B5A2A145A164462499EF631728C79E9E]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>total_alerts</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[total_alerts]</local-name>
+            <parent-name>[bq-results-20260504-063603-1777876570012.csv]</parent-name>
+            <remote-alias>total_alerts</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[bq-results-20260504-063603-1777876570012.csv_B5A2A145A164462499EF631728C79E9E]</object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='bq-results-20260504-063603-1777876570012.csv' datatype='table' name='[__tableau_internal_object_id__].[bq-results-20260504-063603-1777876570012.csv_B5A2A145A164462499EF631728C79E9E]' role='measure' type='quantitative' />
+      <column caption='Image Name' datatype='string' name='[image_name]' role='dimension' type='nominal' />
+      <column caption='Pod Name' datatype='string' name='[pod_name]' role='dimension' type='nominal' />
+      <column caption='Priority' datatype='string' name='[priority]' role='dimension' type='nominal' />
+      <column caption='Rule Name' datatype='string' name='[rule_name]' role='dimension' type='nominal' />
+      <column caption='Total Alerts' datatype='integer' name='[total_alerts]' role='measure' type='quantitative' />
+      <extract _.fcp.VConnDownstreamExtractsWithWarnings.true...user-specific='false' count='-1' enabled='true' object-id='' units='records'>
+        <connection access_mode='readonly' author-locale='en_US' class='hyper' dbname='Data/TableauTemp/#TableauTemp_1c7yalk1nkus7p0zy9yrx0iwndgd.hyper' default-settings='hyper' schema='Extract' sslmode='' tablename='Extract' update-time='' username='tableau_internal_user'>
+          <relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>priority</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[priority]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>priority</remote-alias>
+              <ordinal>0</ordinal>
+              <family>bq-results-20260504-063603-1777876570012.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>rule_name</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[rule_name]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>rule_name</remote-alias>
+              <ordinal>1</ordinal>
+              <family>bq-results-20260504-063603-1777876570012.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>34</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>image_name</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[image_name]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>image_name</remote-alias>
+              <ordinal>2</ordinal>
+              <family>bq-results-20260504-063603-1777876570012.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>5</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>pod_name</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[pod_name]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>pod_name</remote-alias>
+              <ordinal>3</ordinal>
+              <family>bq-results-20260504-063603-1777876570012.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>1007</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>total_alerts</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[total_alerts]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>total_alerts</remote-alias>
+              <ordinal>4</ordinal>
+              <family>bq-results-20260504-063603-1777876570012.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>10</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <object-graph>
+        <objects>
+          <object caption='bq-results-20260504-063603-1777876570012.csv' id='bq-results-20260504-063603-1777876570012.csv_B5A2A145A164462499EF631728C79E9E'>
+            <properties context=''>
+              <relation connection='textscan.0w7bo4e1k5d07w1f1v4kc1ayax3f' name='bq-results-20260504-063603-1777876570012.csv' table='[bq-results-20260504-063603-1777876570012#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+                  <column datatype='string' name='priority' ordinal='0' />
+                  <column datatype='string' name='rule_name' ordinal='1' />
+                  <column datatype='string' name='image_name' ordinal='2' />
+                  <column datatype='string' name='pod_name' ordinal='3' />
+                  <column datatype='integer' name='total_alerts' ordinal='4' />
+                </columns>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='Extract' table='[Extract].[Extract]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </object-graph>
+    </datasource>
+    <datasource caption='bq-results-20260504-063337-1777876472199' inline='true' name='federated.1k37gyj01oyid517v2prw1m5320h' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='bq-results-20260504-063337-1777876472199' name='textscan.088i0am0k2cwva1gxnpn50qrku54'>
+            <connection class='textscan' directory='C:/Users/Jorll/Documents/sysdig_falco_project/dashboard' filename='bq-results-20260504-063337-1777876472199.csv' password='' server='' workgroup-auth-mode='as-is' />
+          </named-connection>
+        </named-connections>
+        <relation connection='textscan.088i0am0k2cwva1gxnpn50qrku54' name='bq-results-20260504-063337-1777876472199.csv' table='[bq-results-20260504-063337-1777876472199#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='string' name='experiment_group' ordinal='0' />
+            <column datatype='string' name='workflow_version' ordinal='1' />
+            <column datatype='integer' name='total_alert_views' ordinal='2' />
+            <column datatype='integer' name='total_investigations' ordinal='3' />
+            <column datatype='real' name='investigation_rate' ordinal='4' />
+            <column datatype='real' name='avg_time_to_investigate_minutes' ordinal='5' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[bq-results-20260504-063337-1777876472199.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>experiment_group</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[experiment_group]</local-name>
+            <parent-name>[bq-results-20260504-063337-1777876472199.csv]</parent-name>
+            <remote-alias>experiment_group</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[bq-results-20260504-063337-1777876472199.csv_39E2AA7D85964F36A3101449691612F5]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>workflow_version</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[workflow_version]</local-name>
+            <parent-name>[bq-results-20260504-063337-1777876472199.csv]</parent-name>
+            <remote-alias>workflow_version</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[bq-results-20260504-063337-1777876472199.csv_39E2AA7D85964F36A3101449691612F5]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>total_alert_views</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[total_alert_views]</local-name>
+            <parent-name>[bq-results-20260504-063337-1777876472199.csv]</parent-name>
+            <remote-alias>total_alert_views</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[bq-results-20260504-063337-1777876472199.csv_39E2AA7D85964F36A3101449691612F5]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>total_investigations</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[total_investigations]</local-name>
+            <parent-name>[bq-results-20260504-063337-1777876472199.csv]</parent-name>
+            <remote-alias>total_investigations</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[bq-results-20260504-063337-1777876472199.csv_39E2AA7D85964F36A3101449691612F5]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>investigation_rate</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[investigation_rate]</local-name>
+            <parent-name>[bq-results-20260504-063337-1777876472199.csv]</parent-name>
+            <remote-alias>investigation_rate</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[bq-results-20260504-063337-1777876472199.csv_39E2AA7D85964F36A3101449691612F5]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>avg_time_to_investigate_minutes</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[avg_time_to_investigate_minutes]</local-name>
+            <parent-name>[bq-results-20260504-063337-1777876472199.csv]</parent-name>
+            <remote-alias>avg_time_to_investigate_minutes</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[bq-results-20260504-063337-1777876472199.csv_39E2AA7D85964F36A3101449691612F5]</object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='vw_ab_test_summary' datatype='table' name='[__tableau_internal_object_id__].[bq-results-20260504-063337-1777876472199.csv_39E2AA7D85964F36A3101449691612F5]' role='measure' type='quantitative' />
+      <column caption='Avg Time To Investigate Minutes' datatype='real' name='[avg_time_to_investigate_minutes]' role='measure' type='quantitative' />
+      <column caption='Experiment Group' datatype='string' name='[experiment_group]' role='dimension' type='nominal' />
+      <column caption='Investigation Rate' datatype='real' name='[investigation_rate]' role='measure' type='quantitative' />
+      <column caption='Total Alert Views' datatype='integer' name='[total_alert_views]' role='measure' type='quantitative' />
+      <column caption='Total Investigations' datatype='integer' name='[total_investigations]' role='measure' type='quantitative' />
+      <column caption='Workflow Version' datatype='string' name='[workflow_version]' role='dimension' type='nominal' />
+      <column-instance column='[experiment_group]' derivation='None' name='[none:experiment_group:nk]' pivot='key' type='nominal' />
+      <extract _.fcp.VConnDownstreamExtractsWithWarnings.true...user-specific='false' count='-1' enabled='true' object-id='' units='records'>
+        <connection access_mode='readonly' author-locale='en_US' class='hyper' dbname='Data/TableauTemp/#TableauTemp_0cx2hyg19gk8ws11lna0e0se5x85.hyper' default-settings='hyper' schema='Extract' sslmode='' tablename='Extract' update-time='' username='tableau_internal_user'>
+          <relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>experiment_group</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[experiment_group]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>experiment_group</remote-alias>
+              <ordinal>0</ordinal>
+              <family>bq-results-20260504-063337-1777876472199.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>workflow_version</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[workflow_version]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>workflow_version</remote-alias>
+              <ordinal>1</ordinal>
+              <family>bq-results-20260504-063337-1777876472199.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>total_alert_views</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[total_alert_views]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>total_alert_views</remote-alias>
+              <ordinal>2</ordinal>
+              <family>bq-results-20260504-063337-1777876472199.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>total_investigations</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[total_investigations]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>total_investigations</remote-alias>
+              <ordinal>3</ordinal>
+              <family>bq-results-20260504-063337-1777876472199.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>investigation_rate</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[investigation_rate]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>investigation_rate</remote-alias>
+              <ordinal>4</ordinal>
+              <family>bq-results-20260504-063337-1777876472199.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>avg_time_to_investigate_minutes</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[avg_time_to_investigate_minutes]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>avg_time_to_investigate_minutes</remote-alias>
+              <ordinal>5</ordinal>
+              <family>bq-results-20260504-063337-1777876472199.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[none:experiment_group:nk]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;control&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;treatment&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <object-graph>
+        <objects>
+          <object caption='vw_ab_test_summary' id='bq-results-20260504-063337-1777876472199.csv_39E2AA7D85964F36A3101449691612F5'>
+            <properties context=''>
+              <relation connection='textscan.088i0am0k2cwva1gxnpn50qrku54' name='bq-results-20260504-063337-1777876472199.csv' table='[bq-results-20260504-063337-1777876472199#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+                  <column datatype='string' name='experiment_group' ordinal='0' />
+                  <column datatype='string' name='workflow_version' ordinal='1' />
+                  <column datatype='integer' name='total_alert_views' ordinal='2' />
+                  <column datatype='integer' name='total_investigations' ordinal='3' />
+                  <column datatype='real' name='investigation_rate' ordinal='4' />
+                  <column datatype='real' name='avg_time_to_investigate_minutes' ordinal='5' />
+                </columns>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='Extract' table='[Extract].[Extract]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Sheet 1'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontalignment='1' fontcolor='#000000' fontname='Benton Sans Book'> Rate</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='bq-results-20260504-063337-1777876472199' name='federated.1k37gyj01oyid517v2prw1m5320h' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1k37gyj01oyid517v2prw1m5320h'>
+            <column-instance column='[investigation_rate]' derivation='Avg' name='[avg:investigation_rate:qk]' pivot='key' type='quantitative' />
+            <column caption='Avg Time To Investigate Minutes' datatype='real' name='[avg_time_to_investigate_minutes]' role='measure' type='quantitative' />
+            <column caption='Investigation Rate' datatype='real' name='[investigation_rate]' role='measure' type='quantitative' />
+            <column-instance aggregation-param='95' column='[avg_time_to_investigate_minutes]' derivation='Percentile' name='[prc95:avg_time_to_investigate_minutes:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='color' value='#000000' />
+            <format attr='text-format' field='[federated.1k37gyj01oyid517v2prw1m5320h].[avg:investigation_rate:qk]' value='p0%' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Text' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <color column='[federated.1k37gyj01oyid517v2prw1m5320h].[prc95:avg_time_to_investigate_minutes:qk]' />
+              <text column='[federated.1k37gyj01oyid517v2prw1m5320h].[avg:investigation_rate:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='size' value='3.922652006149292' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{548F72A2-81B7-4A05-904E-19F65456BF69}' />
+    </worksheet>
+    <worksheet name='Sheet 1 (2)'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontalignment='1' fontcolor='#000000' fontname='Benton Sans Book'>Investigation Rate por experiment </run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='bq-results-20260504-063337-1777876472199' name='federated.1k37gyj01oyid517v2prw1m5320h' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1k37gyj01oyid517v2prw1m5320h'>
+            <column-instance column='[investigation_rate]' derivation='Avg' name='[avg:investigation_rate:qk]' pivot='key' type='quantitative' />
+            <column caption='Avg Time To Investigate Minutes' datatype='real' name='[avg_time_to_investigate_minutes]' role='measure' type='quantitative' />
+            <column caption='Experiment Group' datatype='string' name='[experiment_group]' role='dimension' type='nominal' />
+            <column caption='Investigation Rate' datatype='real' name='[investigation_rate]' role='measure' type='quantitative' />
+            <column-instance column='[experiment_group]' derivation='None' name='[none:experiment_group:nk]' pivot='key' type='nominal' />
+            <column-instance column='[avg_time_to_investigate_minutes]' derivation='Sum' name='[sum:avg_time_to_investigate_minutes:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='color' value='#000000' />
+            <format attr='text-format' field='[federated.1k37gyj01oyid517v2prw1m5320h].[avg:investigation_rate:qk]' value='p0%' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.1k37gyj01oyid517v2prw1m5320h].[sum:avg_time_to_investigate_minutes:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1k37gyj01oyid517v2prw1m5320h].[avg:investigation_rate:qk]</rows>
+        <cols>[federated.1k37gyj01oyid517v2prw1m5320h].[none:experiment_group:nk]</cols>
+      </table>
+      <simple-id uuid='{6317F0B6-C1CF-4B6F-A481-123EB77255B6}' />
+    </worksheet>
+    <worksheet name='Sheet 2'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontalignment='1'>Avg Time to Investigate (A/B)</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='bq-results-20260504-063337-1777876472199' name='federated.1k37gyj01oyid517v2prw1m5320h' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1k37gyj01oyid517v2prw1m5320h'>
+            <column-instance column='[avg_time_to_investigate_minutes]' derivation='Avg' name='[avg:avg_time_to_investigate_minutes:qk]' pivot='key' type='quantitative' />
+            <column caption='Avg Time To Investigate Minutes' datatype='real' name='[avg_time_to_investigate_minutes]' role='measure' type='quantitative' />
+            <column caption='Experiment Group' datatype='string' name='[experiment_group]' role='dimension' type='nominal' />
+            <column-instance column='[experiment_group]' derivation='None' name='[none:experiment_group:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='text-format' field='[federated.1k37gyj01oyid517v2prw1m5320h].[avg:avg_time_to_investigate_minutes:qk]' value='n#,##0.0;-#,##0.0' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.1k37gyj01oyid517v2prw1m5320h].[none:experiment_group:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1k37gyj01oyid517v2prw1m5320h].[none:experiment_group:nk]</rows>
+        <cols>[federated.1k37gyj01oyid517v2prw1m5320h].[avg:avg_time_to_investigate_minutes:qk]</cols>
+      </table>
+      <simple-id uuid='{34B25EAB-3C93-49FE-B562-E52CD9D92821}' />
+    </worksheet>
+    <worksheet name='Sheet 2 (2)'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontalignment='1' fontsize='14'>Avg-Time</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='bq-results-20260504-063337-1777876472199' name='federated.1k37gyj01oyid517v2prw1m5320h' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1k37gyj01oyid517v2prw1m5320h'>
+            <column-instance column='[avg_time_to_investigate_minutes]' derivation='Avg' name='[avg:avg_time_to_investigate_minutes:qk]' pivot='key' type='quantitative' />
+            <column caption='Avg Time To Investigate Minutes' datatype='real' name='[avg_time_to_investigate_minutes]' role='measure' type='quantitative' />
+            <column-instance column='[avg_time_to_investigate_minutes]' derivation='Sum' name='[sum:avg_time_to_investigate_minutes:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='text-format' field='[federated.1k37gyj01oyid517v2prw1m5320h].[avg:avg_time_to_investigate_minutes:qk]' value='n#,##0.0;-#,##0.0' />
+          </style-rule>
+          <style-rule element='mark'>
+            <encoding attr='color' field='[federated.1k37gyj01oyid517v2prw1m5320h].[sum:avg_time_to_investigate_minutes:qk]' type='custom-interpolated'>
+              <color-palette custom='true' name='' type='ordered-sequential'>
+                <color>#f1f1f1</color>
+                <color>#f1e5e5</color>
+                <color>#f1d9d9</color>
+                <color>#f1cdcd</color>
+                <color>#f1c1c1</color>
+                <color>#f1b6b5</color>
+                <color>#f1aaa9</color>
+                <color>#f19e9d</color>
+                <color>#f19291</color>
+                <color>#f18685</color>
+                <color>#f17b79</color>
+              </color-palette>
+            </encoding>
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <color column='[federated.1k37gyj01oyid517v2prw1m5320h].[sum:avg_time_to_investigate_minutes:qk]' />
+              <text column='[federated.1k37gyj01oyid517v2prw1m5320h].[avg:avg_time_to_investigate_minutes:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='size' value='4.5644211769104004' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{E0784BB0-CC2A-49EA-AF1D-3EDBB14B6AB3}' />
+    </worksheet>
+    <worksheet name='Sheet 6'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontalignment='1'>Top Falco Alert Rules by Volume</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='bq-results-20260504-063725-1777876651939' name='federated.0n4sncm0a3w9gc13rnw5t153n5hm' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0n4sncm0a3w9gc13rnw5t153n5hm'>
+            <column-instance column='[rule_name]' derivation='None' name='[none:rule_name:nk]' pivot='key' type='nominal' />
+            <column caption='Rule Name' datatype='string' name='[rule_name]' role='dimension' type='nominal' />
+            <column-instance column='[total_alert_views]' derivation='Sum' name='[sum:total_alert_views:qk]' pivot='key' type='quantitative' />
+            <column caption='Total Alert Views' datatype='integer' name='[total_alert_views]' role='measure' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0n4sncm0a3w9gc13rnw5t153n5hm].[none:rule_name:nk]'>
+            <groupfilter count='10' end='top' function='end' units='records' user:ui-marker='end' user:ui-top-by-field='true'>
+              <groupfilter direction='DESC' expression='SUM([total_alert_views])' function='order' user:ui-marker='order'>
+                <groupfilter function='level-members' level='[none:rule_name:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+              </groupfilter>
+            </groupfilter>
+          </filter>
+          <shelf-sorts>
+            <shelf-sort-v2 dimension-to-sort='[federated.0n4sncm0a3w9gc13rnw5t153n5hm].[none:rule_name:nk]' direction='DESC' is-on-innermost-dimension='true' measure-to-sort-by='[federated.0n4sncm0a3w9gc13rnw5t153n5hm].[sum:total_alert_views:qk]' shelf='rows' />
+          </shelf-sorts>
+          <slices>
+            <column>[federated.0n4sncm0a3w9gc13rnw5t153n5hm].[none:rule_name:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0n4sncm0a3w9gc13rnw5t153n5hm].[none:rule_name:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0n4sncm0a3w9gc13rnw5t153n5hm].[none:rule_name:nk]</rows>
+        <cols>[federated.0n4sncm0a3w9gc13rnw5t153n5hm].[sum:total_alert_views:qk]</cols>
+      </table>
+      <simple-id uuid='{1F00E0BA-3DA2-4E14-A58B-B9DCA230EBB6}' />
+    </worksheet>
+    <worksheet name='Sheet 6 (2)'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontalignment='1'>Remediation Rate -(A/B)</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='bq-results-20260504-063725-1777876651939' name='federated.0n4sncm0a3w9gc13rnw5t153n5hm' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0n4sncm0a3w9gc13rnw5t153n5hm'>
+            <column-instance column='[remediation_rate]' derivation='Avg' name='[avg:remediation_rate:qk]' pivot='key' type='quantitative' />
+            <column caption='Experiment Group' datatype='string' name='[experiment_group]' role='dimension' type='nominal' />
+            <column-instance column='[experiment_group]' derivation='None' name='[none:experiment_group:nk]' pivot='key' type='nominal' />
+            <column-instance column='[rule_name]' derivation='None' name='[none:rule_name:nk]' pivot='key' type='nominal' />
+            <column caption='Remediation Rate' datatype='real' name='[remediation_rate]' role='measure' type='quantitative' />
+            <column caption='Rule Name' datatype='string' name='[rule_name]' role='dimension' type='nominal' />
+            <column caption='Total Alert Views' datatype='integer' name='[total_alert_views]' role='measure' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0n4sncm0a3w9gc13rnw5t153n5hm].[none:rule_name:nk]'>
+            <groupfilter count='10' end='top' function='end' units='records' user:ui-marker='end' user:ui-top-by-field='true'>
+              <groupfilter direction='DESC' expression='SUM([total_alert_views])' function='order' user:ui-marker='order'>
+                <groupfilter function='level-members' level='[none:rule_name:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+              </groupfilter>
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.0n4sncm0a3w9gc13rnw5t153n5hm].[none:rule_name:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='text-format' field='[federated.0n4sncm0a3w9gc13rnw5t153n5hm].[avg:remediation_rate:qk]' value='p0.00%' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='text-format' field='[federated.0n4sncm0a3w9gc13rnw5t153n5hm].[avg:remediation_rate:qk]' value='p0.00%' />
+          </style-rule>
+          <style-rule element='mark'>
+            <encoding attr='size-bar' field='[federated.0n4sncm0a3w9gc13rnw5t153n5hm].[avg:remediation_rate:qk]' field-type='quantitative' max-size='1' min-size='0.005' type='centersize' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <color column='[federated.0n4sncm0a3w9gc13rnw5t153n5hm].[none:experiment_group:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='size' value='1.6151933670043945' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0n4sncm0a3w9gc13rnw5t153n5hm].[avg:remediation_rate:qk]</rows>
+        <cols>[federated.0n4sncm0a3w9gc13rnw5t153n5hm].[none:experiment_group:nk]</cols>
+      </table>
+      <simple-id uuid='{AFE074C4-2ACC-484B-9EE5-C51DFD641C00}' />
+    </worksheet>
+    <worksheet name='Sheet 8'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontalignment='1'>Total Alerts Investigated (A/B)</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='bq-results-20260504-063629-1777876594472' name='federated.02p1pwv0tywrdi17t1pnu0cg4pex' />
+          </datasources>
+          <datasource-dependencies datasource='federated.02p1pwv0tywrdi17t1pnu0cg4pex'>
+            <column caption='Experiment Group' datatype='string' name='[experiment_group]' role='dimension' type='nominal' />
+            <column caption='Investigations' datatype='integer' name='[investigations]' role='measure' type='quantitative' />
+            <column-instance column='[experiment_group]' derivation='None' name='[none:experiment_group:nk]' pivot='key' type='nominal' />
+            <column-instance column='[investigations]' derivation='Sum' name='[sum:investigations:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <single-value-per-nest-shelf-sorts>
+            <single-value-per-nest-shelf-sort dimension-to-sort='[federated.02p1pwv0tywrdi17t1pnu0cg4pex].[none:experiment_group:nk]' direction='ASC' is-on-innermost-dimension='true' measure-to-sort-by='[federated.02p1pwv0tywrdi17t1pnu0cg4pex].[none:experiment_group:nk]' shelf='rows' />
+          </single-value-per-nest-shelf-sorts>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='mark'>
+            <encoding attr='size-bar' field='[federated.02p1pwv0tywrdi17t1pnu0cg4pex].[sum:investigations:qk]' field-type='quantitative' max-size='1' min-size='0.005' type='centersize' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Square' />
+            <encodings>
+              <color column='[federated.02p1pwv0tywrdi17t1pnu0cg4pex].[sum:investigations:qk]' />
+              <text column='[federated.02p1pwv0tywrdi17t1pnu0cg4pex].[sum:investigations:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='has-stroke' value='false' />
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-line-first' value='true' />
+                <format attr='mark-labels-line-last' value='true' />
+                <format attr='mark-labels-range-min' value='true' />
+                <format attr='mark-labels-range-max' value='true' />
+                <format attr='mark-labels-mode' value='all' />
+                <format attr='mark-labels-range-scope' value='pane' />
+                <format attr='mark-labels-range-field' value='' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.02p1pwv0tywrdi17t1pnu0cg4pex].[none:experiment_group:nk]</rows>
+        <cols />
+      </table>
+      <simple-id uuid='{F2358D8F-40A2-406B-94B5-5D6FBFB21C50}' />
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard enable-sort-zone-taborder='true' name='Dashboard 1'>
+      <style />
+      <size maxheight='860' maxwidth='650' minheight='560' minwidth='420' />
+      <zones>
+        <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='98140' id='36' param='horz' type-v2='layout-flow' w='97538' x='1231' y='930'>
+            <zone h='98140' id='27' param='horz' type-v2='layout-flow' w='97538' x='1231' y='930'>
+              <zone h='98140' id='20' param='horz' type-v2='layout-flow' w='97538' x='1231' y='930'>
+                <zone h='98140' id='17' param='horz' type-v2='layout-flow' w='97538' x='1231' y='930'>
+                  <zone h='98140' id='14' param='horz' type-v2='layout-flow' w='97538' x='1231' y='930'>
+                    <zone h='98140' id='11' param='horz' type-v2='layout-flow' w='97538' x='1231' y='930'>
+                      <zone h='98140' id='8' param='horz' type-v2='layout-flow' w='97538' x='1231' y='930'>
+                        <zone h='98140' id='6' type-v2='layout-basic' w='97538' x='1231' y='930' />
+                      </zone>
+                    </zone>
+                  </zone>
+                </zone>
+              </zone>
+            </zone>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+        <zone forceUpdate='true' h='8721' id='3' type-v2='text' w='99231' x='-462' y='-233'>
+          <formatted-text>
+            <run fontalignment='1' fontcolor='#000000' fontname='Benton Sans Book' fontsize='18'>A/B Test Performance — Investigation Impact Analysis</run>
+          </formatted-text>
+        </zone>
+        <zone h='12209' id='12' name='Sheet 1' w='25692' x='73077' y='32907' />
+        <zone h='21977' id='15' name='Sheet 8' w='51077' x='1385' y='6628' />
+        <zone h='35930' id='18' name='Sheet 6' w='99077' x='308' y='63721' />
+        <zone h='13023' id='22' name='Sheet 2 (2)' w='23692' x='74769' y='44651'>
+          <layout-cache fixed-size-w='60' type-h='fixed' type-w='fixed' />
+        </zone>
+        <zone h='22791' id='23' name='Sheet 2' w='71077' x='26308' y='7791' />
+        <zone h='33256' id='25' name='Sheet 1 (2)' w='33231' x='1231' y='30581' />
+        <zone h='33256' id='34' name='Sheet 6 (2)' w='33231' x='38308' y='30930' />
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='1600' minheight='1600' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='42' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98140' id='41' param='vert' type-v2='layout-flow' w='97538' x='1231' y='930'>
+                <zone forceUpdate='true' h='8721' id='3' type-v2='text' w='99231' x='-462' y='-233'>
+                  <formatted-text>
+                    <run fontalignment='1' fontcolor='#000000' fontname='Benton Sans Book' fontsize='18'>A/B Test Performance — Investigation Impact Analysis</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='189' h='21977' id='15' is-fixed='true' name='Sheet 8' w='51077' x='1385' y='6628'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='196' h='22791' id='23' is-fixed='true' name='Sheet 2' w='71077' x='26308' y='7791'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='33256' id='25' is-fixed='true' name='Sheet 1 (2)' w='33231' x='1231' y='30581'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='33256' id='34' is-fixed='true' name='Sheet 6 (2)' w='33231' x='38308' y='30930'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='105' h='12209' id='12' is-fixed='true' name='Sheet 1' w='25692' x='73077' y='32907'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='112' h='13023' id='22' is-fixed='true' name='Sheet 2 (2)' w='23692' x='74769' y='44651'>
+                  <layout-cache fixed-size-w='60' type-h='fixed' type-w='fixed' />
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='35930' id='18' is-fixed='true' name='Sheet 6' w='99077' x='308' y='63721'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{68731EE9-E546-479A-8426-B4AC047EEF00}' />
+    </dashboard>
+  </dashboards>
+  <windows source-height='93'>
+    <window class='worksheet' name='Sheet 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.1k37gyj01oyid517v2prw1m5320h].[prc95:avg_time_to_investigate_minutes:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{CFF3BDA1-FB90-417E-9761-9CDF0E9FEA14}' />
+    </window>
+    <window class='worksheet' name='Sheet 1 (2)'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='1' param='[federated.1k37gyj01oyid517v2prw1m5320h].[sum:avg_time_to_investigate_minutes:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{9767E56F-8254-4A5A-AEDE-3DCE273C0A86}' />
+    </window>
+    <window class='worksheet' name='Sheet 2'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='36'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.1k37gyj01oyid517v2prw1m5320h].[none:experiment_group:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{3F890153-3939-419D-BEE4-2686BB3B22A0}' />
+    </window>
+    <window class='worksheet' name='Sheet 2 (2)'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.1k37gyj01oyid517v2prw1m5320h].[sum:avg_time_to_investigate_minutes:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{9025DEB7-B262-40FB-B79A-462263528610}' />
+    </window>
+    <window class='worksheet' name='Sheet 6'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.0n4sncm0a3w9gc13rnw5t153n5hm].[none:rule_name:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{71409A99-A98E-4936-B2DB-C13E252F3259}' />
+    </window>
+    <window class='worksheet' name='Sheet 6 (2)'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.0n4sncm0a3w9gc13rnw5t153n5hm].[none:experiment_group:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{808B7169-1C7D-4283-B930-F087BA32D521}' />
+    </window>
+    <window class='worksheet' name='Sheet 8'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.02p1pwv0tywrdi17t1pnu0cg4pex].[sum:investigations:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{0463D760-D018-428A-B30E-3415B2405160}' />
+    </window>
+    <window class='dashboard' maximized='true' name='Dashboard 1'>
+      <viewpoints>
+        <viewpoint name='Sheet 1' />
+        <viewpoint name='Sheet 1 (2)'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Sheet 2' />
+        <viewpoint name='Sheet 2 (2)' />
+        <viewpoint name='Sheet 6' />
+        <viewpoint name='Sheet 6 (2)'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Sheet 8' />
+      </viewpoints>
+      <active id='3' />
+      <simple-id uuid='{6B181761-DA5E-45E4-88E7-4DEBD77B0118}' />
+    </window>
+  </windows>
+</workbook>

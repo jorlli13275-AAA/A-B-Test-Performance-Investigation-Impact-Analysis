@@ -1,0 +1,3 @@
+experiment_group,workflow_version,total_alert_views,total_investigations,investigation_rate,avg_time_to_investigate_minutes
+control,old_page,680,384,0.56470588235294117,59.286458333333336
+treatment,runtime_context_panel,734,548,0.74659400544959131,60.187956204379581

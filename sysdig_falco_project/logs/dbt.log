@@ -1,0 +1,52 @@
+[0m21:53:17.273901 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000026264A2F0E0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000026264CDFAA0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000026264CDCEC0>]}
+
+
+============================== 21:53:17.281538 | 7449f81b-a013-4f63-b10c-b5473c5e8ffa ==============================
+[0m21:53:17.281538 [info ] [MainThread]: Running with dbt=1.11.8
+[0m21:53:17.282629 [debug] [MainThread]: running dbt with arguments {'version_check': 'True', 'no_print': 'None', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'printer_width': '80', 'write_json': 'True', 'introspect': 'True', 'log_cache_events': 'False', 'empty': 'None', 'cache_selected_only': 'False', 'log_format': 'default', 'debug': 'False', 'fail_fast': 'False', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'profiles_dir': 'C:\\Users\\Jorll\\.dbt', 'use_colors': 'True', 'invocation_command': 'dbt init sysdig_dbt', 'indirect_selection': 'eager', 'use_experimental_parser': 'False', 'log_path': 'logs'}
+[0m21:53:17.317223 [info ] [MainThread]: Creating dbt configuration folder at C:\Users\Jorll\.dbt
+[0m21:53:17.319439 [debug] [MainThread]: Starter project path: C:\Users\Jorll\AppData\Local\Programs\Python\Python312\Lib\site-packages\dbt\include\starter_project
+[0m21:53:17.369108 [info ] [MainThread]: 
+Your new dbt project "sysdig_dbt" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m21:53:17.370155 [info ] [MainThread]: Setting up your profile.
+[0m21:57:05.258616 [info ] [MainThread]: Profile sysdig_dbt written to C:\Users\Jorll\.dbt\profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m21:57:05.262028 [debug] [MainThread]: Command `dbt init` succeeded at 21:57:05.261032 after 228.54 seconds
+[0m21:57:05.262028 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000262717BE930>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002627132BF80>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000262713C5D00>]}
+[0m21:57:05.263024 [debug] [MainThread]: Flushing usage events
+[0m21:57:06.248243 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m22:12:09.975159 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000219247FF020>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002192458E690>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002192479EC90>]}
+
+
+============================== 22:12:09.981198 | 3dc90a04-a1ee-493f-a613-4338d31068f0 ==============================
+[0m22:12:09.981198 [info ] [MainThread]: Running with dbt=1.11.8
+[0m22:12:09.982316 [debug] [MainThread]: running dbt with arguments {'static_parser': 'True', 'no_print': 'None', 'version_check': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'printer_width': '80', 'write_json': 'True', 'introspect': 'True', 'log_cache_events': 'False', 'empty': 'None', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'profiles_dir': 'C:\\Users\\Jorll\\.dbt', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'use_colors': 'True', 'invocation_command': 'dbt init sysdig_dbt', 'indirect_selection': 'eager', 'use_experimental_parser': 'False', 'log_path': 'logs'}
+[0m22:12:10.006139 [info ] [MainThread]: A project called sysdig_dbt already exists here.
+[0m22:12:10.007272 [debug] [MainThread]: Command `dbt init` succeeded at 22:12:10.007272 after 0.57 seconds
+[0m22:12:10.009260 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000219247FF020>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000219245DB9E0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002192625C320>]}
+[0m22:12:10.009260 [debug] [MainThread]: Flushing usage events
+[0m22:12:10.955462 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m22:15:09.059558 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002AF38B2D040>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002AF37F46D50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002AF37F46AB0>]}
+
+
+============================== 22:15:09.067741 | d41219c1-cc34-4895-8d46-bb03b5a075ca ==============================
+[0m22:15:09.067741 [info ] [MainThread]: Running with dbt=1.11.8
+[0m22:15:09.070007 [debug] [MainThread]: running dbt with arguments {'static_parser': 'True', 'no_print': 'None', 'version_check': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'printer_width': '80', 'write_json': 'True', 'introspect': 'True', 'log_cache_events': 'False', 'empty': 'None', 'cache_selected_only': 'False', 'log_format': 'default', 'debug': 'False', 'fail_fast': 'False', 'profiles_dir': 'C:\\Users\\Jorll\\.dbt', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'use_colors': 'True', 'invocation_command': 'dbt init sysdig_dbt', 'indirect_selection': 'eager', 'use_experimental_parser': 'False', 'log_path': 'logs'}
+[0m22:15:09.094524 [info ] [MainThread]: A project called sysdig_dbt already exists here.
+[0m22:15:09.095528 [debug] [MainThread]: Command `dbt init` succeeded at 22:15:09.095528 after 0.32 seconds
+[0m22:15:09.096524 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002AF37FB47D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002AF37A594F0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002AF3868B3E0>]}
+[0m22:15:09.096524 [debug] [MainThread]: Flushing usage events
+[0m22:15:09.952533 [debug] [MainThread]: An error was encountered while trying to flush usage events
